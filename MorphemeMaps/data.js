@@ -115,7 +115,7 @@ var data = [
     
     native: ["Saya", " ingin", " mencoba", " baju", " yang", " saya", " lihat", " di dalam", " toko", " di seberang", " jalan", " dari", " hotel", " kami."],
     
-    english: ["I", " want", " to try on", " (a) suit", "that", " I", " saw", " in(side)", " (a) shop", " across", " (the) street", " from", " our", " hotel"],
+    english: ["I", " want", " to try on", " (a) suit", " that", " I", " saw", " in(side)", " (a) shop", " across", " (the) street", " from", " our", " hotel"],
     englishMap: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 12]
   },
   {

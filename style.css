@@ -11,7 +11,7 @@ html, body {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   cursor: default;
 }
 
@@ -38,7 +38,7 @@ html, body {
 }
 
 h1 {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: 300;
   text-align: center;
   font-size: 64px;
@@ -63,7 +63,7 @@ h1 {
   margin-bottom: 1%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: 300;
 }
 
@@ -172,7 +172,7 @@ h2 {
   border-bottom: solid 1px black;
   background-color: #54414E;
   color: white;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: 300;
 }
 
@@ -198,7 +198,7 @@ h2 {
   border-bottom: solid 1px black;
   background-color: #54414E;
   color: white;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: bold;
 }
 
@@ -220,7 +220,7 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  cursor: pointer;
+  cursor: poInter, sans-serif;
   background-color: #DAC8D2;
   border: solid 2px black;
   border-radius: 8px;
