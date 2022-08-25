@@ -1,0 +1,108 @@
+<html>
+  
+  <head>
+    
+    <title>Etymology of European Countries</title>
+    
+    <link rel="stylesheet" href="../style.css"/>
+    
+    <meta name="description" content="Where do the Names of the European Countries come from?">
+    <meta name="author" content="Gabe F.">
+    
+  </head>
+  
+  <body>
+    
+    <p id="myName"><a href="../index.html">Gabe F</a></p>
+    
+    <h1>Etymology of European Countries</h1>
+    
+    <div class="paragraphBlock">
+    
+      <span class="paragraphBlockHeader">Where do the Names of the European Countries come from?</span>
+      
+      <p>Europe is a complex hodge-podge of a continent, with regards to <b>official</b> languages. Of the countries typically included in the bounds of Europe, 9 language families come out of it - not even all of them are Indo-European.</p>
+      
+      <p class="indentParagraph">(Afro-Asiatic) ⟶ Semitic</p>
+      
+      <p class="indentParagraph">(Indo-European) ⟶ Albanian, Baltic, Celtic, Germanic, Hellenic, Romance, Slavic</p>
+      
+      <p class="indentParagraph">(Uralic) ⟶ Uralic</p>
+      
+      <p>As such, we find no consistent naming pattern when it comes to the names of these countries, both natively and in English. Included in the images below (the author is too stupid to convert into a web format) is a table outlining the origins of all the names of the European countries.</p>
+      
+      <p class="indentParagraph">On the right side is the source of the native names for the countries, and where the left side is blank is where the English name was derived or taken explicitly from the native language. Otherwise, for example with Albania, both the derivations for the English name 'Albania' and the Albanian name 'Shqipëri' are given.</p>
+      
+      <p>An indentation with a single '⟶' implies direct descendence, a double '⟶⟶' implies a distant descendency with a potentially murky chain of evolution. Where multiple origins are given, it is uncertain where the name specifically comes from and linguists have proposed multiple etymologies, as in the case of Andorra. The second image is merely a legend for the first image. </p>
+    
+    </div>
+    
+    <hr>
+
+    <div id="etymology-legend"></div>
+
+    <div id="etymology-table"></div>
+
+    <script id="etymology-legend-template" type="text/x-handlebars-template">
+      <table class="tableContainer">
+        <tr class="tableHeading">
+          <td colspan="4" class="tableTitle">English</td>
+        </tr>
+        <tr class="tableHeading">
+            <th>Type</th>
+            <th>Initial</th>
+            <th>Explanation</th>
+            <th>Count</th>
+        </tr>
+        {{#each english}}
+          <tr>
+            <td>{{this.type}}</td>
+            <td>{{this.initial}}</td>
+            <td>{{this.explanation}}</td>
+            <td>{{this.count}}</td>
+          </tr>
+        {{/each}}
+      </table>
+      <table class="tableContainer">
+        <tr class="tableHeading">
+          <td colspan="4" class="tableTitle">Native</td>
+        </tr>
+        <tr class="tableHeading">
+            <th>Type</th>
+            <th>Initial</th>
+            <th>Explanation</th>
+            <th>Count</th>
+        </tr>
+        {{#each native}}
+          <tr>
+            <td>{{this.type}}</td>
+            <td>{{this.initial}}</td>
+            <td>{{this.explanation}}</td>
+            <td>{{this.count}}</td>
+          </tr>
+        {{/each}}
+      </table>
+    </script>
+
+    <script id="etymology-table-template" type="text/x-handlebars-template">
+      <div class="tableContainer">
+        {{#each countries}}
+          <div class="tableEntry">
+            {{#each this}}
+            <div class="tableRow {{this.className}}">
+              <div class="tableHeader">{{this.header}}</div>
+              <div class="tableCell">{{{this.value}}}</div>
+            </div>
+            {{/each}}
+          </div>
+        {{/each}}
+      </div>
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="./script.js"></script>
+
+  </body>
+  
+</html>
+
