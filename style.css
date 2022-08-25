@@ -63,7 +63,8 @@ h1 {
   margin-bottom: 1%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  font-family: "Inter Light";
+  font-family: Inter;
+  font-weight: 300;
 }
 
 .paragraphBlock p {
