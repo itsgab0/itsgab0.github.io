@@ -164,7 +164,7 @@ h2 {
   table-layout: fixed;
   border-collapse: collapse;
   text-align: center;
-  background-color: #DAC8D2;
+  background-color: #C9AFBD;
   border-radius: 8px;
 }
 
@@ -177,7 +177,7 @@ h2 {
 }
 
 .tableBlock tr:nth-of-type(even) {
-  background-color: #C9AFBD;
+  background-color: #DAC8D2;
 }
 
 .tableBlock th, .tableBlock td{
