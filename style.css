@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:300,400,700&display=swap');
 
+/* == GLOBAL == */
+
 html {
   scroll-behavior: smooth;
   background-color: white;
@@ -95,10 +97,6 @@ h1 {
   font-weight: bold;
 }
 
-#numTerms {
-  padding: 8px;
-}
-
 h2 {
   display: inline-block;
   width: 97.5%;
@@ -111,47 +109,6 @@ h2 {
   margin-bottom: 2%;
   border-radius: 8px;
   border: solid 2px black;
-}
-
-.entry {
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
-}
-
-.entry h3 {
-  font-size: 26px;
-  margin: 1%;
-}
-
-.entry p:nth-of-type(1) {
-  font-size: 16px;
-  margin: 1%;
-  font-family: sans-serif;
-}
-
-.entry p:nth-of-type(2) {
-  font-size: 16px;
-  margin: 1%;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.entry hr {
-  width: 90%;
-}
-
-.definition {
-  margin: 1%;
-  font-size: 15px;
-}
-
-.quote {
-  margin: 1%;
-  font-style: italic;
-}
-
-.idiom {
-  text-align: center;
 }
 
 .tableBlock {
@@ -208,47 +165,54 @@ h2 {
   background-color: #A98F9D;
 }
 
-.buttonContainer {
-  display: flex;
-  justify-content: center;
+/* == LINGO == */
+
+#numTerms {
+  padding: 8px;
 }
 
-.button {
-  width: 128px;
-  height: 128px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.entry {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.entry h3 {
+  font-size: 26px;
+  margin: 1%;
+}
+
+.entry p:nth-of-type(1) {
+  font-size: 16px;
+  margin: 1%;
+  font-family: sans-serif;
+}
+
+.entry p:nth-of-type(2) {
+  font-size: 16px;
+  margin: 1%;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.entry hr {
+  width: 90%;
+}
+
+.definition {
+  margin: 1%;
+  font-size: 15px;
+}
+
+.quote {
+  margin: 1%;
+  font-style: italic;
+}
+
+.idiom {
   text-align: center;
-  cursor: poInter, sans-serif;
-  background-color: #DAC8D2;
-  border: solid 2px black;
-  border-radius: 8px;
-  transition: 0.3s;
-  margin: 0 32px;
 }
 
-.button:hover {
-  background-color: #C9AFBD;
-}
-
-.button a {
-  position: relative;
-  text-decoration: none;
-  color: black;
-}
-
-.button a span {
-  position: absolute;
-  margin-top: 32px;
-  display: none;
-  z-index: 99;
-}
-
-.button a:hover span {
-  display: block;
-}
-
+/* == EUROPEAN ETYMOLOGY == */
 
 .tableContainer {
   margin-top: 16px;
@@ -331,5 +295,15 @@ table.tableContainer tr:nth-child(1) {
 }
 .tableRow__englishName {
   font-size: 18px;
+  font-weight: bold;
+}
+
+/* == FAMILY ANALYSIS == */
+
+#tableFamilyAnalysis tr td:nth-of-type(2) {
+  font-style: italic;
+}
+
+#tableFamilyAnalysis tr td:nth-of-type(3) {
   font-weight: bold;
 }
