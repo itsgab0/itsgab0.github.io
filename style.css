@@ -165,6 +165,15 @@ h2 {
   background-color: #A98F9D;
 }
 
+/* == MAIN PAGE == */
+
+.navHeader {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  color: white;
+}
+
 /* == LINGO == */
 
 #numTerms {
