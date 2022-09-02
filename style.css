@@ -180,6 +180,20 @@ h2 {
   padding: 8px;
 }
 
+#topButton {
+  display: none;
+  position: fixed;
+  top: 32px;
+  right: 16px;
+  z-index: 99;
+  
+  outline: none;
+  background-color: #A98F9D;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
 .entry {
   border-top: solid 1px black;
   border-bottom: solid 1px black;
