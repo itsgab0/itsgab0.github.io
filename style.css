@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Inter:300,400,700&display=swap');
+/* 
+========================================
+ FONTS, LANGUAGE SCRIPTS, AND VARIABLES
+========================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Inter:200,300,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Phoenician&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Syriac&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Coptic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Samaritan&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Imperial_Aramaic&display=swap');
-
-/* == GLOBAL == */
 
 *[lang="phn"] {
   font-family: 'Noto Sans Phoenician';
@@ -32,29 +36,61 @@
   font-family: 'Noto Sans Imperial Aramaic';
 }
 
+:root {
+  --lightGreen: #C5E0B3;
+  --middleGreen: #98DC9B;
+  --darkGreen: #3E9B6E;
+  --black: #0D0A08;
+  --blue: #0D3B66;
+}
+
+/* 
+===============
+ GLOBAL STYLES
+===============
+*/
+
 html {
   scroll-behavior: smooth;
   background-color: white;
-  background-image: linear-gradient(to right, #ECE1E8 5%, rgba(0,0,0,0) 10%), linear-gradient(to left, #ECE1E8 5%, rgba(0,0,0,0) 10%);
 }
 
-html, body {
+html {
+  width: 90%;
+  padding-left: 5%;
+  background-color: #EEE;
+}
+
+body {
   width: 90%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 5%;
+  margin-top: 0;
+  
   font-family: Inter, sans-serif;
   cursor: default;
+  background-color: white;
+}
+
+#top {
+  width: 100%;
+  background-color: white;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  border-bottom: solid 1px var(--black);
+  background-image: linear-gradient(white 50%, #EEE 100%);
+  box-shadow: 0 8px 4px -4px #CCC;
 }
 
 #myName {
-  text-align: center;
-  width: 75%;
-  margin-left: 12.5%;
-  background-color: #54414E;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  border-radius: 0 0 16px 16px;
+  background-color: var(--blue);
   font-size: 32px;
-  border-radius: 24px;
-  border: solid 2px black;
+  text-align: center;
 }
 
 #myName a {
@@ -66,298 +102,334 @@ html, body {
 }
 
 #myName a:hover {
-  color: grey;
+  opacity: 50%;
+}
+
+.mini {
+  margin: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 h1 {
-  font-family: Inter, sans-serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 64px;
+  margin: 0;
+  padding-bottom: 1rem;
+  font-family: Inter;
+  font-weight: 200;
+  font-size: 400%;
 }
 
-.paragraphBlock {
-  background-color: #DAC8D2;
-  border: solid 2px black;
-  padding-bottom: 1%;
-  border-radius: 8px;
-}
-
-.paragraphBlockHeader {
-  display: inline-block;
-  width: 97.5%;
-  color: white;
-  font-size: 24px;
-  background-color: #54414E;
-  padding-left: 2.5%;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  margin-bottom: 1%;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  font-family: Inter, sans-serif;
-  font-weight: 300;
-}
-
-.paragraphBlock p {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.indentParagraph {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.navBar {
+#bottom {
   width: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.hBox {
   text-align: center;
-  table-layout: fixed;
-}
-
-.navBar a {
-  display: block;
-  text-decoration: none;
-  color: black;
-  font-weight: normal;
-  transition: 0.3s;
-}
-
-.navBar a:hover {
-  font-weight: bold;
 }
 
 h2 {
+  font-size: 200%;
   display: inline-block;
-  width: 97.5%;
-  color: white;
-  font-size: 24px;
-  background-color: #54414E;
-  padding-left: 2.5%;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  margin-bottom: 2%;
-  border-radius: 8px;
-  border: solid 2px black;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px var(--black);
 }
 
-.tableBlock {
-  border: solid 2px black;
-  border-radius: 8px;
+h3 {
+  margin-left: 5%;
+  font-size: 150%;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px var(--black);
+  width: max-content;
 }
 
-.tableBlock table {
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+  color: default;
+}
+
+/* Pseudo-element as an anchor for <a> tags to link to and prevent clashes with header */
+section::before {
+  display: block;
+  content: " ";
+  margin-top: -250px;
+  height: 250px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* 
+==============
+ EXPLOITABLES
+==============
+*/
+
+b {
+  text-transform: uppercase;
+  color: var(--blue);
+  font-size: 90%;
+}
+
+em {
+  color: var(--black);
+  background-color: var(--lightGreen);
+  font-style: normal;
+}
+
+.indent {
+  margin-left: 5%;
+}
+
+.bar {
+  width: 90%;
+  margin-left: 5%;
+  border-top: solid 1px var(--black);
+}
+
+sup {
+  line-height: 0;
+  font-size: 0.6em;
+}
+
+/* 
+=============
+ LIST STYLES
+=============
+*/
+
+.list {
+  margin-left: 5%;
+  list-style-type: none;
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list li {
+  margin-bottom: 0.25rem;
+}
+
+.listTitle {
+  font-weight: bold;
+  font-size: 125%;
+  border-bottom: solid 1px var(--black);
+  width: max-content;
+}
+
+/* 
+==============
+ TABLE STYLES
+==============
+*/
+
+table {
   width: 100%;
-  table-layout: fixed;
   border-collapse: collapse;
   text-align: center;
-  background-color: #C9AFBD;
-  border-radius: 8px;
+  table-layout: fixed;
 }
 
-.tableBlock tr:first-of-type {
-  border-bottom: solid 1px black;
-  background-color: #54414E;
+tr {
+  border: solid 1px #CCC;
+}
+
+td {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: solid 1px #CCC;
+  line-height: 150%;
+}
+
+th {
+  background-color: var(--darkGreen);
   color: white;
-  font-family: Inter, sans-serif;
-  font-weight: 300;
+  padding: 0.5rem;
+  font-size: 125%;
 }
 
-.tableBlock tr:nth-of-type(even) {
-  background-color: #DAC8D2;
+tr:nth-child(odd) {
+  background-color: #EEE;
 }
 
-.tableBlock th, .tableBlock td{
-  padding-top: 8px;
-  padding-bottom: 8px;
+.tableEM {
+  background-color: var(--middleGreen);
 }
 
-.tableBlock th:first-of-type {
-  border-top-left-radius: 5px;
+/* 
+===========
+ MAIN PAGE
+===========
+*/
+
+#navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-.tableBlock th:last-of-type {
-  border-top-right-radius: 5px;
+#navBar li {
+  border-bottom: solid 1px white;
 }
 
-.tableBlockEmphasis {
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
-  background-color: #54414E;
-  color: white;
-  font-family: Inter, sans-serif;
+#navBar li span{
+  display: block;
+  padding: 1rem;
+  background-color: #CCC;
+  color: var(--black);
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black);
   font-weight: bold;
 }
 
-.tableBlockLightEmphasis {
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
-  background-color: #A98F9D;
-  font-weight: bold;
+#navBar li a {
+  display: block;
+  padding: 1rem;
+  background-color: #EEE;
+  color: var(--black);
+  text-decoration: none;
+  transition: 0.2s;
 }
 
-/* == MAIN PAGE == */
-
-.navHeader {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-weight: bold;
+#navBar li a:hover {
+  background-color: var(--blue);
   color: white;
 }
 
-/* == LINGO == */
+/* 
+=====================
+ PRE-DECIMAL COINAGE
+=====================
+*/
 
-#numTerms {
-  padding: 8px;
+.coinTable tr td:first-of-type {
+  text-transform: uppercase;
+  color: var(--blue);
+  font-size: 90%;
+  font-weight: bold;
 }
+
+/* 
+====================
+ 21ST CENTURY LINGO
+====================
+*/
 
 #topButton {
   display: none;
   position: fixed;
-  top: 32px;
-  right: 16px;
+  top: 8px;
+  right: 8px;
   z-index: 99;
-  
-  outline: none;
-  background-color: #A98F9D;
-  cursor: pointer;
+  background-color: var(--blue);
+  opacity: 0.75;
+  color: white;
+  border: solid 1px var(--black);
+  border-radius: 8px;
   padding: 8px;
-  border-radius: 4px;
+  cursor: pointer;
 }
 
-.entry {
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
+#topButton:hover {
+  opacity: 1;
 }
 
-.entry h3 {
-  font-size: 26px;
-  margin: 1%;
+#lingoNav ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 90%;
+  margin: 0;
+  text-align: center;
+  padding-left: 20%;
 }
 
-.entry p:nth-of-type(1) {
-  font-size: 16px;
-  margin: 1%;
-  font-family: sans-serif;
+#lingoNav li {
+  border: solid 1px white;
+  float: left;
+  width: 5%;
 }
 
-.entry p:nth-of-type(2) {
-  font-size: 16px;
-  margin: 1%;
-  font-style: italic;
+#lingoNav a {
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  background-color: #EEE;
+  color: var(--black);
+  cursor: pointer;
+  transition: 0.2s;
   font-weight: bold;
 }
 
-.entry hr {
-  width: 90%;
+#lingoNav a:hover {
+  background-color: #CCC;
+}
+
+.entry ul {
+  list-style-type: none;
+}
+
+.entry ul li {
+  margin-bottom: 1%;
+}
+
+.entry ul li:nth-of-type(1) {
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.entry ul li:nth-of-type(2) {
+  font-family: Inter, sans-serif;
+  font-size: 90%;
+}
+
+.entry ul li:nth-of-type(3) {
+  text-transform: uppercase;
+  color: var(--blue);
+  font-size: 90%;
+  font-weight: bold;
 }
 
 .definition {
-  margin: 1%;
-  font-size: 15px;
+  padding-left: 2.5%;
 }
 
 .quote {
-  margin: 1%;
   font-style: italic;
 }
 
-.idiom {
-  text-align: center;
-}
+/*
+====================
+ EUROPEAN ETYMOLOGY
+====================
+*/
 
-/* == EUROPEAN ETYMOLOGY == */
-
-.tableContainer {
-  margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  border: 1px solid black;
-  border-radius: 8px;
-  overflow: hidden;
-}
-#etymology-legend {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-table.tableContainer {
-  border-collapse: collapse;
-}
-table.tableContainer th {
+.etymTable ul {
+  list-style-type: none;
   text-align: left;
-  padding: 4px 8px;
-}
-table.tableContainer .tableTitle {
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-}
-table.tableContainer td {
-  padding: 4px 8px;
-}
-table.tableContainer tr {
-  padding: 4px 8px;
-  background-color: #DAC8D2;
-}
-table.tableContainer tr:nth-child(odd) {
-  background-color: #C9AFBD;
-}
-table.tableContainer tr.tableHeading {
-  background-color: #54414E;
-  color: white;
-}
-table.tableContainer tr:nth-child(1) {
-  border-bottom: 1px solid #DAC8D2;
-}
-#etymology-legend .tableContainer:nth-child(1) {
-  margin-right: 16px;
-}
-.tableEntry {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: stretch;
-  background-color: #DAC8D2;
-}
-.tableRow {
-  flex: 1;
-  display: flex;
-  flex-flow: row nowrap;
-  border-bottom: 1px solid #C9AFBD;
-  padding: 8px;
-}
-.tableEntry:nth-child(odd) {
-  background-color: #C9AFBD;
-}
-.tableEntry:nth-child(odd) .tableRow {
-  border-bottom-color: #DAC8D2;
-}
-.tableRow__empty {
-  color: #888888;
-}
-.tableHeader {
-  width: 240px;
-}
-.tableCell {
-  flex: 1;
-  display: inline-flex;
-  flex-flow: row nowrap;
-}
-.tableCell .origin {
-  margin-right: 16px;
-}
-.tableRow__englishName {
-  font-size: 18px;
-  font-weight: bold;
+  padding-top: 1rem;
+  padding-left: 0;
 }
 
-/* == FAMILY ANALYSIS == */
+/*
+========
+ IDIOMS
+========
+*/
 
-#tableFamilyAnalysis tr td:nth-of-type(2) {
-  font-style: italic;
-}
-
-#tableFamilyAnalysis tr td:nth-of-type(3) {
+.idiom tr:nth-of-type(1){
+  font-size: 125%;
   font-weight: bold;
 }

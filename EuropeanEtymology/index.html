@@ -16,94 +16,906 @@
   
   <body>
     
-    <p id="myName"><a href="../">Gabe F</a></p>
+    <button id="topButton" onClick="goTop()" title="Go to Top">Go to Top</button>
     
-    <h1>Etymology of European Countries</h1>
+    <div id="top">
     
-    <div class="paragraphBlock">
+      <p id="myName"><a href="../">Gabe F</a></p>
+      
+      <div class="mini">Linguistics</div>
     
-      <span class="paragraphBlockHeader">Where do the Names of the European Countries come from?</span>
+      <h1>Etymology of European Countries</h1>
       
-      <p>Europe is a complex hodge-podge of a continent, with regards to <b>official</b> languages. Of the countries typically included in the bounds of Europe, 9 language families come out of it - not even all of them are Indo-European.</p>
-      
-      <p class="indentParagraph">(Afro-Asiatic) ⟶ Semitic</p>
-      
-      <p class="indentParagraph">(Indo-European) ⟶ Albanian, Baltic, Celtic, Germanic, Hellenic, Romance, Slavic</p>
-      
-      <p class="indentParagraph">(Uralic) ⟶ Uralic</p>
-      
-      <p>As such, we find no consistent naming pattern when it comes to the names of these countries, both natively and in English. Included in the images below (the author is too stupid to convert into a web format) is a table outlining the origins of all the names of the European countries.</p>
-      
-      <p class="indentParagraph">On the right side is the source of the native names for the countries, and where the left side is blank is where the English name was derived or taken explicitly from the native language. Otherwise, for example with Albania, both the derivations for the English name 'Albania' and the Albanian name 'Shqipëri' are given.</p>
-      
-      <p>An indentation with a single '⟶' implies direct descendence, a double '⟶⟶' implies a distant descendency with a potentially murky chain of evolution. Where multiple origins are given, it is uncertain where the name specifically comes from and linguists have proposed multiple etymologies, as in the case of Andorra. The second image is merely a legend for the first image. </p>
-    
     </div>
     
-    <hr>
-
-    <div id="etymology-legend"></div>
-
-    <div id="etymology-table"></div>
-
-    <script id="etymology-legend-template" type="text/x-handlebars-template">
-      <table class="tableContainer">
-        <tr class="tableHeading">
-          <td colspan="4" class="tableTitle">English</td>
-        </tr>
-        <tr class="tableHeading">
-            <th>Type</th>
-            <th>Initial</th>
-            <th>Explanation</th>
-            <th>Count</th>
-        </tr>
-        {{#each english}}
-          <tr>
-            <td>{{this.type}}</td>
-            <td>{{this.initial}}</td>
-            <td>{{this.explanation}}</td>
-            <td>{{this.count}}</td>
-          </tr>
-        {{/each}}
-      </table>
-      <table class="tableContainer">
-        <tr class="tableHeading">
-          <td colspan="4" class="tableTitle">Native</td>
-        </tr>
-        <tr class="tableHeading">
-            <th>Type</th>
-            <th>Initial</th>
-            <th>Explanation</th>
-            <th>Count</th>
-        </tr>
-        {{#each native}}
-          <tr>
-            <td>{{this.type}}</td>
-            <td>{{this.initial}}</td>
-            <td>{{this.explanation}}</td>
-            <td>{{this.count}}</td>
-          </tr>
-        {{/each}}
-      </table>
-    </script>
-
-    <script id="etymology-table-template" type="text/x-handlebars-template">
-      <div class="tableContainer">
-        {{#each countries}}
-          <div class="tableEntry">
-            {{#each this}}
-            <div class="tableRow {{this.className}}">
-              <div class="tableHeader">{{this.header}}</div>
-              <div class="tableCell">{{{this.value}}}</div>
-            </div>
-            {{/each}}
-          </div>
-        {{/each}}
-      </div>
-    </script>
+    <div id="bottom">
     
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-    <script src="./script.js"></script>
+      <div class="hBox"><h2>Where do the Names of the European Countries come from?</h2></div>
+      
+      <p>Europe is a complex hodge-podge of a continent, with regards to <b>official languages</b>. Of the countries typically included in the bounds of Europe, 9 language families come out of it - not even all of them are Indo-European.</p>
+      
+      <ul class="list">
+        <li><b>Afro-Asiatic</b> - Semitic</li>
+        <li><b>Indo-European</b> - Albanian, Baltic, Celtic, Germanic, Hellenic, Romance, Slavic</li>
+        <li><b>Uralic</b> - Uralic</li>
+      </ul>
+      
+      <p>As such, we find no consistent naming pattern when it comes to the names of these countries, both natively and in English. The author has outlined the origins of all the native and English names of the European countries. Multiple entries at the same level of indentation implies there are multiple theories as to the origin; e.g. 'Malta' could be from the Phoenician 'mlt' or the Greek 'mélitos'. An indented origin implies a progression; e.g. 'Austria' comes from the Old High German 'Ostarrîchi' which in turn comes from the Latin 'marchia orientalis'.</p>
+      
+      <div class="bar"><br/></div>
+      
+      <h3>Legend</h3>
+      
+      <table>
+      
+        <tr><th>Type</th><th>English</th><th>Native</th></tr>
+
+        <tr><td class="tableEM"><b>(A)nimals</b></td><td>0</td><td>4</td></tr>
+        <tr><td class="tableEM"><b>(C)haracter/Specific Person</b></td><td>1</td><td>2</td></tr>
+        <tr><td class="tableEM"><b>(D)escription</b></td><td>2</td><td>12</td></tr>
+        <tr><td class="tableEM"><b>(L)ocation</b></td><td>0</td><td>6</td></tr>
+        <tr><td class="tableEM"><b>(M)an/Human</b></td><td>1</td><td>5</td></tr>
+        <tr><td class="tableEM"><b>(N)ature</b></td><td>1</td><td>6</td></tr>
+        <tr><td class="tableEM"><b>(P)eople</b></td><td>4</td><td>11</td></tr>
+      
+      </table>
+      
+      <br/>
+      
+      <div class="bar"><br/></div>
+      
+      <h3>Albania</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Albania</td><td class="tableEM">Shqipëri</td></tr>
+        
+        <tr>
+          <td><ul><li><b>Latin</b> - 'Albani' - (an Illyrian Tribe)</li></ul></td>
+          <td><ul><li><b>Albanian</b> - 'Shqipëri' - <b>land of the eagles</b></li></ul></td>
+        </tr>
+        
+        <tr><td>P</td><td>A</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Andorra</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Andorra</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>Greek</b> 'Andosinoi' - <b>Andosins</b> (an Iberian pre-Roman tribe)</li>
+              <li><b>Basque</b> 'handia' - <b>big/giant</b></li>
+              <li><b>Arabic</b> 'al-darra' - <b>thickly wooded place</b></li>
+              <li><b>Navarro-Aragonese</b> 'andurrial' - <b>covered with bushes</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>P</td></tr>
+      
+      </table>
+
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Austria</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Austria</td><td class="tableEM">Österreich</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Old High German</b> 'Ostarrîchi' - <b>eastern realm</b></li>
+              <li class="indent"><b>Latin</b> 'marchia orientalis' - <b>eastern realm</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">L</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Belarus</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Belarus</td></tr>
+        
+        <tr><td><ul><li><b>Old East Slavic</b> 'bel + rusi' - <b>white Ruthenia</b></li></ul></td></tr>
+        
+        <tr><td>D</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Belgium</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Belgium</td><td class="tableEM">België</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Latin</b> 'Belgae' - (an Iron-Age tribe)</li></ul></td></tr>
+        
+        <tr><td colspan="2">P</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Bosnia and Herzegovina</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Bosnia and Herzegovina</td><td class="tableEM">Bosna i Hercegovina</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Serbo-Croatian</b> 'Bosna' - (a major Bosnian river)</li>
+              <li><b>Serbo-Croatian</b> 'Herzog + ov + ina' - <b>land of the Duke</b> (15<sup>th</sup> century Bosnian magnate)</li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">N</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Bulgaria</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Bulgaria</td><td class="tableEM">Bǎlgariya</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Bulgarian</b> 'Bǎlgar' - <b>Bulgars</b> (a Turkic group)</li></ul></td></tr>
+        
+        <tr><td colspan="2">P</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Croatia</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Croatia</td><td class="tableEM">Hrvatska</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Serbo-Croatian</b> 'xorvat' - <b>Croat</b> (autonym)</li></ul></td></tr>
+        
+        <tr><td colspan="2">P</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Cyprus</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Cyprus</td><td class="tableEM">Kupros</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Mycenaean Greek</b> 'ku-pi-ri-jo' - <b>Cypress tree</b> (or Henna, copper)</li></ul></td></tr>
+        
+        <tr><td colspan="2">N</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Czechia</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Czechia</td><td class="tableEM">Česka</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Czech</b> 'čel' - <b>people</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">M</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Denmark</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Denmark</td><td class="tableEM">Danmark</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Danish</b> 'dansk + merki' - <b>Danish boundary</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">L</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Estonia</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Estonia</td><td class="tableEM">Eesti</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>German</b> 'Eeste' - <b>east</b></li>
+              <li class="indent"><b>Latin</b> 'Aesti' - (a Baltic tribe)</li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">P</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Finland</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Finland</td><td class="tableEM">Suomi</td></tr>
+        
+        <tr>
+          <td><ul><li><b>Old Norse</b> - 'Finnland' - <b>land of the Finns</b></li></ul></td>
+          <td>
+            <ul>
+              <li><b>Proto-Balto-Slavic</b> - '*źemē - <b>ground</b></li>
+              <li><b>Proto-Balto-Slavic</b> - '*ǵ<sup>h</sup>om-yā - <b>human</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>P</td><td>M</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>France</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">France</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>Latin</b> 'Francia' - (land inhabited by the Franks)</li>
+              <li class="indent"><b>Proto-Germanic</b> '*frankô' - <b>javelin</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>P</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Germany</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Germany</td><td class="tableEM">Deutschland</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>Latin</b> - 'Germānia' - (land inhabited by the Germans)</li>
+              <li class="indent"><b>Proto-Celtic</b> - '*gair' - <b>neighbour</b></li>
+              <li class="indent"><b>Proto-Celtic</b> - '*garman' - <b>noisy</b></li>
+              <li class="indent"><b>Old High German</b> - 'gēr' - <b>spear</b></li>
+            </ul>
+          </td>
+          
+          <td><ul><li><b>Old High German</b> - 'diutisk' - <b>of the people</b></li></ul></td>
+        </tr>
+        
+        <tr><td>D</td><td>M</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Greece</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Greece</td><td class="tableEM">Éllada</td></tr>
+        
+        <tr>
+          <td><ul><li><b>Greek</b> - 'Graikós' - (king of Phthia, son of Thessalos)</li></ul></td>
+          <td><ul><li><b>Greek</b> - 'Helloí - <b>Hellenes</b> - (inhabitants of the area around Dodona)</li></ul></td>
+        </tr>
+        
+        <tr><td>C</td><td>P</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Hungary</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Hungary</td><td class="tableEM">Magyarország</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>Latin</b> - 'Ungari' - <b>Hungary</b></li>
+              <li class="indent"><b>Proto-Turkic</b> - <b>Onoğurs</b> - (a Turkic nomadic equestrian people)</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><b>Hungarian</b> - 'magyar + ország' - <b>Hungarian land</b></li>
+              <li class="indent"><b>Proto-Ugric</b> - '*mańćɜ' - <b>man</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>P</td><td>M</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Iceland</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Iceland</td><td class="tableEM">Ísland</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Icelandic</b> 'íss + land' - <b>ice land</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">D</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Ireland</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Ireland</td><td class="tableEM">Éire</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Proto-Celtic</b> - '*φīweryū' - <b>Ireland</b></li>
+              <li class="indent"><b>Proto-Indo-European</b> - '*peyH-' - <b>milk/fat</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">D</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Italy</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Italy</td><td class="tableEM">Italia</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Latin</b> - 'Italia' - <b>Italy</b></li>
+              <li class="indent"><b>Oscan</b> - 'víteliú' - <b>land of bulls</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">A</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Kosovo</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Kosovo</td><td class="tableEM">Kosovës</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Serbo-Croatian</b> - 'kosovo polje' - <b>blackbird's field</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">A</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Latvia</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Latvia</td><td class="tableEM">Latvija</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Latvian</b> - 'latvis' - <b>Lett</b> (member of the ethnic Latvians)</li>
+              <li class="indent"><b>Proto-Latvian</b> - '*Latuva' (a river)</li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">N</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Liechtenstein</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Liechtenstein</td><td class="tableEM">Liechtenstein</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>German</b> - 'Liechtenstein' - (the ruling dynasty)</li>
+              <li class="indent"><b>German</b> - 'licht + Stein' - <b>bright stone</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">D</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Lithuania</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Lithuania</td><td class="tableEM">Lietuva</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Lithuanian</b> - 'Lietava' - (a rivulet in Lithuania)</li></ul></td></tr>
+        
+        <tr><td colspan="2">N</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Luxembourg</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Luxembourg</td><td class="tableEM">Lëtzeburg</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Old High German</b> - 'Lucilinburhuc' - <b>Luxembourg</b></li>
+              <li class="indent"><b>Old High German</b> - 'luzil + burg' - <b>little castle</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">D</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Malta</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Malta</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>Phoenician</b> - 'mlt' - <b>refuge</b></li>
+              <li><b>Greek</b> - 'mélitos' - <b>honey</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>D</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Moldova</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Moldova</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>Gothic</b> - 'mulda' - <b>dust</b></li>
+              <li><b>Romanian</b> - 'molid' - <b>spruce</b></li>
+              <li><b>Thracian-Illyrian</b> - '*mol + *dava' - <b>mountain town</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>D</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Monaco</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Monaco</td></tr>
+        
+        <tr><td><ul><li><b>Greek</b> - 'mónoikos' - <b>single house</b> - (colony of Phocaeans; epithet of Heracles)</li></ul></td></tr>
+        
+        <tr><td>C</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Montenegro</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Montenegro</td><td class="tableEM">Crna Gora</td></tr>
+        
+        <tr>
+          <td><ul><li><b>Venetian</b> - 'Montenegro' - <b>black mountain</b> [calque]</li></ul></td>
+          <td><ul><li><b>Serbo-Croatian</b> - 'crna gora' - <b>black mountain</b></li></ul></td>
+        </tr>
+        
+        <tr><td>N</td><td>N</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Netherlands</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Netherlands</td><td class="tableEM">Nederland</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Dutch</b> - 'neder + land' - <b>lower lands</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">L</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>North Macedonia</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">North Macedonia</td><td class="tableEM">Severna Makedonija</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Macedonian</b> - 'severna' - <b>northern</b></li>
+              <li><b>Greek</b> - 'makedonía' - <b>highland</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">L</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Norway</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Norway</td><td class="tableEM">Norge</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Old Norse</b> - 'Norðvegr' - <b>north way</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">L</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Poland</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Poland</td><td class="tableEM">Polska</td></tr>
+        
+        <tr>
+          <td><ul><li><b>Polish</b> - 'Polanie' - <b>Poles</b> (field-dwellers)</li></ul></td>
+          <td><ul><li><b>Proto-Slavic</b> - '*pol'e + *zeml'a' - <b>plain country/field</b></li></ul></td>
+        </tr>
+        
+        <tr><td>P</td><td>N</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Portugal</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Portugal</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>Latin</b> - 'Portus Cale' - <b>port + Callus</b></li>
+              <li class="indent"><b>Latin</b> - 'Gallaeci' (a Celtiberian tribe)</li>
+              <li class="indent"><b>Latin</b> - 'calidus' - <b>warm</b></li>
+              <li class="indent"><b>Ancient Greek</b> - 'kalós' - <b>beautiful</b></li>
+              <li class="indent"><b>Ancient Greek</b> - 'Gaîa' - <b>Gaia</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>D</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Romania</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Romania</td><td class="tableEM">România</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Latin</b> - 'romanus' - <b>roman</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">P</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Russia</h3>
+      
+      <table class="etymTable">
+      
+        <tr><td class="tableEM">Russia</td><td class="tableEM">Rossiya</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Old East Slavic</b> - 'Rus' - <b>Rusians</b> (Varangians ruling in Rus)</li></ul></td></tr>
+        
+        <tr><td colspan="2">P</td></tr>
+      
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>San Marino</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">San Marino</td></tr>
+        
+        <tr><td><ul><li><b>Italian</b> - 'San Marino' - <b>Saint Marinus</b> (founder of original chapel)</li></ul></td></tr>
+        
+        <tr><td>C</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Serbia</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Serbia</td><td class="tableEM">Srbija</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Serbo-Croatian</b> - 'S'rb' - <b>Serb/ally</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">P</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Slovakia</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Slovakia</td><td class="tableEM">Slovensko</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Proto-Slavic</b> - '*slovenin'' - <b>Slav</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">P</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Slovenia</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Slovenia</td><td class="tableEM">Slovenija</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Proto-Slavic</b> - '*slovo - <b>word</b></li></ul></td></tr>
+        
+        <tr><td colspan="2">D</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Spain</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Spain</td><td class="tableEM">España</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Latin</b> - 'Hispania' - <b>Spain</b></li>
+              <li class="indent"><b>Phoenician/Punic</b> - ''iy šapan' - <b>land of hyraxes</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">A</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Sweden</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Sweden</td><td class="tableEM">Sverige</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>Old English</b> - 'Swēoþēod' - <b>Swede nation</b></li>
+              <li class="indent"><b>Proto-Germanic</b> - '*swiho' - <b>one's own self</b></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><b>Swedish</b> - 'svea + rike' - <b>realm of the Swedes</b></li>
+              <li class="indent"><b>Proto-Germanic</b> - '*swiho' - <b>one's own self</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>M</td><td>M</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Switzerland</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Switzerland</td><td class="tableEM">Helvetica</td></tr>
+        
+        <tr>
+          <td>
+            <ul>
+              <li><b>German</b> - 'Schwytzerland' - <b>land of the Swiss</b></li>
+              <li class="indent"><b>Latin</b> - 'swīdan' - <b>burn</b> (land cleared by slash-and-burn)</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><b>Latin</b> - 'helvētiī' - <b>Helvetians</b> (a Swiss people)</li>
+              <li class="indent"><b>Gaulish</b> - '-elu' - <b>gain/prosperity</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td>D</td><td>D</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Turkey</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Turkey</td><td class="tableEM">Türkiye</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Latin</b> - 'Turcus' - <b>Turk</b></li>
+              <li class="indent"><b>Persian</b> - 'Twlk' - <b>Türk</b> (autonym)</li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">P</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Ukraine</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Ukraine</td><td class="tableEM">Ukraïna</td></tr>
+        
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><b>Russian</b> - 'Ukraína' - <b>borderland</b></li>
+              <li class="indent"><b>Old East Slavic</b> - 'u + krai + ina' - <b>at the edge</b></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">L</td></tr>
+        
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>United Kingdom</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">United Kingdom</td></tr>
+
+      </table>
+      
+      <br/><div class="bar"><br/></div>
+      
+      <h3>Vatican City</h3>
+      
+      <table class="etymTable">
+        
+        <tr><td class="tableEM">Vatican City</td><td class="tableEM">Città del Vaticano</td></tr>
+        
+        <tr><td colspan="2"><ul><li><b>Latin</b> - 'vāticinārī' - <b>to prophesy</b> (cognate with Odin)</li></ul></td></tr>
+        
+        <tr><td colspan="2">D</td></tr>
+        
+      </table>
+
+    </div>
+    
+    <br/>
+    
+    <script src="../globalscript.js"></script>
 
   </body>
   
