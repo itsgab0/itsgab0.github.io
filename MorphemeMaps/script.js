@@ -29,9 +29,7 @@ function getText (i) {
     }
     
   }
-  
-  strReturn += "<hr style='width: 90%;'>";
-  
+
   strReturn += "</td></tr><tr style='background-color: white;'><td colspan='3'>";
   
   for ( let j = 0; j < data[i].english.length; j++ ) {
