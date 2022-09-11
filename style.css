@@ -433,3 +433,134 @@ tr:nth-child(odd) {
   font-size: 125%;
   font-weight: bold;
 }
+
+/*
+==========================
+ PERIODIC TABLE ETYMOLOGY
+==========================
+*/
+
+#periodicTable {
+  display: grid;
+  grid-template-columns: repeat(18, 56px);
+  font-size: 80%;
+  justify-content: center;
+}
+
+#periodicTable, #periodicTable ul {
+  padding-left: 0;
+}
+
+#periodicTable li {
+  list-style-type: none;
+}
+
+#periodicTable > li {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: solid 1px black;
+  margin: 4px auto;
+  padding: 4px;
+  box-sizing: border-box;
+  position: relative;
+  align-self: center;
+}
+
+#periodicTable > li > ul > li:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 140%;
+}
+
+#periodicTable > li > ul > li:nth-of-type(3) {
+  position: absolute;
+  right: 4;
+  top: 4;
+}
+
+#periodicTable .ptgap {
+  border: 0;
+}
+
+.ptTip {
+  visibility: hidden;
+  background-color: var(--black);
+  color: white;
+  text-align: center;
+  width: max-content;
+  padding: 10%;
+  border-radius: 8px;
+  
+  position: absolute;
+  z-index: 1;
+  
+  top: 125%;
+  left: 50%;
+  transform:translateX(-50%);
+}
+
+#periodicTable li:not(.ptgap):hover .ptTip {
+  visibility: visible;
+}
+
+.ptGreek {
+  background-color: #CAFFBF;
+}
+
+.ptEnglish {
+  background-color: #9BF6FF;
+}
+
+.ptLatin {
+  background-color: #FFD6A5;
+}
+
+.ptGerman {
+  background-color: #BDB2FF;
+}
+
+.ptProtoLanguages {
+  background-color: #FFC6FF;
+}
+
+.ptRussian {
+  background-color: #FFADAD;
+}
+
+.ptSwedish {
+  background-color: #A0C4FF;
+}
+
+.ptFrench {
+  background-color: #FDFFB6;
+}
+
+.ptOldNorse {
+  background-color: #E9EDC9;
+}
+
+#ptLegend {
+  border: solid 1px black;
+  padding: 2%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 75%;
+}
+
+#ptLegend > li:nth-of-type(1) > ul {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  border-right: solid 1px black;
+}
+
+#ptLegend > li:nth-of-type(2) > ul {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+}
+
+#ptLegend li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1%;
+}
