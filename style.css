@@ -435,6 +435,16 @@ tr:nth-child(odd) {
   font-weight: bold;
 }
 
+.idiom {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.idiom tr, .idiom td{
+  text-align: left;
+  border: 0px !important;
+}
+
 /*
 ==========================
  PERIODIC TABLE ETYMOLOGY
