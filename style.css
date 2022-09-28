@@ -51,14 +51,17 @@
 */
 
 html {
-  scroll-behavior: smooth;
   background-color: white;
+  
+  scroll-behavior: smooth;
 }
 
 html {
   width: 90%;
   height: 100%;
+  
   padding-left: 5%;
+  
   background-color: #EEE;
 }
 
@@ -70,17 +73,20 @@ body {
   padding-right: 5%;
   margin-top: 0;
   
+  background-color: white;
+  
   font-family: Inter, sans-serif;
   cursor: default;
-  background-color: white;
 }
 
 #top {
   width: 100%;
-  background-color: white;
+  
   top: 0;
   position: sticky;
   z-index: 100;
+  
+  background-color: white;
   border-bottom: solid 1px var(--black);
   background-image: linear-gradient(white 50%, #EEE 100%);
   box-shadow: 0 8px 4px -4px #CCC;
