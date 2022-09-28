@@ -478,9 +478,16 @@ tr:nth-child(odd) {
   align-self: center;
 }
 
+#periodicTable > li > ul > li:nth-of-type(1) {
+  position: absolute;
+  top: 4;
+}
+
 #periodicTable > li > ul > li:nth-of-type(2) {
   font-weight: bold;
   font-size: 140%;
+  position: absolute;
+  bottom: 4;
 }
 
 #periodicTable > li > ul > li:nth-of-type(3) {
