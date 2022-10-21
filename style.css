@@ -184,6 +184,12 @@ a {
   opacity: 1;
 }
 
+.centre {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Pseudo-element as an anchor for <a> tags to link to and prevent clashes with header */
 section::before {
   display: block;
@@ -251,6 +257,19 @@ sup {
   font-size: 125%;
   border-bottom: solid 1px var(--black);
   width: max-content;
+}
+
+.boxList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.boxList ul {
+  list-style-type: none;
+}
+
+.boxList li {
+  margin-bottom: 0.5rem;
 }
 
 /* 
@@ -335,6 +354,30 @@ tr:nth-child(odd) {
 #navBar li a:hover {
   background-color: var(--blue);
   color: white;
+}
+
+/*
+=====================
+ ANGLO-SAXON PEERAGE
+=====================
+*/
+
+.boxGrid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+.boxGridBox {
+  height: 250px;
+  width: 300px;
+  
+  border-block-start: 5px solid;
+  border-image-source: linear-gradient(90deg, var(--blue) 50%, var(--middleGreen) 50%);
+  border-image-slice: 1;
+  background-color: #DDD;
+  padding: 10px;
+  margin: 10px;
 }
 
 /* 
