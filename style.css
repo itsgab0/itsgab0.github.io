@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Syriac&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Coptic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Samaritan&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Imperial_Aramaic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Imperial+Aramaic&display=swap');
 
 *[lang="phn"] {
   font-family: 'Noto Sans Phoenician';
@@ -536,20 +536,20 @@ tr:nth-child(odd) {
 
 #periodicTable > li > ul > li:nth-of-type(1) {
   position: absolute;
-  top: 4;
+  top: 4px;
 }
 
 #periodicTable > li > ul > li:nth-of-type(2) {
   font-weight: bold;
   font-size: 140%;
   position: absolute;
-  bottom: 4;
+  bottom: 4px;
 }
 
 #periodicTable > li > ul > li:nth-of-type(3) {
   position: absolute;
-  right: 4;
-  top: 4;
+  right: 4px;
+  top: 4px;
 }
 
 #periodicTable .ptgap {
