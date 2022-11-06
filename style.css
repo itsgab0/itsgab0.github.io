@@ -384,6 +384,17 @@ tr:nth-child(odd) {
   margin: 10px;
 }
 
+/*
+==================
+ BRITISH MONARCHS
+==================
+*/
+
+.monarchTable {
+  table-layout: auto;
+  width: 100%;
+}
+
 /* 
 =====================
  PRE-DECIMAL COINAGE
