@@ -14,6 +14,22 @@ function getText (i) {
     
   }
   
+  if( data[i].hasOwnProperty('alternate') ) {
+    
+    strReturn += "</td></tr><tr style='background-color: white;'><td colspan='3'>";
+    
+    for ( let j = 0; j < data[i].alternate.length; j++ ) {
+ 
+      strReturn += "<span style='color:";
+      strReturn += colours[ j % colours.length ];
+      strReturn += ";'>";
+      strReturn += data[i].alternate[j];
+      strReturn += "</span>";
+    
+    }
+    
+  }
+  
   if( data[i].hasOwnProperty('transliteration') ) {
     
     strReturn += "</td></tr><tr style='background-color: white;'><td colspan='3'>";

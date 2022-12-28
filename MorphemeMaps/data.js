@@ -77,6 +77,18 @@ var data = [
     englishMap: [0, 1, 2, 4, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
   },
   {
+    code: "heb",
+    language: "Hebrew",
+    creator: "unknown Reddit user",
+    
+    native: ["הייתי שמח", " לנסות", " את החליפה", " שראיתי", " מהמלון שלנו", " בחנות", " שברחוב"],
+    
+    transliteration: ["hayiti sameakh", " lenasot", " et hakhalifa", " sheraiti", " mekhamalon shelanu", " bakhanut", " shebarekhov"],
+    
+    english: ["I would like", " to try on", " the suit", " that I saw", " in the shop", " across the street", " from our hotel"],
+    englishMap: [0, 1, 2, 3, 6, 4, 5]
+  },
+  {
     code: "hin",
     language: "Hindi",
     creator: "u/PM_ME_YOUR_BEST_IMG",
@@ -129,6 +141,16 @@ var data = [
     englishMap: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 11]
   },
   {
+    code: "ita",
+    language: "Italian",
+    creator: "u/TheChilliPL",
+    
+    native: ["Vorrei", " provare", " un", " abito", " che", " ho", " visto", " nel", " negozio", " attraverso", " la", " strada", " dall'", "albergo."],
+
+    english: ["I would like", " to try on", " a", " suit", " that", " I have", " seen", " in the", " shop", " across", " the", " street", " from the", " hotel"],
+    englishMap: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  },
+  {
     code: "jpn",
     language: "Japanese",
     creator: "u/yep_fate_eos",
@@ -173,6 +195,20 @@ var data = [
     
     english: ["I", " want to try on", " (a) suit", " I saw", " in (a) shop", " across (the) street", " from", " our", " hotel."],
     englishMap: [0, 8, 7, 6, 5, 4, 3, 2, 1]
+  },
+  {
+    code: "mon",
+    language: "Mongolian",
+    creator: "u/Solioroh",
+    
+    native: ["ᠪᠢ", " ᠮᠠᠨ ᠤ", " ᠵᠣᠴᠢᠳ ᠪᠠᠭᠤᠳᠠᠯ ᠤᠨ", " ᠡᠰᠡᠷᠡᠭ", " ᠲᠠᠯ᠎ᠠ ᠶᠢᠨ", " ᠳᠡᠯᠭᠡᠭᠦᠷ ᠲᠦ", " ᠬᠠᠷᠠᠭᠰᠠᠨ", " ᠺᠣᠰᠲ᠋ᠶᠤᠶᠢᠮ ᠢᠶᠠᠨ", " ᠡᠮᠦᠰᠴᠦ ᠦᠵᠡ", "ᠮᠡᠭᠡᠷᠡ ᠪᠠᠶᠢᠨ᠎ᠠ᠃"],
+    
+    alternate: ["Би", " манай", " зочид буудлын", " эсрэг", " талын", " дэлгүүрт", " харсан", " костюмаа", " өмсөж үз", " мээр байна."],
+    
+    transliteration: ["bi", " manai", " zochid büüdlyn", " esreg", " talyn", " delgüürt", " kharsan", " kostyumaa", " ömsöj üz", "meer baina"],
+    
+    english: ["I", " would like", " (to) try on", " (a) suit", " (that I) saw", " in (a) shop", " across", " (the) street", " (from) our", " hotel"],
+    englishMap: [0, 9, 8, 7, 6, 5, 3, 4, 1, 2]
   },
   {
     code: "nld",
