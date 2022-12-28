@@ -65,6 +65,6 @@ const colours = ["red", "orange", "lime", "green", "tomato", "blue", "maroon", "
 
 for ( let i = 0; i < data.length; i++ ) {
   
-  document.getElementById("morphemeMapsTableBlock").innerHTML += ( "<table><tr><th style='text-align: left; padding-left: 8px;'>" + data[i].code.toUpperCase() + "</th><th style='padding-left: 8px;'>" + data[i].language + "</th><th style='text-align: right; padding-right: 8px;'>" + data[i].creator + "</th></tr><tr style='background-color: white;'><td colspan='3'>" + getText(i) + "</td></tr></table>");
+  document.getElementById("morphemeMapsTableBlock").innerHTML += ( "<table><tr><th style='text-align: left; padding-left: 8px;'>" + data[i].code.toUpperCase() + "</th><th style='padding-left: 8px;'>" + data[i].language + "</th><th style='text-align: right; padding-right: 8px;'>" + data[i].creator + "</th></tr><tr style='background-color: white;'><td colspan='3'>" + getText(i) + "</td></tr></table><br/>");
   
 }
