@@ -57,6 +57,16 @@ var data = [
     englishMap: [0, 1, 4, 2, 3, 5, 6, 14, 7, 8, 9, 10, 11, 12, 13]
   },
   {
+    code: "fil",
+    language: "Filipino",
+    creator: "unknown Reddit user",
+    
+    native: ["May nakito ako", " doon sa", " tindahan", " sa tapat", " ng", " ating", " hotel", " na damit", " na gusto kong", " masubukan."],
+    
+    english: ["I would like", " (to) try on", " (a) suit", " I have seen", " in", " (a) shop", " across", " (from)", " our", " hotel."],
+    englishMap: [8, 9, 7, 0, 1, 2, 3, 4, 5, 6]
+  },
+  {
     code: "fin",
     language: "Finnish",
     creator: "u/nenialaloup",
@@ -75,6 +85,16 @@ var data = [
     
     english: ["I", " would like", " to", " try on", " a ", " suit", " (that)", " I", " saw", " in", " a", " shop", " across the street", " from", " our", " hotel."],
     englishMap: [0, 1, 2, 4, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  },
+  {
+    code: "glg",
+    language: "Galician",
+    creator: "unknown Reddit user",
+    
+    native: ["Gustaría", "me", " probar", " un", " traxe", " que", " vira", " nunha", " tenda", " do outro lado", " da", " rúa", " do", " noso", " hotel."],
+    
+    english: ["I", " would like", " to try on", " a", " suit", " (that)", " I saw", " in a", " shop", " across", " (from) the", " street", " from", " our", " hotel."],
+    englishMap: [1, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
   },
   {
     code: "heb",
