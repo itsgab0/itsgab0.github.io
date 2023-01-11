@@ -247,7 +247,7 @@ var data = [
     
     native: ["Jeg", " vil", " prøve", " en", " dress", " som", " jeg", " så", " i", " en", " butikk", " rett over", " gat", "en", " fra", " hotell", "et."],
     
-    english: ["I", " want", " to try on", " a", " dress", " (that)", " I", " saw", " in", " a", " shop", " across", " the", " street", " from", " the", " hotel."],
+    english: ["I", " want", " to try on", " a", " suit", " (that)", " I", " saw", " in", " a", " shop", " across", " the", " street", " from", " the", " hotel."],
     englishMap: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 12, 14, 16, 15]
   },
   {
