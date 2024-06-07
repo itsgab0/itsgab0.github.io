@@ -1,547 +1,489 @@
-/* 
-========================================
- FONTS, LANGUAGE SCRIPTS, AND VARIABLES
-========================================
-*/
+/* FONTS */
 
-@import url('https://fonts.googleapis.com/css?family=Inter:200,300,400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Phoenician&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Syriac&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Coptic&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Samaritan&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Imperial+Aramaic&display=swap');
-
-*[lang="phn"] {
-  font-family: 'Noto Sans Phoenician';
+/* Andika - SIL International (OFL) */
+@font-face {
+  font-family: Andika;
+  src: url(fonts/Andika.ttf);
 }
 
-*[lang="got"] {
-  font-family: 'Noto Sans Gothic';
+@font-face {
+  font-family: Andika;
+  src: url(fonts/Andika-Bold.ttf);
+  font-weight: bold;
 }
 
-*[lang="syc"] {
-  font-family: 'Noto Sans Syriac';
+@font-face {
+  font-family: Andika;
+  src: url(fonts/Andika-Italic.ttf);
+  font-style: italic;
 }
 
-*[lang="cop"] {
-  font-family: 'Noto Sans Coptic';
+@font-face {
+  font-family: Andika;
+  src: url(fonts/Andika-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
 }
 
-*[lang="sam"] {
-  font-family: 'Noto Sans Samaritan';
+/* Bona Nova - Capitalics, Mateusz Machalski, Andrzej Heidrich (OFL) */
+
+@font-face {
+  font-family: BN;
+  src: url(fonts/BonaNova.ttf);
 }
 
-*[lang="jpa-GAL"] {
-  font-family: 'Noto Sans Imperial Aramaic';
+@font-face {
+  font-family: BN;
+  src: url(fonts/BonaNova-Bold.ttf);
+  font-weight: bold;
 }
 
-:root {
-  --lightGreen: #C5E0B3;
-  --middleGreen: #98DC9B;
-  --darkGreen: #3E9B6E;
-  --black: #0D0A08;
-  --blue: #0D3B66;
+@font-face {
+  font-family: BN;
+  src: url(fonts/BonaNova-Italic.ttf);
+  font-style: italic;
 }
 
-/* 
-===============
- GLOBAL STYLES
-===============
-*/
+/* EB Garamond - Georg Duffner & Octavio Pardo (OFL)*/
+@font-face {
+  font-family: EBG;
+  src: url(fonts/EBGaramond.ttf);
+}
+
+@font-face {
+  font-family: EBG;
+  src: url(fonts/EBGaramond-Italic.ttf);
+  font-style: italic;
+}
+
+/* Gentium Plus - SIL International (OFL) */
+
+@font-face {
+  font-family: GP;
+  src: url(fonts/GentiumPlus.ttf);
+}
+
+@font-face {
+  font-family: GP;
+  src: url(fonts/GentiumPlus-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: GP;
+  src: url(fonts/GentiumPlus-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: GP;
+  src: url(fonts/GentiumPlus-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Noto Serif - Google (OFL) */
+@font-face {
+  font-family: NS;
+  src: url(fonts/NotoSerif.ttf);
+}
+
+@font-face {
+  font-family: NS;
+  src: url(fonts/NotoSerif-Italic.ttf);
+  font-style: italic;
+}
+
+
+
+/* GLOBAL STYLES*/
 
 html {
-  background-color: white;
-  
-  scroll-behavior: smooth;
-}
-
-html {
-  width: 70%;
-  height: 100%;
-  
-  padding-left: 10%;
-  
-  background-color: #EEE;
-}
-
-body {
-  width: 80%;
-  min-height: 100%;
-  
-  padding-left: 15%;
-  padding-right: 15%;
-  margin-top: 0;
-  
-  background-color: white;
-  
-  font-family: Inter, sans-serif;
+  font-family: Andika;
+  /*font-size: 16px;*/
   cursor: default;
-}
-
-#top {
-  width: 100%;
-  
-  top: 0;
-  position: sticky;
-  z-index: 100;
-  
-  background-color: white;
-  border-bottom: solid 1px var(--black);
-  background-image: linear-gradient(white 50%, #EEE 100%);
-  box-shadow: 0 8px 4px -4px #CCC;
-}
-
-#myName {
-  width: 100%;
-  top: 0;
-  margin: 0;
-  border-radius: 0 0 16px 16px;
-  background-color: var(--blue);
-  font-size: 32px;
-  text-align: center;
-}
-
-#myName a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  font-weight: normal;
-  transition: 0.3s;
-}
-
-#myName a:hover {
-  opacity: 50%;
-}
-
-.mini {
-  margin: 0.5rem;
-  text-transform: uppercase;
-  margin-bottom: 0;
+  scroll-padding-top: 10vw;
+  background-color: #f9f9fb;
 }
 
 h1 {
-  margin: 0;
-  padding-bottom: 1rem;
-  font-family: Inter;
-  font-weight: 200;
-  font-size: 400%;
-}
-
-#bottom {
-  width: 100%;
-  position: relative;
-  background-color: white;
-}
-
-.hBox {
+  font-family: Andika;
+  font-size: 3rem;
+  margin-bottom: 0px !important;
+  
   text-align: center;
-}
-
-h2 {
-  font-size: 200%;
-  display: inline-block;
-  padding-bottom: 0.5rem;
-  border-bottom: solid 1px var(--black);
-}
-
-h3 {
-  margin-left: 5%;
-  font-size: 150%;
-  padding-bottom: 0.5rem;
-  border-bottom: solid 1px var(--black);
-  width: max-content;
-}
-
-p {
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: 150%;
 }
 
 a {
   text-decoration: none;
-  color: default;
+  color: slategrey;
 }
 
-#topButton {
+a:hover {
+  color: darkslategrey;
+  transition: 0.25s;
+}
+
+p {
+  text-align: justify;
+}
+
+.ul {
+  text-decoration: underline;
+}
+
+#Title {
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  margin-bottom: 1vw;
+  padding: 0.5vw 0;
+  background-color: #d4e9e2;
+  cursor: pointer;
+  text-align: center;
+  font-size: 3vw;
+  font-family: GP;
+  font-weight: 600;
+}
+
+#Title:hover {
+  background-color: #bcdce1;
+  transition-duration: 0.2s;
+}
+
+#GoToTop {
   display: none;
   position: fixed;
-  bottom: 8px;
-  left: 8px;
-  z-index: 99;
-  background-color: var(--blue);
-  opacity: 0.75;
+  bottom: 1vw;
+  left: 1vw;
+  background-color: #5a7c77;
+  opacity: 0.8;
   color: white;
-  border: solid 1px var(--black);
-  border-radius: 8px;
-  padding: 16px;
+  border: solid 1px black;
+  border-radius: 1vw;
+  padding: 1vw;
   cursor: pointer;
-  font-size: 100%;
+  font-family: inherit;
 }
 
-#topButton:hover {
+#GoToTop:hover {
   opacity: 1;
+  transition: 0.25s;
 }
 
-.centre {
+#Back {
+  display: none;
+  position: fixed;
+  top: 1vw;
+  left: 1vw;
+  background-color: #5a7c77;
+  opacity: 0.8;
+  color: white;
+  border: solid 1px black;
+  border-radius: 1vw;
+  padding: 1vw;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#Back:hover {
+  opacity: 1;
+  transition: 0.25s;
+}
+
+#sig {
+  padding: 0.5rem;
+  background-color: #d4e9e2;
+  text-align: right;
+}
+
+/* LISTS */
+
+ul > li {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+ul > li > ul > li {
+  list-style-type: "– ";
+}
+
+/* NAV BAR STUFF */
+
+#HomePageLanding {
+  padding: 0 2vw;
+  font-size: 1vw;
+}
+
+#HomeNavTable {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.NavHeader {
+  background-color: #d4f7e2;
+  padding: 1vw;
+  cursor: pointer;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-/* Pseudo-element as an anchor for <a> tags to link to and prevent clashes with header */
-section::before {
-  display: block;
-  content: " ";
-  margin-top: -250px;
-  height: 250px;
-  visibility: hidden;
-  pointer-events: none;
+.NavHeader:hover {
+  background-color: #81b1a2;
+  transition-duration: 0.2s;
 }
 
-/* 
-==============
- EXPLOITABLES
-==============
-*/
-
-b {
-  text-transform: uppercase;
-  color: var(--blue);
-  font-size: 90%;
+#NavPageTable button {
+  display: grid;
+  grid-template-columns: fit-content(90%) 1fr;
+  background-color: #f2f8f6;
+  width: 100%;
+  padding: 1vw;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
 }
 
-em {
-  color: var(--black);
-  background-color: var(--lightGreen);
+#NavPageTable button:hover {
+  background-color: #bcdce1;
+  transition-duration: 0.2s;
+}
+
+#NavPageTable button div:nth-child(1) {
+  text-align: left;
+  color: #5a7c77;
+  font-weight: bold;
+}
+
+#NavPageTable button div:nth-child(2) {
+  text-align: right;
+}
+
+/* TEXT CLASSES */
+
+.fancy {
+  font-family: BN;
+  line-height: 1.5rem;
+}
+
+.greek {
+  font-family: EBG;
   font-style: normal;
 }
 
-.indent {
-  margin-left: 5%;
+.latin {
+  font-family: BN;
 }
 
-.bar {
-  width: 90%;
-  margin-left: 5%;
-  border-top: solid 1px var(--black);
+.majuscule {
+  font-family: GP;
+  text-transform: uppercase;
+  font-style: normal !important;
 }
 
 sup {
-  line-height: 0;
-  font-size: 0.6em;
+  margin: 0.25rem;
+  font-size: 0.75rem;
 }
 
-.white {
-  color: white;
-}
-
-/* 
-=============
- LIST STYLES
-=============
-*/
-
-.list {
-  margin-left: 5%;
-  list-style-type: none;
-}
-
-.list ul {
-  list-style-type: none;
-}
-
-.list li {
-  margin-bottom: 0.25rem;
-}
-
-.listTitle {
+em {
+  font-style: normal;
   font-weight: bold;
-  font-size: 125%;
-  border-bottom: solid 1px var(--black);
-  width: max-content;
+  /*color: #81b1a2;*/
+  color: #5a7c77;
 }
 
-.boxList {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.boxList ul {
-  list-style-type: none;
-}
-
-.boxList li {
-  margin-bottom: 0.5rem;
-}
-
-/* 
-==============
- TABLE STYLES
-==============
-*/
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
-  table-layout: fixed;
-}
-
-tr {
-  border: solid 1px #CCC;
-}
-
-td {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border: solid 1px #CCC;
-  line-height: 150%;
-}
-
-th {
-  background-color: var(--darkGreen);
-  color: white;
-  padding: 0.5rem;
-  font-size: 125%;
-}
-
-tr:nth-child(odd) {
-  background-color: #EEE;
-}
-
-.tableEM {
-  background-color: var(--middleGreen);
-}
-
-/* 
-===========
- MAIN PAGE
-===========
-*/
-
-#navBar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-#navBar li {
-  border-bottom: solid 1px white;
-}
-
-#navBar li span{
-  display: block;
-  padding: 1rem;
-  background-color: #CCC;
-  color: var(--black);
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--black);
+.emul {
+  font-style: normal;
   font-weight: bold;
+  color: #5a7c77;
+  text-decoration: underline;
 }
 
-#navBar li a {
-  display: block;
-  padding: 1rem;
-  background-color: #EEE;
-  color: var(--black);
-  text-decoration: none;
-  transition: 0.2s;
+strong {
+  font-variant: small-caps;
+  color: #006644;
 }
 
-#navBar li a:hover {
-  background-color: var(--blue);
-  color: white;
-}
-
-/*
-=====================
- ANGLO-SAXON PEERAGE
-=====================
-*/
-
-.boxGrid {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: auto auto auto;
-}
-
-.boxGridBox {
-  height: 250px;
-  width: 300px;
-  
-  border-block-start: 5px solid;
-  border-image-source: linear-gradient(90deg, var(--blue) 50%, var(--middleGreen) 50%);
-  border-image-slice: 1;
-  background-color: #DDD;
-  padding: 10px;
-  margin: 10px;
-}
-
-/*
-==================
- BRITISH MONARCHS
-==================
-*/
-
-.monarchTable {
-  table-layout: auto;
-  width: 100%;
-}
-
-.monarchTable td {
-  height: 2.5rem;
-}
-
-.monarchTable td:nth-of-type(2) {
-  font-size: 1.25rem;
-}
-
-/* 
-=====================
- PRE-DECIMAL COINAGE
-=====================
-*/
-
-.coinTable tr td:first-of-type {
-  text-transform: uppercase;
-  color: var(--blue);
-  font-size: 90%;
-  font-weight: bold;
-}
-
-/* 
-====================
- 21ST CENTURY LINGO
-====================
-*/
-
-#lingoNav ul {
-  list-style-type: none;
-  overflow: hidden;
-  width: 90%;
-  margin: 0;
-  text-align: center;
-  padding-left: 20%;
-}
-
-#lingoNav li {
-  border: solid 1px white;
-  float: left;
-  width: 5%;
-}
-
-#lingoNav a {
-  display: block;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  text-decoration: none;
-  background-color: #EEE;
-  color: var(--black);
-  cursor: pointer;
-  transition: 0.2s;
-  font-weight: bold;
-}
-
-#lingoNav a:hover {
-  background-color: #CCC;
-}
-
-.entry ul {
-  list-style-type: none;
-}
-
-.entry ul li {
-  margin-bottom: 1%;
-}
-
-.entry ul li:nth-of-type(1) {
-  font-size: 125%;
-  font-weight: bold;
-}
-
-.entry ul li:nth-of-type(2) {
-  font-family: Inter, sans-serif;
-  font-size: 90%;
-}
-
-.entry ul li:nth-of-type(3) {
-  text-transform: uppercase;
-  color: var(--blue);
-  font-size: 90%;
-  font-weight: bold;
-}
-
-.definition {
-  padding-left: 2.5%;
-}
-
-.quote {
+.italic {
   font-style: italic;
 }
 
-/*
-====================
- EUROPEAN ETYMOLOGY
-====================
-*/
-
-.etymTable ul {
-  list-style-type: none;
-  text-align: left;
-  padding-top: 1rem;
-  padding-left: 0;
+.gp {
+  font-family: GP;
+  font-style: normal !important;
 }
 
-/*
-========
- IDIOMS
-========
-*/
+.poem {
+  font-size: 1.25rem;
+}
 
-.idiom tr:nth-of-type(1){
-  font-size: 125%;
+.quote {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  font-style: italic;
+  background-color: #f2f8f6;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.translation {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: slategrey;
+  background-color: #f2f8f6;
+  font-family: BN;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.source {
+  text-align: right;
+  padding: 0 1rem;
+  background-color: #d4f7e2;
+  font-family: BN;
+  line-height: 2rem;
+}
+
+.twoCol ul {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 1vw;
+}
+
+.LingoTerm {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: fit-content(90%) 1fr;
+  border-top: dotted 1px black;
+}
+
+.LingoTermHead {
+  padding-right: 3rem;
+  font-size: 1.75rem;
+  line-height: 3.5rem;
   font-weight: bold;
+  color: #006644;
 }
 
-.idiom {
-  width: 75%;
-  margin-left: 12.5%;
+.LingoTermPron {
+  padding: 1.1rem 0;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
-.idiom tr, .idiom td{
-  text-align: left;
-  border: 0px !important;
+.LingoTermDefs {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-column: 1 / 3;
+  margin-top: 0.5rem;
 }
 
-/*
-==========================
- PERIODIC TABLE ETYMOLOGY
-==========================
-*/
+.LingoTermType {
+  grid-row: 1 / 4;
+  font-weight: bold;
+  font-variant: small-caps;
+}
 
-#periodicTable {
+.LingoTermDefn {
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.LingoTermQuot {
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+.LingoTermNote {
+  padding: 0.5rem 1.5rem 0 1.5rem;
+  font-variant: small-caps;
+}
+
+/* TABLES */
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+th {
+  padding: 0.5rem 0.75rem;
+  background-color: #d4f7e2;
+  border: outset 1px #bcecd1;
+}
+
+td {
+  padding: 0.5rem 0.75rem;
+  background-color: #f2f8f6;
+}
+
+
+
+/* SPECIFIC CASES */
+
+.cd {
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: darkgrey;
+}
+
+.bib {
+  opacity: 0.7;
+  text-indent: 2.5rem hanging each-line;
+  margin-left: 3rem;
+  counter-reset: notes;
+}
+
+.bib p {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.bib fn {
+  position: relative;
+}
+
+.bib fn::before {
+  counter-increment: notes;
+  content: "[" counter(notes) ".] ";
+  position: absolute;
+  left: -3rem;
+}
+
+.bib em {
+  font-style: italic;
+  font-weight: normal;
+  color: #468672;
+}
+
+/* md-block[rendered] {} */
+
+/* IMPORTED - Periodic Table Etymology */
+
+#PeriodicTable {
   display: grid;
   grid-template-columns: repeat(18, 56px);
   font-size: 80%;
   justify-content: center;
 }
 
-#periodicTable, #periodicTable ul {
+#PeriodicTable, #PeriodicTable ul, #PeriodicTable li {
   padding-left: 0;
 }
 
-#periodicTable li {
+#PeriodicTable li {
   list-style-type: none;
 }
 
-#periodicTable > li {
+#PeriodicTable > li {
   display: inline-block;
   width: 48px;
   height: 48px;
@@ -553,31 +495,33 @@ tr:nth-child(odd) {
   align-self: center;
 }
 
-#periodicTable > li > ul > li:nth-of-type(1) {
+#PeriodicTable > li > ul > li:nth-of-type(1) {
   position: absolute;
+  left: 4px;
   top: 4px;
 }
 
-#periodicTable > li > ul > li:nth-of-type(2) {
+#PeriodicTable > li > ul > li:nth-of-type(2) {
   font-weight: bold;
-  font-size: 140%;
+  font-size: 16px;
   position: absolute;
+  left: 4px;
   bottom: 4px;
 }
 
-#periodicTable > li > ul > li:nth-of-type(3) {
+#PeriodicTable > li > ul > li:nth-of-type(3) {
   position: absolute;
   right: 4px;
   top: 4px;
 }
 
-#periodicTable .ptgap {
+#PeriodicTable .ptgap {
   border: 0;
 }
 
 .ptTip {
   visibility: hidden;
-  background-color: var(--black);
+  background-color: #0D0A08;
   color: white;
   text-align: center;
   width: max-content;
@@ -592,7 +536,7 @@ tr:nth-child(odd) {
   transform:translateX(-50%);
 }
 
-#periodicTable li:not(.ptgap):hover .ptTip {
+#PeriodicTable li:not(.ptgap):hover .ptTip {
   visibility: visible;
 }
 
@@ -632,66 +576,62 @@ tr:nth-child(odd) {
   background-color: #E9EDC9;
 }
 
-#ptLegend {
-  border: solid 1px black;
-  padding: 2%;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  font-size: 75%;
+
+/* VIEW SIZING */
+
+
+@media (max-width: 600px) {
+  body {
+    padding: 0%;
+  }
+  html {
+    font-size: 4vw;
+  }
+  .twoCol ul {
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 0;
+  }
+  .twoCol ul > li:nth-child(even) {
+    font-size: 3vw;
+  }
+  #NavBar {
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 0;
+  }
 }
 
-#ptLegend > li:nth-of-type(1) > ul {
-  display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
-  border-right: solid 1px black;
+@media (min-width: 600px) {
+  body {
+    padding: 0% 10%;
+  }
+  html {
+    font-size: 1.4vw;
+  }
 }
 
-#ptLegend > li:nth-of-type(2) > ul {
-  display: grid;
-  grid-template-columns: 8fr 1fr;
+@media (min-width: 1200px) {
+  body {
+    padding: 0% 20%;
+  }
+  html {
+    font-size: 1.2vw;
+  }
 }
 
-#ptLegend li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 1%;
+@media (min-width: 1800px) {
+  body {
+    padding: 0% 25%;
+  }
+  html {
+    font-size: 0.8vw;
+  }
 }
 
-/*
-===================
- THE LORD'S PRAYER
-===================
-*/
-
-#LordsPrayerNav ul {
-  list-style-type: none;
-  overflow: hidden;
-  width: 90%;
-  padding-left: 5%;
-  margin: 0;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-#LordsPrayerNav li {
-  border: solid 1px white;
-  float: left;
-  height: 100%;
-}
-
-#LordsPrayerNav a {
-  display: block;
-  padding: 1rem;
-  text-decoration: none;
-  background-color: #EEE;
-  color: var(--black);
-  cursor: pointer;
-  transition: 0.2s;
-  font-weight: bold;
-}
-
-#LordsPrayerNav a:hover {
-  background-color: #CCC;
+@media (min-width: 2400px) {
+  body {
+    padding: 0% 30%;
+  }
+  html {
+    font-size: 0.7vw;
+  }
 }

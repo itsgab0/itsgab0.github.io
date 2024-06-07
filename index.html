@@ -1,73 +1,168 @@
 <!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabe Foad</title>
+  
+  <!-- Utility OpenType by Kenneth Ormandy (CSS Typography), MD-Block by Lea Verou (Markdown Rendering), JQuery, Handlebars (Template Engine) -->
+  <link href="https://cdn.rawgit.com/kennethormandy/utility-opentype/master/css/utility-opentype.min.css" rel="stylesheet">
+  <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<html>
+<body>
   
-  <head>
-    
-    <title>Its Gabo</title>
-    
-    <link rel="stylesheet" href="normalize.css"/>
-    
-    <link rel="stylesheet" href="style.css"/>
-    
-    <meta name="description" content="Hi, I'm Gabe.">
-    <meta name="author" content="It's Gabo">
-    
-    <meta name="google-site-verification" content="KU1JHVut8rWrh-ZqqtZS_u_6WO75R844EF6qHonKMBI" />
-    
-  </head>
+  <button id="Back">Go Back</button>
+
+  <div id="Title">GABE FOAD</div>
   
-  <body>
-    
-    <button id="topButton" onClick="goTop()" title="Go to Top">Go to Top</button>
-    
-    <div id="top">
-    
-      <p id="myName"><a href="#">It's Gabo</a></p>
-      
-      <div class="mini">Updated: 21/09/23</div>
-    
-      <h1>Main Page</h1>
-      
+  <div id="MDContainer"></div>
+  
+  <div id="HomePageContainer">
+    <div id="HomePageLanding">
+      <p>Hi there! I'm Gabe, a 22-year-old from England. In my spare time, I like to study linguistics, history, and science; I also like making lists and tables.</p>
+      <p>Select one of the options below to access the page directories.</p>
     </div>
-    
-    <div id="bottom">
-    
-      <div class="hBox"><h2>What is this place?</h2></div>
-      
-      <p>Hi there! I'm Gabe, a 21-year-old from England.</p>
-      <p>In my spare time, I like to study science, linguistics, and more.</p>
-      <p>I also like making lists and tables, please <b>enjoy</b>.</p>
-      <p>N.B. This site was hand programmed by a guy who last studied Computing as a teenager. I can only apologise.</p>
-      
-      <br/>
-      
-      <section id="navBar">
-      
-        <ul>
-          
-          <li><span>History</span></li>
-          <li><a href="AngloSaxonPeerage/">Anglo-Saxon Peerage</a></li>
-          <li><a href="Monarchs/">British Monarchs</a></li>
-          <li><a href="FloodMyth/">Flood Myth</a></li>
-          <li><a href="Coinage/">Pre-Decimal Coinage</a></li>
-          <li><span>Linguistics</span></li>
-          <li><a href="Lingo/">21<sup>st</sup> Century Lingo</a></li>
-          <li><a href="EuropeanEtymology/">Etymology of European Countries</a></li>
-          <li><a href="Idioms/">Genuinely Nonsensical Idioms</a></li>
-          <li><a href="FamilyAnalysis/">Language Family "Analysis"</a></li>
-          <li><a href="MorphemeMaps/">Morpheme Maps</a></li>
-          <li><a href="PeriodicEtymology/">Periodic Table Etymology</a></li>
-          <li><a href="LordsPrayer/">The Lord's Prayer</a></li>
-          
-        </ul>
-      
-      </section>
-    
-    </div>
-    
-    <script src="globalscript.js"></script>
+    <div id="HomeNavTable"></div>
+  </div>
   
-  </body>
+  <div id="NavPageContainer">
+    <div id="NavPageTable"></div>
+  </div>
   
+  <button id="GoToTop">Go to Top</button>
+  
+  <br>
+  <hr>
+  <div id="sig">© Gabe Foad, 2024.</div>
+  
+  <script src="filelist.js"></script>
+  <script src="page-scripts.js"></script>
+  <script>
+    $(document).ready(function() {
+      
+      var CurrentPage = "";
+      
+      $("#Title").on("click", function() {
+        SetNavPage("");
+      });
+      
+      window.onscroll = function() { ScrollListener() };
+      
+      function ScrollListener() {
+        if ( document.body.scrollTop > 32 || document.documentElement.scrollTop > 32 ) {
+          $("#GoToTop").css({'display': "block"});
+        } else {
+          $("#GoToTop").css({'display': "none"});
+        }
+      }
+      
+      $("#GoToTop").on("click", function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+      
+      $("#Back").on("click", function() {
+        SetNavPage(CurrentPage.split('/')[0]);
+      });
+      
+      Folders.forEach(function(Folder) {
+        var NavHeader = $(`<div id="${Folder.FolderName}" class="NavHeader"><span>${Folder.DisplayName}</span></div>`);
+        
+        $("#HomeNavTable").append(NavHeader);
+        
+        NavHeader.on("click", function() {
+          SetNavPage(Folder.FolderName);
+        });
+      });
+      
+      function SetNavPage(NewPage) {
+        CurrentPage = NewPage;
+        RenderHomePage();
+        RenderNavPage();
+        RenderContentPage();
+      }
+      
+      function RenderHomePage() {
+        var Container = $("#HomePageContainer");
+        if ( CurrentPage !== "" ) {
+          if ( Container.css("display") !== "none" ) {
+            Container.css({'display': "none"});
+          }
+          return;
+        }
+        Container.css({'display': "block"});
+      }
+      
+      function RenderNavPage() {
+        var Table = $("#NavPageTable");
+        if ( !Folders.map( function(Folder) {return Folder.FolderName; }).includes(CurrentPage) ) {
+          if ( Table.html() !== "" ) {
+            Table.html("");
+          }
+          return;
+        }
+        var Contents = Folders.find(function(Folder) {return Folder.FolderName === CurrentPage;}).contents;
+        
+        Contents.forEach(function(Page) {
+          var Button = $(`<button class="${CurrentPage}"><div>${Page.Title}</div><div>${Page.Description}</div></button>`);
+          
+          Table.append(Button);
+          
+          Button.on("click", function() {
+            SetNavPage(`${CurrentPage}/${Page.FileName}`);
+          });
+        });
+        
+      }
+      
+      function RenderContentPage() {
+        var Container = $("#MDContainer");
+        console.log(CurrentPage);
+        if ( !CurrentPage.includes("/") ) {
+          Container.html("");
+          $("#Back").css({'display': "none"});
+          return;
+        }
+        
+        $("#Back").css({'display': "block"});
+        $("#MDContainer").html(`<md-block src="${CurrentPage.toLowerCase()}.md" hlinks></md-block>`);
+      }
+
+      /* Create Observer Instance */
+      const observer = new MutationObserver(function(mutations) {
+		
+        /* Iterate Through Each MutationRecord (mutation) in Array (mutations) */
+        mutations.forEach(function(mutation) {
+          if (mutation.target.tagName === 'MD-BLOCK' && mutation.removedNodes.length === 0) {
+            console.log("mutate detected" , mutation);
+            switch(CurrentPage.toLowerCase()) {
+              case "listlist/gen-z-lingo":
+                return RenderLingo();
+              case "listlist/periodic-table-etymology":
+                return RenderPeriodicTable();
+              case "listlist/morpheme-maps":
+                return RenderMorphemeMaps();
+            }
+          }
+
+          /* Interate Through Each New Node (addedNode) & Check For New Child Nodes */
+          for (const addedNode of mutation.addedNodes) {
+            if (addedNode.tagName === 'MD-BLOCK') {
+              observer.observe(addedNode, { childList: true });
+            }
+          }
+        });
+      });
+      
+      /* Attach Observer to Container Element */
+      observer.observe($('#MDContainer')[0], { childList: true });
+      
+    });
+  </script>
+  
+</body>
 </html>
