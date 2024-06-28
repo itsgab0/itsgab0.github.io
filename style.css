@@ -598,6 +598,21 @@ td {
     grid-template-columns: repeat(1,1fr);
     grid-row-gap: 0;
   }
+  #Title {
+    font-size: 6vw;
+  }
+  #HomePageLanding {
+    font-size: 3vw;
+  }
+  #NavPageTable button > div:nth-child(1) {
+    font-size: 3vw;
+  }
+  #NavPageTable button > div:nth-child(2) {
+    font-size: 2vw;
+  }
+  #Back {
+    top: 13vw;
+  }
 }
 
 @media (min-width: 600px) {
