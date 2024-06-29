@@ -116,6 +116,225 @@ The five highest calculated ACF values — which also are the only five with a v
 | Country | English Speakers (m) | Speaker Makeup (%) | ACF | Prestige Dialect |
 | --- | --- | --- | --- | --- |
 United Kingdom*<br><a href="#fn18"><sup>18</sup></a><a href="#fn19"><sup>19</sup></a><a href="#fn20"><sup>20</sup></a> | 63.6 | 98.3 | 97 | Standard Southern British
+United States<br><a href="#fn21"><sup>21</sup></a> | 316 | 95.5 | 95 | General American
+Australia<br><a href="#fn22"><sup>22</sup></a> | 21.7 | 92.8 | 89 | Australian English
+Zimbabwe<br><a href="#fn23"><sup>23</sup></a> | 14.4 | 90.0 | 85 | Zimbabwean English
+Canada<br><a href="#fn24"><sup>24</sup></a> | 30.5 | 86.2 | 84 | Canadian English
+
+- \* The United Kingdom performs a census as three entities: *England and Wales*, *Scotland*, and *Northern Ireland*.
+
+## Reformed Orthography
+
+### Initial Attempt
+
+The orthography of the Modern Spelling Reform at first made use of the basic Latin alphabet, with the addition of 4 Latinate characters (Ð, Ɵ, Ŋ, and Ʌ). At this stage, the MSR alphabet had 31 graphemes, employed 3 diacritics, and maintained limited digraphs; the total number of *unique* phonemes was 45. In order to maximise viability, MSR at this stage prioritised preservation of graphs and some orthographic principles.
+
+The standard length of the English alphabet is *26 letters*, however the Latin alphabet had only *23 letters*, wherein ⟨I⟩ encoded ⟨I, J⟩, and ⟨V⟩ encoded ⟨U, V, W⟩.<a href="#fn25"><sup>25</sup></a> For comparison, the table below illustrates the lengths of the alphabets used in the most-spoken languages of Europe:<a href="#fn26"><sup>26</sup></a>
+
+| Language | Alphabet Class | Alphabet Length |
+| --- | --- | --- |
+*Russian* | Cyrillic | 33
+*German* | Latin | 30
+*French* | Latin | 26
+*Turkish* | Latin | 29
+*Italian* | Latin | 21
+*English* | Latin | 26
+*Spanish* | Latin | 27
+*Polish* | Latin | 32
+*Ukrainian* | Cyrillic | 33
+*Dutch* | Latin | 26
+
+- The mean and median alphabet length of the above languages is *28 letters*. However, the 31 graphemes were unwieldy, and maintained poor consistency with some of the high-ACF phonologies, so the next step was to evaluate the current state of English.
+
+### Development — Current English
+
+Predicting an abhorrent product, an attempt to evaluate the current state of English included the tabulation of real orthographic examples with the highest correspondence between spelling and predictability. In the table below, the required diaphonemes (generalised cross-dialectal IPA symbol) are shown along with a graphemic equivalent, along with an English counterexample (if it exists).
+
+| Lexical Set | Diaphoneme | Grapheme | Example | Counterexample | Counter Sound |
+| --- | --- | --- | --- | --- | --- |
+**trap** | æ | a | p*a*l
+**bath**, **palm** | ɑː | aah | *aah*
+**start** | ɑːr | arrh | cat*aarh* | di*arrh*oea | /ə.ɹ/
+**price** | aɪ | uy | b*uy* | soliloq*uy* | /wi/
+**mouth** | aʊ | ao | M*ao*
+— | b | b | *b*lood | de*b*tor | /Ø/
+— | d | d | gra*d*e | gra*d*ual | /dʒ/
+— | dʒ | dg | ba*dg*e | hea*dg*ear | /d.ɡ/
+— | ð | dh | e*dh* | jo*dh*purs | /d/
+**dress** | ɛ | e | l*e*t | d*e*mon | /iː/
+**square** | ɛər | air | h*air* | z*air*e | /aɪ.ɪəɹ/
+**face** | eɪ | ei | v*ei*l | s*ei*ze | /iː/
+— | f | f | *f*ine | o*f* | /v/
+— | ɡ | g | be*g*in | a*g*e | /dʒ/
+— | h | h | *h*oney | *h*our | /Ø/
+**kit** | ɪ | i | k*i*ss | r*i*se | /aɪ/
+**near** | ɪər | eer | b*eer* | fr*eer* | /iː.əɹ/
+**fleece**, *happ***y** | i(ː) | ee | f*ee*d | matin*ee* | /eɪ/
+— | j | y | *y*es | m*y*rrh | /əː/
+— | k | k | ba*k*e | *k*nife | /Ø/
+— | ks | cks | ta*cks*
+— | l | l | *l*ine | ha*l*ve | /Ø/
+— | m | m | *m*onth | *m*nemonic | /Ø/
+— | n | n | i*n*tern | i*n*k | /ŋ/
+— | ŋ | ng | ki*ng* | bi*ng*e | /n(d)ʒ/
+**lot**, **cloth** | ɒ | o | f*o*nt | fr*o*nt | /ʌ/
+**thought** | ɔː | aw | fl*aw* | M*aw*lid | /aʊ/
+**choice** | ɔɪ | oy | b*oy* | n*oy*ade | /waɪ/
+**north**, **force** | ɔːr | oar | h*oar*d | cupb*oar*d | /ə(ɹ)/
+**goat** | oʊ | oa | r*oa*d | br*oa*d | /oː/
+*comm***a** | ə | ah | pari*ah* | bl*ah* | /ɑː/
+**nurse**, *lett***er** | ɜːr, ər | urr | bl*urr* | h*urr*y | /ʌ.ɹ/
+— | p | p | scri*p*t | cou*p* | /Ø/
+— | r | r | *r*ay | sa*r*saparilla | /Ø/
+— | s | s | a*s*k | pha*s*e | /z/
+— | ʃ | sh | fa*sh*ion | mi*sh*ap | /s.h/
+— | t | t | sof*t*er | rus*t*le | /Ø/
+— | ts | ts | fi*ts*
+— | tʃ | tch | ba*tch*
+— | θ | th | pa*th* | wi*th* | /ð/
+**strut** | ʌ | u | fl*u*tter | fl*u* | /uː/
+**foot** | ʊ | oo | br*oo*k | br*oo*d | /uː/
+**cure** | ʊər | oor | m*oor* | d*oor* | /oːɹ/
+**goose** | uː | oeu | man*oeu*vre | hors d'*oeu*vre | /əː(r)/
+— | v | v | re*v*eal
+— | w | w | *w*asp | t*w*o | /Ø/
+— | x | ch | lo*ch* | bran*ch* | /tʃ/
+— | z | z | qui*z* | a*z*ure | /ʒ/
+— | ʒ | zh | mu*zh*ik
+
+To demonstrate the system defined above, Article 1 from the United Nations Universal Declaration of Human Rights has been copied and transcribed as follows:
+
+- All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
+
+- Aahl hyoeumahn beeingz arrh boarn free and eekwahl in dignitee and ruyts. Dhei arrh indaod widh reezahn and konshahns and shood akt tahwoardz wun ahnudhurr in ah spirit ahv brudhurrhood.
+
+### Development — Consonants
+
+The current iteration of MSR aims to maintain a 1-to-1 correspondence and minimise consonantal digraphs, as such, this necessitates the use of diacritics to effect some sound change. Palatalisation and velarisation (highly simplified: both are more 'backward' in the mouth) are currently shown via an *'overdot'*, partially for simplicity, and partially for distinction from other European languages, but a comparison of actual systems is shown below:
+
+| Language | Grapheme | Phoneme | Grapheme | Phoneme |
+| --- | --- | --- | --- | --- |
+MSR | *c*, *s*, *z* | /ts, s, z/ | *ċ*, *ṡ*, *ż* | /tʃ, ʃ, ʒ/
+Czech | *c*, *s*, *z* | /ts, s, z/ | *č*, *š*, *ž* | /tʃ, ʃ, ʒ/
+German | *tz*, *ß* | /ts, s/ | *tsch*, *sch* | /tʃ, ʃ/
+Hungarian | *c*, *sz*, *z* | /ts, s, z/ | *cs*, *s*, *zs* | /tʃ, ʃ, ʒ/
+Italian | *zz*, *ss* | /t.ts, s.s/ | *ci*, *sci* | /tʃ, ʃ/
+Polish | *c*, *s*, *z* | /ts, s, z/ | *ć*/*cz*, *ś*/*sz*, *ź*/*ż* | /tɕ/tʂ, ɕ/ʂ, ʑ/ʐ/
+Turkish | *c*, *s*, *z* | /dʒ, s, z/ | *ç*, *ş*, *j* | /tʃ, ʃ, ʒ/
+
+In terms of a phonemic orthography, over-inscription would always be preferable to under-inscription, as speakers can easily omit 'silent' letters or ignore certain diacritics; however, knowing to add extra sounds that aren't written may lead to confusion. Some orthographies manage, such as abjads, which omit all vowels and requires the speakers to be sufficiently intimate with the vocabulary so as to be able to overcome such a hurdle. Of course, English speakers naturally do this now — such as in the *'ough'* example shown above.
+
+However, history provides some precedence for the dental consonants /ð, θ/, through the characters ⟨ð, þ⟩, which were used in Old English and were called *'ðæt'* and *'þorn'*. If complete consistency is required, two alternative systems utilising only dots, and only digraphs are shown below:
+
+| Type | /tʃ/ | /ð/ | /ŋ/ | /ʃ/ | /θ/ | /ʒ/ |
+| --- | --- | --- | --- | --- | --- | --- |
+MSR | ċ | ð | ṅ | ṡ | þ | ż
+Alt. 1 | ċ | ḍ | ṅ | ṡ | ṭ | ż
+Alt. 2 | ch | dh | ng | sh | th | zh
+
+As such, the consonant inventory for MSR is as follows:
+
+| Grapheme | Diaphoneme | Example | English |
+| --- | --- | --- | --- |
+*b* | //b// | *b*lud | blood
+*c* | //ts// | fi*c* | fits
+*ċ* | //tʃ// | bæ*ċ* | batch
+*d* | //d// | grë*d* | grade
+*ð* | //ð// | e*ð* | edh
+*f* | //f// | *f*ain | fine
+*g* | //ɡ// | ba*g*in | begin
+*h* | //h// | *h*únï | honey
+*j* | //dʒ// | bæ*j* | badge
+*k* | //k// | bë*k* | bake
+*l* | //l// | *l*ain | line
+*m* | //m// | *m*unþ | month
+*n* | //n// | í*n*turn | intern
+*ṅ* | //ŋ// | ki*ṅ* | king
+*p* | //p// | skri*p*t | script
+*q* | //x// | lo*q* | loch
+*r* | //ɹ// | *r*ë | ray
+*s* | //s// | ä*s*k | ask
+*ṡ* | //ʃ// | fæ*ṡ*an | fashion
+*t* | //t// | sóf*t*ur | softer
+*þ* | //θ// | pä*þ* | path
+*v* | //v// | ra*v*ïl | reveal
+*w* | //w// | *w*osp | wasp
+*x* | //ks// | tæ*x* | tacks
+*y* | //j// | *y*es | yes
+*z* | //z// | kwi*z* | quiz
+*ż* | //ʒ// | mẅ́*ż*ik | muzhik
+
+### Development — Vowels
+
+The greatest variation between accents and dialects of English occurs in the vowels. 22 vowel sounds are coded for in MSR, and have been rendered into 4 categories:
+
+- *Short* – short or monophthongal
+- *Reducible* – mostly long or polyphthongal but reduced to 'short' equivalent in some cases
+- *Irreducible* – long or polyphthongal
+- *Rhotic* – 'r-coloured' or omissible rhotic vowel
+
+#### Short Vowels
+
+- Currently, unstressed ⟨a⟩ is frequently pronounced as the schwa sound.
+- Therefore, the Old English ⟨æ⟩ (called *'æsċ'*) is used for the much less common /æ/ sound.
+- The use of ⟨w⟩ as a vowel as well as a consonant is present in languages like Welsh, and is used to minimise the number of additional characters required.
+
+| — | i | w | e | a | o | u | æ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+Diaphoneme | //ɪ// | //ʊ// | //ɛ// | //ə// | //ɒ// | //ʌ// | //æ//
+Phones | \[ɪ,ə,i\] | \[ɵ,ʊ,u\] | \[ɛ,e,i\] | \[ə,wa,a\] | \[ɔ,ɒ,ɑ,o\] | \[ʌ,a\] | \[a,æ,e\]
+
+#### Reducible Vowels
+
+- Many systems employ the macron (e.g., ⟨ē⟩) to illustrate long vowels, however the nature of the 'reducible' vowels necessitate a less strong alternative, and the diaeresis can be rationalised as a visually incomplete rendering of a macron.
+
+| — | ï | ẅ | ë | ö | ä |
+| --- | --- | --- | --- | --- | --- |
+Diaphoneme | //iː// | //uː// | //eɪ// | //oʊ// | //ɑː//
+Phones | \[ɪi,iː,i\] | \[ɪ̈ɨ,ʉʊ,u(ː),ɯ\] | \[ɛɪ,æɪ,e\] | \[əʉ,əʊ,oʊ,o\] | \[ɑː,ɐː,a\]
+
+#### Irreducible Vowels
+
+- There really is no current concise and consistent method of rendering the //ɔː// diaphoneme, some systems opt for a macron ⟨ō⟩, others inherit the Hellenic omega ⟨ω⟩, however this bears an almost indistinguishable similarity to ⟨w⟩ especially when read quickly, so the approximation of ⟨uo⟩ is suggested.
+
+| — | oi | uo | ai | au |
+| --- | --- | --- | --- | --- |
+Diaphoneme | //ɔɪ// | //ɔː// | //aɪ// | //aʊ//
+Phones | \[oɪ,ɔɪ,o.ji\] | \[oː,ɔː,ɑː\] | \[ɑɪ,aɪ,a.ji\] | \[aʊ,æɔ,ɐʊ,a.wu\]
+
+#### Rhotic Vowels
+
+- As stated above, it is almost certainly preferable to over-inscribe than under-, and the truth is that the percentage of rhotic speakers of English necessitates the preservation of 'historic' ⟨r⟩, and non-rhotic speakers will just have to lump it.
+
+| — | ir | wr | er | ur | or | ar |
+| --- | --- | --- | --- | --- | --- | --- |
+Diaphoneme | //ɪər// | //ʊər// | //ɛər// | //ɜːr,ər// | //ɔːr// | //ɑːr//
+Phones | \[ɪː,ɪə,ɪɚ,ɪɹ,ja\] | \[oː,uːɹ,ʊəɹ\] | \[ɛː,ɛɚ,eɪ.ɚ,e.j\] | \[əː,ɜː,ɜːɹ,ɝ,e\] | \[oː,ɔːɹ,ɑɹ\] | \[ɑː,ɑɹ,ɐː,a\]
+
+### Development — Alphabet Summary
+
+At this stage, the complete set of graphemes in an alphabetical order is as follows:
+
+- A a Ä ä Ai ai Ar ar Au au Æ æ B b C c D d Ð ð E e Ë ë Er er F f G g H h I i Ï ï Ir ir J j K k L l M m N n Ṅ ṅ O o Ö ö Oi oi Or or P p Q q R r S s Ṡ ṡ T t Þ þ U u Ur ur V v W w Ẅ ẅ Wr wr X x Y y Z z Ż ż
+
+MSR is characterised by *27 consonants* (23 glyphs + ◌̇) and *22 vowels* (7 glyphs + ◌̈), totalling:
+
+- **30** *Glyphs* + **2** *Diacritics* ⟶ **49** *Graphemes*
+
+The 30 glyphs means MSR boasts a larger orthography than most Germanic and Romance languages, but one still smaller than most Slavic languages. Additionally, this set of characters presents a more consistent cross-dialectal approach than the initial attempt, allowing for a consistent conversion of current pronunciation into a phonemic MSR equivalent that is regular for each of the high-ACF phonologies.
+
+Finally, if a completely phonemic orthography is desired (as is used in the sample texts), an acute accent (e.g., ⟨é⟩) can be used to mark stress, however general phonemic principles apply: polysyllablic words with schwa syllables won't usually need to mark stress, monosyllables won't need to mark internal stress, etc.
+
+## Sample Texts
+
+### The United Nations Universal Declaration of Human Rights
+
+| English | MSR |
+| --- | --- |
+All human beings are born free and equal in dignity and rights. | *Uol hyẅman bïiṅz ar born frï and ïkwal in dígnitï and raic.*
+They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. | *Ðë ar indáud wið rïzan and konṡans and ṡwd ækt tawordz wun anúður in a spírit av brúðurhwd.*
+Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status. | *Évrïwun iz intáitald tw uol ða raic and frïdamz set forþ in ðis Déklarëṡan, wiðáut distínkṡan av énï kaind, suċ az rës, kúlur, sex, lǽṅgwij, rilíjan, palítikal or úður apínyan, næṡanal or söṡal órijin, própurtï, burþ or úður stëtas.*
+Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty. | *Fúrðurmor, nö distínkṡan ṡæl bï mëd on ða bësis av ða palítikal, jurisdíkṡanal or inturnǽṡanal stëtas av ða kúntrï or téritorï ta wiċ a pursan bilóṅz, wéður it bï indipéndant, trust, non-self-gúvurniṅ or úndur énï úður limitë́ṡan av sóvurintï.*
 
 ---
 
@@ -140,6 +359,12 @@ United Kingdom*<br><a href="#fn18"><sup>18</sup></a><a href="#fn19"><sup>19</sup
 <fn id="fn17">Read, K. *'Shaw-Script: the Journal in a New English Alphabet'*, (1963).</fn><br>
 <fn id="fn18">Office for National Statistics *'Language, England and Wales: Census 2021'*, (2021).</fn><br>
 <fn id="fn19">Scotland's Census *'Languages'*, (2011).</fn><br>
-<fn id="fn20">Northern Ireland Statistics and Research Agency *'Proficiency in English'*, (2021).</fn>
+<fn id="fn20">Northern Ireland Statistics and Research Agency *'Proficiency in English'*, (2021).</fn><br>
+<fn id="fn21">United States Census Bureau *'Age by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over'*, (2015).</fn><br>
+<fn id="fn22">Australian Bureau of Statistics *'Proficiency in Spoken English/Language by Age by Sex'*, (2016).</fn><br>
+<fn id="fn23">The World Bank *'Literacy Rate, Adult Total (% of people ages 15 and above) – Zimbabwe'*, (2022).</fn><br>
+<fn id="fn24">Statistics Canada *'Language Highlight Tables'*, (2016).</fn><br>
+<fn id="fn25">Encyclopædia Britannica *'Latin alphabet'*, (2023).</fn><br>
+<fn id="fn26">Bohn, T. *'What Are The 10 Most Spoken Languages In Europe'*, in *'Babbel Magazine'*, (2021).</fn>
 
 </div>
