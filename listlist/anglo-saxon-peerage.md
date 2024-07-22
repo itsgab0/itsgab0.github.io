@@ -17,63 +17,53 @@ The mediæval period evidenced the Germanic concept of a **weregild** – in sim
 
 ## Monarchy
 
-### King – *cyning*
+### King (*cyning*) – **30 000 thrymsas**
 
-- The sovereign; the ruler of a kingdom.<a href="#fn2"><sup>2</sup></a>
-- Weregild: **30 000 thrymsas**.
+- At the top was the *king*, a role constitutionally inherited through a 'god-given' right to rule over the kingdom.<a href="#fn2"><sup>2</sup></a> Several times during the Mediæval period, particularly bold monarchs such as *Offa* **of Mercia** and *Alfred the Great* **of Wessex** saw to expand their empires by subduing other kingly rulers through conquering or demanding fealty.
 
 ---
 
 ## Nobility
 
-### Aetheling – *æþeling*
+### Aetheling (*æþeling) – **15 000 thrymsas**
 
-- A prince of the royal dynasty who was eligible for the kingship.<a href="#fn2"><sup>2</sup></a>
-- Weregild: **15 000 thrymsas**.
+- The aethelings were princes of the royal dynasty who were thus eligible for the kingship via primogeniture.<a href="#fn2"><sup>2</sup></a> They also generally maintained a royal retinue of advisors and guards.
 
-### Gesith – *ġesīþ*
+### Gesith (*ġesīþ*)
 
-- A companion to an aethel or the king, later replaced by 'thane'.<a href="#fn3"><sup>3</sup></a>
+- The gesith were companions to an aethel or a king, who would later travel with, advise, and defend their lords. They came to be replaced by 'thanes'.<a href="#fn3"><sup>3</sup></a>
 
-### Ealdorman – *ealdorman*
+### Ealdorman (*ealdorman*) – **8 000 thrymsas**
 
-- The chief magistrate of a shire who led battles and levied taxes.<a href="#fn2"><sup>2</sup></a>
-- Weregild: **8 000 thrymsas**.
+- The ealdormen were the chief magistrates of a shire (county) in charge of leading battles and organising taxes levied by the monarch.<a href="#fn2"><sup>2</sup></a>
 
-### Reeve – *ġerēfa*
+### Reeve (*ġerēfa*) – **4 000 thrymsas**
 
-- An official with local jurisdiction under the king; the chief magistrate of a district.<a href="#fn4"><sup>4</sup></a>
-- Weregild: **4 000 thrymsas**.
+- The reeves were officials with local jurisdiction under the king, who acted as the chief magistrates of a district.<a href="#fn4"><sup>4</sup></a> The later office of 'shire-reeve' (*sċirġerēfa*) originates the modern term of *'sheriff'*.
 
-### Thane – *þæġn / þeġen / þeġn*
+### Thane (*þæġn / þeġen / þeġn*) – **2 000 thrymsas**
 
-- An aristocratic retainer of a king; a senior nobleman.<a href="#fn4"><sup>4</sup></a>
-- Weregild: **Weregild: 2 000 thrymsas**.
-- Also known by the term *twelfynde man* (twelve-hundred man) in reference to the later weregild of 1 200 shillings; standard land ownership was ~ 5 *hides* (600 ac.).
+- The thanes were aristocratic retainers of a king, to wit, a senior nobleman.<a href="#fn4"><sup>4</sup></a> They were also known by the term *twelfynde man* (twelve-hundred man) in reference to the later weregild of 1 200 shillings. Their standard land ownership was ~ 5 *hides* (600 ac.).
 
 ---
 
 ## Free Labourers
 
-### Geneat – *ġenēat*
+### Geneat (*ġenēat*)
 
-- A retainer; a fully-free member of the peasant aristocracy.<a href="#fn2"><sup>2</sup></a>
+- The geneat were simply retainers, to wit, a fully-free member of the peasant aristocracy.<a href="#fn2"><sup>2</sup></a>
 
-### Churl – *ċeorl*
+### Churl (*ċeorl*) – **200 thrymsas**
 
-- A free peasant.<a href="#fn2"><sup>2</sup></a>
-- Weregild: **200 thrymsas**.
-- Also known by the term *twyhunde man* (two-hundred man) in reference to their weregild.
+- The churls were free peasants.<a href="#fn2"><sup>2</sup></a> They were also known by the term *twyhunde man* (two-hundred man) in reference to their weregild.
 
-### Gebur – *ġebūr*
+### Gebur (*ġebūr*)
 
-- A simple land owner or farmer.<a href="#fn2"><sup>2</sup></a>
-- Standard land ownership was ~ <sup>1</sup>/<sub>4</sub> *hide* (30 ac.).
+- The geburs were simple land owners or farmers.<a href="#fn2"><sup>2</sup></a> Their standard land ownership was ~ <sup>1</sup>/<sub>4</sub> *hide* (30 ac.).
 
 ### Cotsetla – *cotsetla / cotsǽtla*
 
-- A cottager or free-labourer; an emancipated man.<a href="#fn2"><sup>2</sup></a>
-- Standard land ownership was ~ 5 ac.
+- The cotsetla occupied the lowest 'rung' of the anglo-saxon labourers, as they were cottagers or free-labourers who had been emancipated (i.e., freed from indentured work).<a href="#fn2"><sup>2</sup></a> Their standard land ownership was a mere ~ 5 ac.
 
 ---
 
@@ -81,7 +71,7 @@ The mediæval period evidenced the Germanic concept of a **weregild** – in sim
 
 ### Theow (Thrall) – *þēow*
 
-- A slave.<a href="#fn5"><sup>5</sup></a>
+- The theow or thralls were indentured workers or slaves.<a href="#fn5"><sup>5</sup></a> A person could be born as such, or be indentured through capture or in payment for unpaid debts.
 
 </br>
 
