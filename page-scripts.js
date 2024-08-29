@@ -355,6 +355,11 @@ const LingoData = {
             { type: "v", defn: "To lie", quot: "you're cappin' no way she said yes" }]
     },
     {
+      head: "car",
+      pron: "kaʳ",
+      defs: [ { type: "n", defn: "A cat", quot: "what car is that?", note: "humorous comparison and respelling of 'cat', the former equating a cat's purr to an engine's thrum" } ]
+    },
+    {
       head: "catch hands",
       pron: "kach hán(d)z",
       defs: [ { type: "vb. phr", defn: "To have a fight", quot: "you're boutta catch these hands" } ]
