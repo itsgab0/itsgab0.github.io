@@ -315,7 +315,7 @@ Phones | \[ɪː,ɪə,ɪɚ,ɪɹ,ja\] | \[oː,uːɹ,ʊəɹ\] | \[ɛː,ɛɚ,eɪ.ɚ,
 
 At this stage, the complete set of graphemes in an alphabetical order is as follows:
 
-- A a Ä ä Ai ai Ar ar Au au Æ æ B b C c D d Ð ð E e Ë ë Er er F f G g H h I i Ï ï Ir ir J j K k L l M m N n Ṅ ṅ O o Ö ö Oi oi Or or P p Q q R r S s Ṡ ṡ T t Þ þ U u Uo uo Ur ur V v W w Ẅ ẅ Wr wr X x Y y Z z Ż ż
+- A a Ä ä Ai ai Ar ar Au au Æ æ B b C c Ċ ċ D d Ð ð E e Ë ë Er er F f G g H h I i Ï ï Ir ir J j K k L l M m N n Ṅ ṅ O o Ö ö Oi oi Or or P p Q q R r S s Ṡ ṡ T t Þ þ U u Uo uo Ur ur V v W w Ẅ ẅ Wr wr X x Y y Z z Ż ż
 
 MSR is characterised by *27 consonants* (23 glyphs + ◌̇) and *22 vowels* (7 glyphs + ◌̈), totalling:
 
