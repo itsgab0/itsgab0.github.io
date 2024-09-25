@@ -34,7 +34,9 @@ Modern social media services allow users to 'follow' or 'subscribe' to other use
 
 ## What Does This Guide Offer?
 
-Do not expect perfect spelling nor grammar, as this guide is purely descriptive of actual usage. No emojis are included either, as that's a whole different kettle of fish. Additionally, any terms that are popular amongst the young generations but have seen great use in decades prior have been omitted, to maximise the *'21st century feel'*. Each term is given with an approximation of their pronunciation, for more information, go to the page 'My English Approximation'.
+Do not expect perfect spelling nor grammar, as this guide is purely descriptive of actual usage. No emojis are included either, as that's a whole different kettle of fish. Very little if any lexicographical effort has been made in the creation of this guide, with word origins mostly omitted if either obvious or unknown.
+
+Additionally, any terms that are popular amongst the young generations but have seen great use in decades prior have been omitted, to maximise the *'21st century feel'*. Some terms may have been used earlier than the 21st century, but are still included due to the lack of connection between the generations immediately preceeding Millenials, Gen Z, and Gen Alpha, hence lending a greater sense of affinity with younger peoples. Each term is given with an approximation of their pronunciation, for more information, go to the page 'My English Approximation'.
 
 This guide will inevitably contain lots of profanity, so if that is something the reader deems unacceptable, the author offers this advice:
 
