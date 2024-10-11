@@ -80,7 +80,7 @@ Strictly, **Great Britain** is the largest island of the **British Isles** compr
 
   - **Scotland** — (Pop. 5.437 M) – *Scotland* <sup>SCO</sup> / *Alba* <sup>GLA</sup> — a country in the UK located north of England, predominantly peninsular with a number of surrounding archipelagos, most notably, the **Hebrides** and the **Northern Isles**, divided into 32 council areas and governed by the *Scottish Parliament* and the **United Kingdom**'s *Parliament*.
 
-  - **England** — (Pop. 56.490 M) — a country in the UK located in southern Great Britain, predomantly peninsular with a number of surrounding islands, divided into a non-standardised system of 'counties', 'districts', and 'unitary authorities', and governed by the *Parliament*.
+  - **England** — (Pop. 56.490 M) — a country in the UK located in southern Great Britain, predominantly peninsular with a number of surrounding islands, divided into a non-standardised system of 'counties', 'districts', and 'unitary authorities', and governed by the *Parliament*.
 
 ---
 
