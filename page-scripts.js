@@ -555,6 +555,11 @@ const LingoData = {
       defs: [ { type: "n", defn: "A non-binary person", quot: "this is for the girls, boys, and enbies", note: "from pronunciation of 'NB'; a non-binary person is one whose gender identity doesn't conform to traditional archetypes" } ]
     },
     {
+      head: "~ era",
+      pron: "ēra",
+      defs: [ { type: "n", defn: "Area or breadth of incidental interests", quot: "i'm in my loving candles era", note: "used to describe sb's current enthusiasm for sth.; often used in the phase 'in my ~ era'" } ]
+    },
+    {
       head: "extra",
       pron: "ékshtrə",
       defs: [ { type: "adj", defn: "Excessive; flamboyant", quot: "you're being so extra, calm it" } ]
@@ -679,6 +684,11 @@ const LingoData = {
       defs: [ { type: "n", defn: "A person whose face has become flushed from arguing their political (mostly right-wing) views", quot: "the gammon down the street is ranting about brexit again" } ]
     },
     {
+      head: "gex",
+      pron: "geks",
+      defs: [ { type: "n", defn: "Gay sex", quot: "wait is this say gex?", note: "spoonerism of 'gay sex' used comedically or to circumvent automated censorship; often in reply to two members of the same gender appearing (but not necessarily) romantically or sexually interested in each other" } ]
+    },
+    {
       head: "ghost",
       pron: "gowst",
       defs: [ { type: "v", defn: "To ignore sb.; to silently break up with sb.", quot: "i can't lie she's ghosting me" } ]
@@ -737,6 +747,11 @@ const LingoData = {
       head: "goon",
       pron: "guwn",
       defs: [ { type: "v", defn: "To masturbate for extended periods of time as if in a trance", quot: "you need to stop gooning and start grinding" } ]
+    },
+    {
+      head: "gorn",
+      pron: "goʳn",
+      defs: [ { type: "n", defn: "Gay porn", quot: "wait is this pay gorn?", note: "spoonerism of 'gay porn' used comedically or to circumvent automated censorship; often in reply to two members of the same gender appearing (but not necessarily) romantically or sexually interested in each other" } ]
     },
     {
       head: "go woke, go broke",
