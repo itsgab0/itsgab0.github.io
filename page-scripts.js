@@ -831,6 +831,11 @@ const LingoData = {
       defs: [ { type: "n.phr", defn: "A fruitful summer spent single and partying with friends", quot: "we're gonna have a hot girl summer ok bestie?" } ]
     },
     {
+      head: "huzz",
+      pron: "hə́z",
+      defs: [ { type: "n", defn: "Hoes; women", quot: "cmon man not in front of the huzz" } ]
+    },
+    {
       head: "hypebeast",
       pron: "háypbiyst",
       defs: [ { type: "n", defn: "A person obsessed with acquiring the latest fashion", quot: "nah he's a hypebeast don't ask about his credit score" } ]
@@ -1386,6 +1391,11 @@ const LingoData = {
       head: "Swiftonomics",
       pron: "swíftənómiks",
       defs: [ { type: "n", defn: "A phenomenon where local businesses experience increased custom when Taylor Swift hosts a concert nearby", quot: "the Swiftonomics are no joke, look at the boost" } ]
+    },
+    {
+      head: "sybau",
+      pron: "shə́t yo(r) bích as ə́p",
+      defs: [ { type: "v.phr", defn: "Shut your bitch ass up", quot: "sybau boy don't talk to me" } ]
     }
   ],
   T: [
