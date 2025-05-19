@@ -18,7 +18,7 @@ protection guaranteed behind the liar's slave-built wall.<br>
 Indulgent fabrications saved expenses at the cost,<br>
 of lower levels—untold lives unfortunately lost.<br>
 
-The rule – liar – sits alone atop the diamond arch,<br>
+The ruler – liar – sits alone atop the diamond arch,<br>
 from smaller lies to lavish lives did nothing for their heart.<br>
 The seas retreat, their mission done, although the monarch stands,<br>
 on barren shores, the broken watch lay mute with mocking hands.<br>

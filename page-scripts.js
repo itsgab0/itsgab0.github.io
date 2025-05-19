@@ -167,7 +167,7 @@ const LingoData = {
     {
       head: "acoustic",
       pron: "əkúwstik",
-      defs: [ { type: "adj", defn: "Austistic", quot: "i may be a lil austistic but i'm trying my best", note: "Used either euphemistically or to circumvent automated censorship" } ]
+      defs: [ { type: "adj", defn: "Austistic", quot: "i may be a lil acoustic but i'm trying my best", note: "Used either euphemistically or to circumvent automated censorship" } ]
     },
     {
       head: "af",
