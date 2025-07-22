@@ -321,7 +321,7 @@ MSR is characterised by *27 consonants* (23 glyphs + ◌̇) and *22 vowels* (7 g
 
 - **30** *Glyphs* + **2** *Diacritics* ⟶ **49** *Graphemes*
 
-The 30 glyphs means MSR boasts a larger orthography than most Germanic and Romance languages, but one still smaller than most Slavic languages. Additionally, this set of characters presents a more consistent cross-dialectal approach than the initial attempt, allowing for a consistent conversion of current pronunciation into a phonemic MSR equivalent that is regular for each of the high-ACF phonologies.
+The 30 glyphs means MSR boasts a larger orthography than most Germanic and Romance languages, but one still smaller than most Slavic languages. This replaces the 38 IPA glyphs used int he diaphonemes of the relative sounds, and is much more familiar to those used to the Basic Latin alphabet. Additionally, this set of characters presents a more consistent cross-dialectal approach than the initial attempt, allowing for a consistent conversion of current pronunciation into a phonemic MSR equivalent that is regular for each of the high-ACF phonologies.
 
 Finally, if a completely phonemic orthography is desired (as is used in the sample texts), an acute accent (e.g., ⟨é⟩) can be used to mark stress, however general phonemic principles apply: polysyllablic words with schwa syllables won't usually need to mark stress, monosyllables won't need to mark internal stress, etc.
 
