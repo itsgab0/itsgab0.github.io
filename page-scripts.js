@@ -213,6 +213,11 @@ const LingoData = {
       head: "ate",
       pron: "eyt",
       defs: [ { type: "pst. vb", defn: "To have done a good job", quot: "she ate on the dance floor", note: "also appears as 'ate sth. up'" } ]
+    },
+    {
+      head: "aura farming",
+      pron: "óʳə faʳming",
+      defs: [ { type: "n. phr.", defn: "A behaviour of (generally fictional) characters dominating a scene", quot: "why is bro always aura farming", note: "often used when fictional characters are engaging in exaggerated tropes that cause them to dominate a scene, cf. mogging" } ]
     }
   ],
   B: [
@@ -380,6 +385,11 @@ const LingoData = {
       defs: [ { type: "n", defn: "A person who seeks sexual partners with one specific characteristic, e.g., trans women, fat men", quot: "i thought we had something, but you're just a chaser" } ]
     },
     {
+      head: "chat",
+      pron: "chát",
+      defs: [ { type: "pn", defn: "Guys", quot: "chat, what do we think?", note: "originally used to refer to a chatroom, then used to refer to the people watching a livestream who were talking to the streamer and each other in the associated chat section, and now used humorously as a generic substitute pronoun; usually used humorously online but always used humorously in real life due to the absence of a digital chat service" } ]
+    },
+    {
       head: "chef's kiss",
       pron: "shéfs kis",
       defs: [ { type: "adj", defn: "Of high quality; very good", quot: "this painting is just *chef's kiss*", note: "refers to the stereotypical hand gesture of a proud chef" } ]
@@ -388,6 +398,11 @@ const LingoData = {
       head: "chonk",
       pron: "chóngk",
       defs: [ { type: "n", defn: "A large animal", quot: "oh lawd he a chonk", note: "often used for one's pet" } ]
+    },
+    {
+      head: "chopped",
+      pron: "chópt",
+      defs: [ { type: "adj", defn: "Unattractive", quot: "he is actually so chopped" } ]
     },
     {
       head: "chronically online",
@@ -400,9 +415,19 @@ const LingoData = {
       defs: [ { type: "adj. phr", defn: "Cisgender and heterosexual", quot: "i may be cishet but i'm still an ally", note: "cisgender refers to sb. whose gender identity aligns with their birth sex; heterosexual refers to sb. whose sexual preference is predominated by opposite-sex attraction" } ]
     },
     {
+      head: "clanker",
+      pron: "klángkə(r)",
+      defs: [ { type: "n", defn: "A machine; an artificial intelligence", quot: "i don't associate with clankers", note: "often used pejoratively but may be serious or humorous" } ]
+    },
+    {
       head: "clickbait",
       pron: "klíkbeyt",
       defs: [ { type: "n", defn: "Online content using over-sensationalised headlines to draw in users", quot: "i thought that news article was gonna be clickbait", note: "refers to how an enticing headline may encourage a web user to 'click' on a link to a page riddled with ads" } ]
+    },
+    {
+      head: "cooked",
+      pron: "kúkd",
+      defs: [ { type: "adj", defn: "In a hopeless predicament; fucked", quot: "oh chat we're definitely cooked" } ]
     },
     {
       head: "coomer",
@@ -433,6 +458,11 @@ const LingoData = {
       head: "covidiot",
       pron: "kowvídiyət",
       defs: [ { type: "n", defn: "A person who recklessly disregards guidance with regards to spreading COVID-19", quot: "those covidiots having parties when they should be in lockdown" } ]
+    },
+    {
+      head: "crash out",
+      pron: "krásh awt",
+      defs: [ { type: "v", defn: "To become enraged; to throw a tantrum", quot: "no-one liked his new shit so he crashed out", note: "also a noun, a 'crash out' is a single instance of unbridled rage; a synonym of the noun form is '808' which is used humorously and stems from TikTok" } ]
     }
   ],
   D: [
@@ -627,6 +657,11 @@ const LingoData = {
       defs: [ { type: "v.phr", defn: "To be in a state of inner turmoil; to have significant emotional baggage", quot: "my man is fighting demons in the gym rn" } ]
     },
     {
+      head: "fine shyt",
+      pron: "fáyn shit",
+      defs: [ { type: "n.phr", defn: "A highly attractive person", quot: "oh she fine shyt" } ]
+    },
+    {
       head: "finna",
       pron: "fínə",
       defs: [ { type: "aux.v", defn: "Going to", quot: "finna slap you" } ]
@@ -712,6 +747,11 @@ const LingoData = {
       head: "girl math",
       pron: "gə̄́(r)l math",
       defs: [ { type: "n. phr", defn: "An unusual justification for spending a lot of money on (generally feminine) items through mathematically illogical reasoning", quot: "i bought this on sale and saved $120 so i can buy another for under $120 and it's basically free", note: "used both self-referentially or pejoratively; the latter for any (perceived or actual) incorrect logic or argument used by women" } ]
+    },
+    {
+      head: "glaze",
+      pron: "gléyz",
+      defs: [ { type: "n", defn: "Superfluous praise", quot: "holy glaze, he's not that impressive", note: "also a verb" } ]
     },
     {
       head: "glizzy",
@@ -1016,6 +1056,11 @@ const LingoData = {
       defs: [ { type: "n", defn: "Men-loving-men; gay men", quot: "the mlm community is so wholesome sometimes" } ]
     },
     {
+      head: "mog",
+      pron: "mog",
+      defs: [ { type: "v", defn: "To dominate sb.", quot: "i'm getting absolutely mogged by the guy", note: "used to indicate sb's physical presence re attractiveness, appearance, or demeanour and it's dominance over sb. else" } ]
+    },
+    {
       head: "mommy",
       pron: "máʰmiy",
       defs: [ { type: "n", defn: "A female idol", quot: "mommy? sorry, mommy?", note: "may be due to romantic or sexual attraction, or just being a positive role-model" } ]
@@ -1055,27 +1100,27 @@ const LingoData = {
     {
       head: "not beating the allegations",
       pron: "not bíyting dhə áləgéyshənz",
-      defs: [ { type: "v. phr", defn: "To bear incontrovertible evidence of sth.", quot: "she's not beating the happiness allegations", note: "used for positive or negative things, as well as both sincerely and ironically" } ]
+      defs: [ { type: "v.phr", defn: "To bear incontrovertible evidence of sth.", quot: "she's not beating the happiness allegations", note: "used for positive or negative things, as well as both sincerely and ironically" } ]
     },
     {
       head: "not bland",
       pron: "not blánd",
-      defs: [ { type: "adj. phr", defn: "Not black", quot: "'i like my coffee how i like my women – not bla–' he goes on to say not bland but...", note: "used to interrupt sb. before saying the word 'black' or the n-word; often used ironically to poke fun at those who attribute mildly offensive content as 'race-baiting' by interrupting completely inoffensive content" } ]
+      defs: [ { type: "adj.phr", defn: "Not black", quot: "'i like my coffee how i like my women – not bla–' he goes on to say not bland but...", note: "used to interrupt sb. before saying the word 'black' or the n-word; often used ironically to poke fun at those who attribute mildly offensive content as 'race-baiting' by interrupting completely inoffensive content" } ]
     },
     {
       head: "not me",
       pron: "not míy",
-      defs: [ { type: "v. phr", defn: "I confess", quot: "not me agreeing with him for once" } ]
+      defs: [ { type: "v.phr", defn: "I confess", quot: "not me agreeing with him for once" } ]
     },
     {
       head: "NSFL",
       pron: "énesefél",
-      defs: [ { type: "adj. phr", defn: "Not Suitable For Life", quot: "a lotta liveleaks stuff is NSFL icl", note: "an extension of nsfw, used for content so graphic that the viewer may wish to never see it at all – especially gory content" } ]
+      defs: [ { type: "adj.phr", defn: "Not Suitable For Life", quot: "a lotta liveleaks stuff is NSFL icl", note: "an extension of nsfw, used for content so graphic that the viewer may wish to never see it at all – especially gory content" } ]
     },
     {
       head: "NSFW",
       pron: "énesefdə́blyuw",
-      defs: [ { type: "adj. phr", defn: "Not Suitable For Work", quot: "mark that is nsfw bro don't show me that", note: "used for any content one wouldn't feel comfortable viewing in a public place – especially sexual content" } ]
+      defs: [ { type: "adj.phr", defn: "Not Suitable For Work", quot: "mark that is nsfw bro don't show me that", note: "used for any content one wouldn't feel comfortable viewing in a public place – especially sexual content" } ]
     }
   ],
   O: [
@@ -1142,6 +1187,11 @@ const LingoData = {
       defs: [ { type: "n. suf", defn: "Indicated enthusiasm for sth.", quot: "i'm so dirtpilled fr" } ]
     },
     {
+      head: "pmo",
+      pron: "píy em ow",
+      defs: [ { type: "v.phr", defn: "Piss(es) me off", quot: "icl this pmo a lot" } ]
+    },
+    {
       head: "pog",
       pron: "pog",
       defs: [ { type: "inj", defn: "Awesome; exciting", quot: "dude that was pog", note: "abbreviation of PogChamp, a usable emoticon on Twitch.tv of Ryan Gutierrez after winning a game of Pogs – a game utilising the caps of the POG drink (Passion Orange Guava)" } ]
@@ -1180,6 +1230,11 @@ const LingoData = {
       head: "purr",
       pron: "pə́(r)",
       defs: [ { type: "inj", defn: "Good job", quot: "damn gurl you got this purr", note: "used to indicate general approval" } ]
+    },
+    {
+      head: "put the fries in the bag",
+      pron: "pút dhə fráys in dhə bág",
+      defs: [ { type: "inj.", defn: "Get a real job", quot: "stop yapping and put the fries in the bag", note: "often used pejoratively to imply the listener has no job and therefore nothing better to do with their time than say something the speaker disagrees with" } ]
     }
   ],
   Q: [
@@ -1448,6 +1503,11 @@ const LingoData = {
       head: "touch grass",
       pron: "təch gráʰs",
       defs: [ { type: "v. phr", defn: "To separate oneself from the Internet", quot: "sis you need to touch grass", note: "mostly used to indicate the listener spends so much time on the Internet that they lack real-world perspective, and 'touching grass' requires going outside hence experiencing reality" } ]
+    },
+    {
+      head: "ts",
+      pron: "dhís shit",
+      defs: [ { type: "n", defn: "This shit", quot: "is ts tuff in america?" } ]
     },
     {
       head: "twink death",
