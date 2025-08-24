@@ -201,7 +201,7 @@ const LingoData = {
     },
     {
       head: "amogus",
-      pron: "əmówgəs",
+      pron: "əmə́wgəs",
       defs: [ { type: "n", defn: "A resemblance or actual image of a character from the 'Among Us' videogame", quot: "guys look — its amogus", note: "from a corruption of the aforementioned video game, often used to describe things that resemble the character, e.g., the Sinhalese-language glyph 'ඞ' (ṅa)" } ]
     },
     {
@@ -216,7 +216,7 @@ const LingoData = {
     },
     {
       head: "aura farming",
-      pron: "óʳə faʳming",
+      pron: "óʰrə faʳming",
       defs: [ { type: "n. phr.", defn: "A behaviour of (generally fictional) characters dominating a scene", quot: "why is bro always aura farming", note: "often used when fictional characters are engaging in exaggerated tropes that cause them to dominate a scene, cf. mogging" } ]
     }
   ],
@@ -298,7 +298,7 @@ const LingoData = {
     },
     {
       head: "bofa",
-      pron: "bówfə",
+      pron: "bə́wfə",
       defs: [ { type: "inj", defn: "Both of", quot: "you got any bofa? bofa deez nuts", note: "used to setup the pun 'bofa deez nuts', which sounds like 'both of these nuts'" } ]
     },
     {
@@ -371,7 +371,7 @@ const LingoData = {
     },
     {
       head: "caught in 4k",
-      pron: "koʳt in fóʳkey",
+      pron: "koʰt in fóʳkey",
       defs: [ { type: "adj. phr", defn: "Exposed for one's faults or crimes with evidence", quot: "babes you got caught cheating in 4k just accept the breakup" } ]
     },
     {
@@ -451,7 +451,7 @@ const LingoData = {
     },
     {
       head: "corn",
-      pron: "ko(r)n",
+      pron: "koʳn",
       defs: [ { type: "n", defn: "Pornography", quot: "i can't believe they get away with posting borderline corn", note: "used to circumvent automated censorship; may be replaced with a corn emoji" } ]
     },
     {
@@ -483,12 +483,12 @@ const LingoData = {
     },
     {
       head: "dark academia",
-      pron: "dáʰ(r)k akədíymiyə",
+      pron: "dáʳk akədíymiyə",
       defs: [ { type: "n. phr", defn: "An aesthetic comprising a romanticised world of fine art and higher education", quot: "these dark academia playlists make me wanna become a professor of death" } ]
     },
     {
       head: "dark web",
-      pron: "dáʰ(r)k web",
+      pron: "dáʳk web",
       defs: [ { type: "n. phr", defn: "The area of the deep web devoted to content inaccessible without specialist software – renowned for hosting amoral content such as the illicit sale of drugs, weapons, and illegal pornography", quot: "what were you even looking for on the dark web?" } ]
     },
     {
@@ -539,12 +539,12 @@ const LingoData = {
     },
     {
       head: "dogwater",
-      pron: "dáʰgwaʰtə(r)",
+      pron: "dógwotə(r)",
       defs: [ { type: "adj", defn: "Extremely bad (especially at playing video games)", quot: "ur literally dogwater bro never play again" } ]
     },
     {
       head: "don't @ me",
-      pron: "downt át miy",
+      pron: "dəwnt át miy",
       defs: [ { type: "vb. phr", defn: "Don't Tag Me; don't reply or speak to me", quot: "imma say it: milk is the superior beverage don't @ me", note: "used to indicate one's opinion is not up for discussion; refers to social media practice of putting '@' before sb's username to send a message to them" } ]
     },
     {
@@ -559,7 +559,7 @@ const LingoData = {
     },
     {
       head: "doomscroll",
-      pron: "dúwmskrowl",
+      pron: "dúwmskrəwl",
       defs: [ { type: "v", defn: "To consume excessive amounts of online content by continuously 'scrolling' to the next story or post", quot: "she does nothing but doomscroll every day should we say sth?" } ]
     },
     {
@@ -591,7 +591,7 @@ const LingoData = {
     },
     {
       head: "extra",
-      pron: "ékshtrə",
+      pron: "ékstrə",
       defs: [ { type: "adj", defn: "Excessive; flamboyant", quot: "you're being so extra, calm it" } ]
     },
     {
@@ -628,12 +628,12 @@ const LingoData = {
     },
     {
       head: "fatherless behaviour",
-      pron: "fádhə̄(r)ləs bihéyvyə̄(r)",
+      pron: "fáʰdhə̄(r)ləs bihéyvyə̄(r)",
       defs: [ { type: "n. phr", defn: "Acting out one's daddy issues", quot: "their twerking tiktoks are prime fatherless behaviour" } ]
     },
     {
       head: "fax, no printer",
-      pron: "fáks now príntə̄r",
+      pron: "fáks nəw príntə̄(r)",
       defs: [ { type: "inj", defn: "I agree", quot: "yas! preach gurl, fax no printer", note: "used to express agreement; a pun based on the word 'facts' sounding like 'fax', therein emphasised by comparison to a printer" } ]
     },
     {
@@ -683,12 +683,12 @@ const LingoData = {
     },
     {
       head: "FOMO",
-      pron: "fówmow",
+      pron: "fə́wməw",
       defs: [ { type: "n", defn: "Fear Of Missing Out", quot: "i don't like staying home when y'all are partying, i get major fomo" } ]
     },
     {
       head: "forgor",
-      pron: "fo(r)gó(r)",
+      pron: "foʳgóʳ",
       defs: [ { type: "v", defn: "To forget", quot: "idk what that is, i forgor", note: "often used humorously, identical in all tenses; may be used to mock those who suffer from dementia" } ]
     },
     {
@@ -725,7 +725,7 @@ const LingoData = {
     },
     {
       head: "ghost",
-      pron: "gowst",
+      pron: "gəwst",
       defs: [ { type: "v", defn: "To ignore sb.; to silently break up with sb.", quot: "i can't lie she's ghosting me" } ]
     },
     {
@@ -765,17 +765,17 @@ const LingoData = {
     },
     {
       head: "glow up",
-      pron: "glów up",
+      pron: "glə́w up",
       defs: [ { type: "n.phr", defn: "A vast improvement in one's physical appearance", quot: "she's really had a glow up" }, { type: "v.phr", defn: "To have a glow up", quot: "wait for me to glow up" } ]
     },
     {
       head: "goblin mode",
-      pron: "góblin mowd",
+      pron: "góblin məwd",
       defs: [ { type: "n. phr", defn: "A state of physical or emotional frenzy", quot: "next time i see him imma go goblin mode" } ]
     },
     {
       head: "God's X-est soldier",
-      pron: "godz ()-əst sówljə(r)",
+      pron: "godz ()-əst sə́wljə(r)",
       defs: [ { type: "n. phr", defn: "A person displaying a superlative quality", quot: "i am god's hungriest soldier" } ]
     },
     {
@@ -795,7 +795,7 @@ const LingoData = {
     },
     {
       head: "go woke, go broke",
-      pron: "gow wówk gow brówk",
+      pron: "gəw wə́wk gəw brə́wk",
       defs: [ { type: "idiom", defn: "Suggests pursuance of political correctness leads to reduction in sales or stock value", quot: "hey bro look at pepsi - go woke, go broke", note: "associated with right-wing conservative social values" } ]
     },
     {
@@ -941,7 +941,7 @@ const LingoData = {
     },
     {
       head: "Joe",
-      pron: "jow",
+      pron: "jə́w",
       defs: [ { type: "n", defn: "Your", quot: "did you hear joe died? joe mama", note: "used to setup the pun 'bofa joe mama', which sounds like 'your mama'" } ]
     }
   ],
@@ -953,14 +953,14 @@ const LingoData = {
     },
     {
       head: "king",
-      pron: "king",
+      pron: "kíng",
       defs: [ { type: "n", defn: "A male role-model", quot: "my boyfriend's always encouraging me, we stan a supportive king"} ]
     }
   ],
   L: [
     {
       head: "L",
-      pron: "el",
+      pron: "él",
       defs: [ { type: "n", defn: "Loss; a failure; a sacrifice", quot: "i took a big L on that test"} ]
     },
     {
@@ -980,7 +980,7 @@ const LingoData = {
     },
     {
       head: "lick",
-      pron: "lik",
+      pron: "lík",
       defs: [ { type: "n", defn: "A stolen or vandalised object, typically in a school", quot: "check out the diabolical lick - a soap dispenser", note: "often intensified with adjectives associated with evil or criminality, e.g., 'dastardly', 'devious', 'diabolical', and 'nefarious'" } ]
     },
     {
@@ -1005,7 +1005,7 @@ const LingoData = {
     },
     {
       head: "low key",
-      pron: "lówkiy",
+      pron: "lə́wkiy",
       defs: [ { type: "adv", defn: "Not obviously; in a relatable way; opposite of high key", quot: "lowkey craving some ice cream rn" } ]
     }
   ],
@@ -1062,7 +1062,7 @@ const LingoData = {
     },
     {
       head: "mommy",
-      pron: "máʰmiy",
+      pron: "mómiy",
       defs: [ { type: "n", defn: "A female idol", quot: "mommy? sorry, mommy?", note: "may be due to romantic or sexual attraction, or just being a positive role-model" } ]
     },
     {
@@ -1126,7 +1126,7 @@ const LingoData = {
   O: [
     {
       head: "oh god oh fuck",
-      pron: "ow gód ow fə́k",
+      pron: "əw gód əw fə́k",
       defs: [ { type: "inj", defn: "Oh no", quot: "oh god oh fuck it's gandhi with an anti-tank missile", note: "used to show fear or anxiety in a comedic manner" } ]
     },
     {
@@ -1252,7 +1252,7 @@ const LingoData = {
   R: [
     {
       head: "ratio",
-      pron: "réyshiyow",
+      pron: "réyshiyəw",
       defs: [ { type: "n", defn: "A situation wherein a post on Twitter/X has more replies than likes", quot: "she got such a ratio i think she deleted her account", note: "a post on twitter.com/x.com is considered to have failed if few people agree (like) but many reply (presumably to disagree)" }, { type: "n", defn: "A situation wherein a post on social media has fewer likes than a post replying to it", quot: "a ratio on tiktok is so demoralising" }, { type: "v", defn: "To cause a ratio", quot: "ok, get ratioed" } ]
     },
     {
@@ -1369,7 +1369,7 @@ const LingoData = {
     },
     {
       head: "small dick energy",
-      pron: "smóʳl dik énə(r)jiy",
+      pron: "smól dik énə(r)jiy",
       defs: [ { type: "n.phr", defn: "A compensatory aura of an arrogant man displaying toxic masculinity, aggressiveness, etc.", quot: "bragging about your body count is such small dick energy" } ]
     },
     {
@@ -1491,12 +1491,12 @@ const LingoData = {
     },
     {
       head: "tl;dr",
-      pron: "tíyeldiyá(r)",
+      pron: "tíyeldiyáʳ",
       defs: [ { type: "inj", defn: "Too long didn't read", quot: "tl;dr mate i'm not reading your essay of a reply", note: "used to indicate a piece of text is too long and unwieldy" } ]
     },
     {
       head: "today years old",
-      pron: "tədéy yiə(r)z ówld",
+      pron: "tədéy yiə(r)z ə́wld",
       defs: [ { type: "adj.phr", defn: "At too far advanced an age to only just be learning sth.", quot: "i was today years old when i realised they're called leggings 'cause you put your legs in 'em" } ]
     },
     {
@@ -1545,7 +1545,7 @@ const LingoData = {
     },
     {
       head: "villain arc",
-      pron: "vílən á(r)k",
+      pron: "vílən áʳk",
       defs: [ { type: "n.phr", defn: "A period in one's life that generates sufficient hardships to waarrant becoming evil", quot: "this is his last straw i stg this is his villain arc" }, { type: "n.phr", defn: "A period in one's life when they stop caring about other's feelings; the devolution into villainy", quot: "no way she said that, this gotta be her villain arc" } ]
     }
   ],
@@ -1557,7 +1557,7 @@ const LingoData = {
     },
     {
       head: "we got X before GTA VI",
-      pron: "wiy got () bəfóʳ(r) jiytiyey síks",
+      pron: "wiy got () bəfóʳ jiytiyey síks",
       defs: [ { type: "idiom", defn: "Used in reference to an unlikely or unexpected event having occurred prior to the release of the anticipated Grand Theft Auto 6 video game which fans expected to have been released much earlier", quot: "wow we got a new king of england before gta vi" } ]
     },
     {
@@ -1572,7 +1572,7 @@ const LingoData = {
     },
     {
       head: "wojak",
-      pron: "wówjak",
+      pron: "wáwjak",
       defs: [ { type: "n", defn: "A crudely-drawn digital image of a depressed man, famous for its infinite iterations and alternate expressions", quot: "bro quit drawing wojaks you're not funny" } ]
     },
     {
