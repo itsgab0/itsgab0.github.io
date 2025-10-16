@@ -15,7 +15,7 @@ By the calling of the crow<br>
 
 Upon that dreaded evening<br>
 The children all fell mute<br>
-Sweet lullabilies; their brains' demise<br>
+Sweet lullabies; their brains' demise<br>
 Watched mothers absolute<br>
 
 Men cried out and brandished blades<br>
