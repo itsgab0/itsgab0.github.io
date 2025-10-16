@@ -126,6 +126,12 @@ const PoemList = {
       "Description": "I.2024"
     },
     {
+      "FileName": "mani",
+      "Title": "Máni",
+      "Year": "2025",
+      "Description": "X.2025"
+    },
+    {
       "FileName": "late-for-twenty",
       "Title": "Late for Twenty",
       "Year": "2021",

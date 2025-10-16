@@ -816,7 +816,7 @@ const LingoData = {
     {
       head: "grip reaper",
       pron: "grip ríypə(r)",
-      defs: [ { type: "v", defn: "A highly quirky but very attractive person", quot: "the grip reaper finna be the death of me", note: "'grip' refers to the sexual innuendo of one with a penetratable orifice being very skilled sexually" } ]
+      defs: [ { type: "n. phr", defn: "A highly quirky but very attractive person", quot: "the grip reaper finna be the death of me", note: "'grip' refers to the sexual innuendo of one with a penetratable orifice being very skilled sexually" } ]
     },
     {
       head: "grippy sock vacation",
