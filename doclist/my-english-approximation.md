@@ -82,25 +82,34 @@ Vowels vary greatly between English accents, so care has been taken to make them
 | Respelling | English | IPA | Merged IPA |
 | --- | --- | --- | --- |
 *iy* | fl<span class="ul">ee</span>ce | i(ː) ~ ɪj | (ɨː)
+*iʳ* | f<span class="ul">ear</span> | iː(ɹ) ~ ɪː(ɹ)
 *i* | k<span class="ul">i</span>t | ɪ
 *e* | p<span class="ul">e</span>t | ɛ ~ e | (e̞)
-*ē* | ch<span class="ul">air</span> | ɛː(ɹ) ~ eː(ɹ) | (ɛə(ɹ) eə(ɹ) e̞ə(ɹ))
+*eʰ* | f<span class="ul">ai</span>r | ɛː ~ eː
+*eʳ* | sq<span class="ul">uare</span> | ɛː(ɹ) ~ eː(ɹ) | (ɛə(ɹ) eə(ɹ) e̞ə(ɹ))
 *a* | l<span class="ul">a</span>p | a ~ æ | (ɶ ä)
-*aʰ* | r<span class="ul">a</span>ther | ɑ(ː) ~ ä(ː)
-*aʳ* | f<span class="ul">ar</span> | ɑː(ɹ) ~ äː(ɹ)
-*ay* | p<span class="ul">i</span>ne | ɑj ~ aj
-*ə* | <span class="ul">a</span>bout | ə ~ ʌ | (ɐ ʏ ø ɘ ø̞ œ ɜ ɞ ɤ ɤ̞)
-*ə̄* | n<span class="ul">u</span>rse | əː ~ ɜː | (ɐː ʏː øː ɘː ø̞ː œː ɞː ɤː ɤ̞ː)
+*uw* | bl<span class="ul">ue</span> | u(ː) ~ ɪw | (ʉː ɯː)
 *u* | f<span class="ul">oo</span>t | ʊ ~ ɵ | (ʉ ɯ)
-*uw* | bl<span class="ul">ue</span> | u(ː) ~ ɪw | (ʉː ɯː ʊː ɤː)
-*oʳ* | c<span class="ul">or</span>e | oːɹ ~ o̞ː(ɹ)
+*uh* | str<span class="ul">u</span>t | ʌ | (ɤ ɤ̞)
 *o* | g<span class="ul">o</span>ne | ɔ ~ ɒ
+*oʰ* | f<span class="ul">o</span>rce | oː ~ ɔː
+*oʳ* | c<span class="ul">or</span>e | oːɹ ~ o̞ː(ɹ)
+*aʰ* | p<span class="ul">a</span>lm | ɑ(ː) ~ ä(ː)
+*aʳ* | f<span class="ul">ar</span> | ɑː(ɹ) ~ äː(ɹ)
+*ə* | <span class="ul">a</span>bout | ə ~ ʌ | (ɐ ʏ ø ɘ ø̞ œ ɜ ɞ ɤ ɤ̞)
+*əʳ* | n<span class="ul">ur</span>se | əː(ɹ) ~ ɜː(ɹ) | (ɐː ʏː øː ɘː ø̞ː œː ɞː ɤː ɤ̞ː)
+*ay* | p<span class="ul">i</span>ne | ɑj ~ aj
+*ey* | f<span class="ul">a</span>ce | ɛj ~ ej
+*oy* | ch<span class="ul">oi</span>ce | oj ~ ɔj
+*ou* | g<span class="ul">oa</span>t | əʊ ~ oʊ
+*au* | m<span class="ul">ou</span>th | aʊ ~ æʊ
+
 
 ## Examples
 
 | English | Respelling | IPA | Native IPA |
 | --- | --- | --- | --- |
-Saoirse Ronan | Síyrshə Rôʳnān | ˌsiːɹ.ʃə ˈroː.naːn | ˌsˠiː.ɾˠ.ʃə ˈɾˠoː.nˠaːnˠ
+Saoirse Ronan | Síyrshə Rôʰnān | ˌsiːɹ.ʃə ˈroː.naːn | ˌsˠiː.ɾˠ.ʃə ˈɾˠoː.nˠaːnˠ
 Angela Merkel | Anggêla Mérkəl | aŋˌɡɛː.la ˈmɛɹ.kəl | aŋˌgeː.la ˈmɛʁkl̩
 Mahatma Gandhi | Məhâtmā Gáʰnd·hiy | məˌhaːt.maː ˈɡɑːnd·hiː | mɐˌɦäːt̪.mäː ˈɡɑ̃.dʱi
 Xi Jinping | Shíy Chinpíng | ˌʃiː tʃɪnˈpɪŋ | /ɕǐ tɕîn.pʰǐŋ/
