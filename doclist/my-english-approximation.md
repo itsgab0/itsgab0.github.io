@@ -90,7 +90,7 @@ Vowels vary greatly between English accents, so care has been taken to make them
 *a* | l<span class="ul">a</span>p | a ~ æ | (ɶ ä)
 *uw* | bl<span class="ul">ue</span> | u(ː) ~ ɪw | (ʉː ɯː)
 *u* | f<span class="ul">oo</span>t | ʊ ~ ɵ | (ʉ ɯ)
-*uh* | str<span class="ul">u</span>t | ʌ | (ɤ ɤ̞)
+*uʰ* | str<span class="ul">u</span>t | ʌ | (ɤ ɤ̞)
 *o* | g<span class="ul">o</span>ne | ɔ ~ ɒ
 *oʰ* | f<span class="ul">o</span>rce | oː ~ ɔː
 *oʳ* | c<span class="ul">or</span>e | oːɹ ~ o̞ː(ɹ)

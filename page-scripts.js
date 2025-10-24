@@ -201,12 +201,12 @@ const LingoData = {
     },
     {
       head: "amogus",
-      pron: "əmə́wgəs",
+      pron: "əmówgəs",
       defs: [ { type: "n", defn: "A resemblance or actual image of a character from the 'Among Us' videogame", quot: "guys look — its amogus", note: "from a corruption of the aforementioned video game, often used to describe things that resemble the character, e.g., the Sinhalese-language glyph 'ඞ' (ṅa)" } ]
     },
     {
       head: "antimasker",
-      pron: "ántiymáskə(r)",
+      pron: "ántiymáskəʳ",
       defs: [ { type: "n", defn: "A person who refuses to wear a face covering when asked to do so during a pandemic", quot: "another clash between retail workers and antimaskers", note: "often used pejoratively but also commonly self-referentially" } ]
     },
     {
@@ -216,14 +216,14 @@ const LingoData = {
     },
     {
       head: "aura farming",
-      pron: "óʰrə faʳming",
+      pron: "órə faʳming",
       defs: [ { type: "n. phr.", defn: "A behaviour of (generally fictional) characters dominating a scene", quot: "why is bro always aura farming", note: "often used when fictional characters are engaging in exaggerated tropes that cause them to dominate a scene, cf. mogging" } ]
     }
   ],
   B: [
     {
       head: "babygirl",
-      pron: "béybiygə̄(r)l",
+      pron: "béybiygəʳl",
       defs: [ { type: "adj", defn: "Cute; attractive; effeminate", quot: "kpop boys can be so babygirl", note: "predominantly used to describe men" } ]
     },
     {
@@ -238,7 +238,7 @@ const LingoData = {
     },
     {
       head: "banger",
-      pron: "bángə(r)",
+      pron: "bángəʳ",
       defs: [ { type: "n", defn: "An enjoyable tune or song", quot: "he's released nothing but bangers this year", note: "" } ]
     },
     {
@@ -273,7 +273,7 @@ const LingoData = {
     },
     {
       head: "big dick energy",
-      pron: "big dik énə(r)jiy",
+      pron: "big dik énəʳjiy",
       defs: [ { type: "n. phr", defn: "A respectful aura of a confident man displaying humility and supportiveness", quot: "husbands of successful women have big dick energy", note: "" } ]
     },
     {
@@ -298,12 +298,12 @@ const LingoData = {
     },
     {
       head: "bofa",
-      pron: "bə́wfə",
+      pron: "bówfə",
       defs: [ { type: "inj", defn: "Both of", quot: "you got any bofa? bofa deez nuts", note: "used to setup the pun 'bofa deez nuts', which sounds like 'both of these nuts'" } ]
     },
     {
       head: "boomer",
-      pron: "búwmə(r)",
+      pron: "búwməʳ",
       defs: [ { type: "n", defn: "A member of the 'Baby-Boomer' generation (born from the late-1940s to the early-1960s)", quot: "OK boomer, you bought your house for sixpence", note: "often used pejoratively" } ]
     },
     {
@@ -333,12 +333,12 @@ const LingoData = {
     },
     {
       head: "/b/tard",
-      pron: "bíytaʰ(r)d",
+      pron: "bíytaʳd",
       defs: [ { type: "n", defn: "A frequent user of 4chan, especially the often-taboo imageboard /b/", quot: "jesus what a /b/tard", note: "often used pejoratively but also commonly self-referentially" } ]
     },
     {
       head: "bussin",
-      pron: "bə́sin",
+      pron: "búʰsin",
       defs: [ { type: "adj", defn: "Delicious", quot: "this quiche is bussin", note: "" } ]
     },
     {
@@ -381,7 +381,7 @@ const LingoData = {
     },
     {
       head: "chaser",
-      pron: "chéysə(r)",
+      pron: "chéysəʳ",
       defs: [ { type: "n", defn: "A person who seeks sexual partners with one specific characteristic, e.g., trans women, fat men", quot: "i thought we had something, but you're just a chaser" } ]
     },
     {
@@ -416,7 +416,7 @@ const LingoData = {
     },
     {
       head: "clanker",
-      pron: "klángkə(r)",
+      pron: "klángkəʳ",
       defs: [ { type: "n", defn: "A machine; an artificial intelligence", quot: "i don't associate with clankers", note: "often used pejoratively but may be serious or humorous" } ]
     },
     {
@@ -431,7 +431,7 @@ const LingoData = {
     },
     {
       head: "coomer",
-      pron: "kúwmə(r)",
+      pron: "kúwməʳ",
       defs: [ { type: "n", defn: "An exaggerated man with a severe addiction to masturbation", quot: "shut up you coomer", note: "often used pejoratively" } ]
     },
     {
@@ -461,7 +461,7 @@ const LingoData = {
     },
     {
       head: "crash out",
-      pron: "krásh awt",
+      pron: "krásh aut",
       defs: [ { type: "v", defn: "To become enraged; to throw a tantrum", quot: "no-one liked his new shit so he crashed out", note: "also a noun, a 'crash out' is a single instance of unbridled rage; a synonym of the noun form is '808' which is used humorously and stems from TikTok" } ]
     }
   ],
@@ -518,7 +518,7 @@ const LingoData = {
     },
     {
       head: "derp",
-      pron: "də̄(r)p",
+      pron: "dəʳp",
       defs: [ { type: "n", defn: "A foolish person", quot: "omg i'm so sorry i'm such a derp" } ]
     },
     {
@@ -528,7 +528,7 @@ const LingoData = {
     },
     {
       head: "dickrider",
-      pron: "díkraydə(r)",
+      pron: "díkraydəʳ",
       defs: [ { type: "n. phr", defn: "A sycophant; an obsequious person", quot: "aight mate i didn't know you were such a musk dickrider" } ]
     },
     {
@@ -539,32 +539,32 @@ const LingoData = {
     },
     {
       head: "dogwater",
-      pron: "dógwotə(r)",
+      pron: "dógwotəʳ",
       defs: [ { type: "adj", defn: "Extremely bad (especially at playing video games)", quot: "ur literally dogwater bro never play again" } ]
     },
     {
       head: "don't @ me",
-      pron: "dəwnt át miy",
+      pron: "downt át miy",
       defs: [ { type: "vb. phr", defn: "Don't Tag Me; don't reply or speak to me", quot: "imma say it: milk is the superior beverage don't @ me", note: "used to indicate one's opinion is not up for discussion; refers to social media practice of putting '@' before sb's username to send a message to them" } ]
     },
     {
       head: "doomer",
-      pron: "dúwmə(r)",
+      pron: "dúwməʳ",
       defs: [ { type: "n", defn: "An extremely pessimistic or fatalistic person; a neo-nihilist", quot: "climate doomers might have a point you know" } ]
     },
     {
       head: "doompost",
-      pron: "dúwmpowst",
+      pron: "dúwmpoust",
       defs: [ { type: "v", defn: "To focus on or highlight predominantly negative news or ideas", quot: "all this doomposting is really bringing the vibe down" } ]
     },
     {
       head: "doomscroll",
-      pron: "dúwmskrəwl",
+      pron: "dúwmskroul",
       defs: [ { type: "v", defn: "To consume excessive amounts of online content by continuously 'scrolling' to the next story or post", quot: "she does nothing but doomscroll every day should we say sth?" } ]
     },
     {
       head: "down bad",
-      pron: "dawn bád",
+      pron: "daun bád",
       defs: [ { type: "adj. phr", defn: "Sexually or romantically unfulfilled", quot: "yo i am down so bad i'm catching feelings for my tv", note: "may be intensified as 'down astronomical'" } ]
     },
     {
@@ -586,7 +586,7 @@ const LingoData = {
     },
     {
       head: "~ era",
-      pron: "ēra",
+      pron: "eʰra",
       defs: [ { type: "n", defn: "Area or breadth of incidental interests", quot: "i'm in my loving candles era", note: "used to describe sb's current enthusiasm for sth.; often used in the phase 'in my ~ era'" } ]
     },
     {
@@ -628,12 +628,12 @@ const LingoData = {
     },
     {
       head: "fatherless behaviour",
-      pron: "fáʰdhə̄(r)ləs bihéyvyə̄(r)",
+      pron: "fáʰdhəʳləs bihéyvyəʳ",
       defs: [ { type: "n. phr", defn: "Acting out one's daddy issues", quot: "their twerking tiktoks are prime fatherless behaviour" } ]
     },
     {
       head: "fax, no printer",
-      pron: "fáks nəw príntə̄(r)",
+      pron: "fáks nou príntəʳ",
       defs: [ { type: "inj", defn: "I agree", quot: "yas! preach gurl, fax no printer", note: "used to express agreement; a pun based on the word 'facts' sounding like 'fax', therein emphasised by comparison to a printer" } ]
     },
     {
@@ -683,7 +683,7 @@ const LingoData = {
     },
     {
       head: "FOMO",
-      pron: "fə́wməw",
+      pron: "fówmow",
       defs: [ { type: "n", defn: "Fear Of Missing Out", quot: "i don't like staying home when y'all are partying, i get major fomo" } ]
     },
     {
@@ -725,7 +725,7 @@ const LingoData = {
     },
     {
       head: "ghost",
-      pron: "gəwst",
+      pron: "goust",
       defs: [ { type: "v", defn: "To ignore sb.; to silently break up with sb.", quot: "i can't lie she's ghosting me" } ]
     },
     {
@@ -735,17 +735,17 @@ const LingoData = {
     },
     {
       head: "girlboss",
-      pron: "gə̂(r)lbos",
+      pron: "gə́ʳlbos",
       defs: [ { type: "n", defn: "An entrepreneuse; a strong-willed, enterprising woman", quot: "yass girlboss you go" } ]
     },
     {
       head: "girl dinner",
-      pron: "gə̄́(r)l dínə(r)",
+      pron: "gə́ʳl dínəʳ",
       defs: [ { type: "n. phr", defn: "A confusing meal devoid of context or social expectations", quot: "hi all today's girl dinner is uh idk" } ]
     },
     {
       head: "girl math",
-      pron: "gə̄́(r)l math",
+      pron: "gə́ʳl math",
       defs: [ { type: "n. phr", defn: "An unusual justification for spending a lot of money on (generally feminine) items through mathematically illogical reasoning", quot: "i bought this on sale and saved $120 so i can buy another for under $120 and it's basically free", note: "used both self-referentially or pejoratively; the latter for any (perceived or actual) incorrect logic or argument used by women" } ]
     },
     {
@@ -760,22 +760,22 @@ const LingoData = {
     },
     {
       head: "glizzy gladiator",
-      pron: "glíziy gládiyeytə(r)",
+      pron: "glíziy gládiyeytəʳ",
       defs: [ { type: "n.phr", defn: "A person who is able to fit a substantial amount of a hot-dog in their mouth at once", quot: "Obama the glizzy gladiator" } ]
     },
     {
       head: "glow up",
-      pron: "glə́w up",
+      pron: "glóu uʰp",
       defs: [ { type: "n.phr", defn: "A vast improvement in one's physical appearance", quot: "she's really had a glow up" }, { type: "v.phr", defn: "To have a glow up", quot: "wait for me to glow up" } ]
     },
     {
       head: "goblin mode",
-      pron: "góblin məwd",
+      pron: "góblin moud",
       defs: [ { type: "n. phr", defn: "A state of physical or emotional frenzy", quot: "next time i see him imma go goblin mode" } ]
     },
     {
       head: "God's X-est soldier",
-      pron: "godz ()-əst sə́wljə(r)",
+      pron: "godz ()-əst sóuljəʳ",
       defs: [ { type: "n. phr", defn: "A person displaying a superlative quality", quot: "i am god's hungriest soldier" } ]
     },
     {
@@ -795,7 +795,7 @@ const LingoData = {
     },
     {
       head: "go woke, go broke",
-      pron: "gəw wə́wk gəw brə́wk",
+      pron: "gou wóuk gou bróuk",
       defs: [ { type: "idiom", defn: "Suggests pursuance of political correctness leads to reduction in sales or stock value", quot: "hey bro look at pepsi - go woke, go broke", note: "associated with right-wing conservative social values" } ]
     },
     {
@@ -815,7 +815,7 @@ const LingoData = {
     },
     {
       head: "grip reaper",
-      pron: "grip ríypə(r)",
+      pron: "grip ríypəʳ",
       defs: [ { type: "n. phr", defn: "A highly quirky but very attractive person", quot: "the grip reaper finna be the death of me", note: "'grip' refers to the sexual innuendo of one with a penetratable orifice being very skilled sexually" } ]
     },
     {
@@ -867,12 +867,12 @@ const LingoData = {
     },
     {
       head: "hot girl summer",
-      pron: "hot gə̄(r)l sə́mə(r)",
+      pron: "hot gəʳl suʰməʳ",
       defs: [ { type: "n.phr", defn: "A fruitful summer spent single and partying with friends", quot: "we're gonna have a hot girl summer ok bestie?" } ]
     },
     {
       head: "huzz",
-      pron: "hə́z",
+      pron: "huʰz",
       defs: [ { type: "n", defn: "Hoes; women", quot: "cmon man not in front of the huzz" } ]
     },
     {
@@ -941,7 +941,7 @@ const LingoData = {
     },
     {
       head: "Joe",
-      pron: "jə́w",
+      pron: "jóu",
       defs: [ { type: "n", defn: "Your", quot: "did you hear joe died? joe mama", note: "used to setup the pun 'bofa joe mama', which sounds like 'your mama'" } ]
     }
   ],
@@ -965,7 +965,7 @@ const LingoData = {
     },
     {
       head: "L + ratio",
-      pron: "el pləs réyshiyow",
+      pron: "el pluʰs réyshiyow",
       defs: [ { type: "inj", defn: "A situation where one wholeheartedly disagrees with the listener", quot: "you wanna scrap human rights? bro l + ratio stfu"} ]
     },
     {
@@ -995,7 +995,7 @@ const LingoData = {
     },
     {
       head: "lmao",
-      pron: "ləmáw",
+      pron: "ləmáu",
       defs: [ { type: "inj", defn: "Laughing my ass off", quot: "that's acc so funny lmao", note: "used to indicate great enjoyment" } ]
     },
     {
@@ -1005,7 +1005,7 @@ const LingoData = {
     },
     {
       head: "low key",
-      pron: "lə́wkiy",
+      pron: "lóukiy",
       defs: [ { type: "adv", defn: "Not obviously; in a relatable way; opposite of high key", quot: "lowkey craving some ice cream rn" } ]
     }
   ],
@@ -1017,7 +1017,7 @@ const LingoData = {
     },
     {
       head: "manosphere",
-      pron: "mánəsfiyə(r)",
+      pron: "mánəsfiyəʳ",
       defs: [ { type: "n", defn: "The summation of all blogs and websites of men's-rights activists", quot: "discussion in the manosphere about alphas vs sigma" } ]
     },
     {
@@ -1037,7 +1037,7 @@ const LingoData = {
     },
     {
       head: "mfer",
-      pron: "mə́(dh)əfə́kə(r)",
+      pron: "muʰ(dh)əfuʰ(k)əʳ",
       defs: [ { type: "n", defn: "Motherfucker", quot: "this mfer right here a real one", note: "used both endearingly and pejoratively" } ]
     },
     {
@@ -1072,24 +1072,24 @@ const LingoData = {
     },
     {
       head: "my brother in Christ",
-      pron: "may brə́dhə(r) in kráyst",
+      pron: "may bruʰdhəʳ in kráyst",
       defs: [ { type: "inj", defn: "—", quot: "my brother in christ, you are scaring the hoes", note: "used as a replacement for the n-word, especially in image macros" } ]
     }
   ],
   N: [
     {
       head: "naur",
-      pron: "náʰuw(r)",
+      pron: "náʰuwʳ",
       defs: [ { type: "inj", defn: "no", quot: "naur like you're so wrong", note: "initially used to mock Australian English pronunciation, now used unironically" } ]
     },
     {
       head: "neckbeard",
-      pron: "nékbiyə(r)d",
+      pron: "nékbiyəʳd",
       defs: [ { type: "n", defn: "A generally untasteful hipster male with generally unattractive qualities, such as a beard predominantly on one's neck", quot: "that guy is such a neckbeard he just complains on online forums all day", note: "often used pejoratively" } ]
     },
     {
       head: "neurospicy",
-      pron: "nyúrowspáysiy",
+      pron: "nyúrouspáysiy",
       defs: [ { type: "n", defn: "Neurodivergent", quot: "my boyfriend loves lego cuz he a lil neurospicy", note: "associated with those diagnosed with autism, ADHD, anxiety, and similar conditions evidencing atypical cognitive behaviour; mostly endearingly but non-medical while research is still ongoing" } ]
     },
     {
@@ -1119,14 +1119,14 @@ const LingoData = {
     },
     {
       head: "NSFW",
-      pron: "énesefdə́blyuw",
+      pron: "énesefduʰblyuw",
       defs: [ { type: "adj.phr", defn: "Not Suitable For Work", quot: "mark that is nsfw bro don't show me that", note: "used for any content one wouldn't feel comfortable viewing in a public place – especially sexual content" } ]
     }
   ],
   O: [
     {
       head: "oh god oh fuck",
-      pron: "əw gód əw fə́k",
+      pron: "əw gód əw fúʰk",
       defs: [ { type: "inj", defn: "Oh no", quot: "oh god oh fuck it's gandhi with an anti-tank missile", note: "used to show fear or anxiety in a comedic manner" } ]
     },
     {
@@ -1166,14 +1166,14 @@ const LingoData = {
     },
     {
       head: "out of pocket",
-      pron: "áwt əv pókit",
+      pron: "áut əv pókit",
       defs: [ { type: "adj.phr", defn: "Unnecessarily controversial; out of line", quot: "man ain't no way you believe it, that's way out of pocket" }, { type: "adj.phr", defn: "Sth. weird said with seemingly no lead up", quot: "we were just talking about the film and he says 'i need to hire a prostitute' like damn that's so out of pocket" } ]
     }
   ],
   P: [
     {
       head: "periodt",
-      pron: "píəriyət",
+      pron: "píriyət",
       defs: [ { type: "inj", defn: "End of; that's it", quot: "that's just racist, periodt" } ]
     },
     {
@@ -1223,12 +1223,12 @@ const LingoData = {
     },
     {
       head: "pump cover",
-      pron: "pə́mp kə́və(r)",
+      pron: "puʰmp kuʰvəʳ",
       defs: [ { type: "n.phr", defn: "A baggy or oversized garment used to cover one's body during workouts", quot: "don't forget your pump cover bro gotta guard them gains" } ]
     },
     {
       head: "purr",
-      pron: "pə́(r)",
+      pron: "pəʳ",
       defs: [ { type: "inj", defn: "Good job", quot: "damn gurl you got this purr", note: "used to indicate general approval" } ]
     },
     {
@@ -1245,7 +1245,7 @@ const LingoData = {
     },
     {
       head: "quirked up",
-      pron: "kwə́(r)t əp",
+      pron: "kwə́ʳt uʰp",
       defs: [ { type: "adj", defn: "Having an unconventially attractive quirk or eccentricity", quot: "ik she's weird but she's kinda quirked up" } ]
     }
   ],
@@ -1304,7 +1304,7 @@ const LingoData = {
     },
     {
       head: "sauce",
-      pron: "soʳs",
+      pron: "sos",
       defs: [ { type: "n", defn: "Source (of an image)", quot: "any chance of sauce?", note: "used to request the source of an image, or the object pictured" } ]
     },
     {
@@ -1369,7 +1369,7 @@ const LingoData = {
     },
     {
       head: "small dick energy",
-      pron: "smól dik énə(r)jiy",
+      pron: "smól dik énəʳjiy",
       defs: [ { type: "n.phr", defn: "A compensatory aura of an arrogant man displaying toxic masculinity, aggressiveness, etc.", quot: "bragging about your body count is such small dick energy" } ]
     },
     {
@@ -1384,7 +1384,7 @@ const LingoData = {
     },
     {
       head: "SJW",
-      pron: "és jey də́bəlyuw",
+      pron: "és jey dúʰbəlyuw",
       defs: [ { type: "n.phr", defn: "Social Justice Warrior", quot: "they're such an sjw idk who listens to them", note: "refers to sb. who promotes causes to make themselves appear virtuous" } ]
     },
     {
@@ -1399,7 +1399,7 @@ const LingoData = {
     },
     {
       head: "spicy accountant",
-      pron: "spáysiy əkáwntənt",
+      pron: "spáysiy əkáuntənt",
       defs: [ { type: "n.phr", defn: "A sex worker", quot: "yeah i'm a spicy accountant, so what?", note: "Used either euphemistically or to circumvent automated censorship" } ]
     },
     {
@@ -1429,17 +1429,17 @@ const LingoData = {
     },
     {
       head: "sugma",
-      pron: "sə́gmə",
+      pron: "súʰgmə",
       defs: [ { type: "inj", defn: "Suck my", quot: "i got diagnosed with sugma... sugma balls lmao", note: "sed to setup the pun 'sugma balls', which sounds like 'suck my balls'" } ]
     },
     {
       head: "super straight",
-      pron: "súwpə(r) streyt",
+      pron: "súwpəʳ streyt",
       defs: [ { type: "adj.phr", defn: "Sexually attracted to cisgender members of the opposite sex", quot: "sorry you seem sweet but i'm super straight", note: "used to specify one is not attracted to transgender members of the opposite sex" } ]
     },
     {
       head: "sus",
-      pron: "səs",
+      pron: "suʰs",
       defs: [ { type: "adj", defn: "Suspicious; unexpected", quot: "you're acting kinda sus bro you aight?" } ]
     },
     {
@@ -1449,14 +1449,14 @@ const LingoData = {
     },
     {
       head: "sybau",
-      pron: "shə́t yo(r) bích as ə́p",
+      pron: "shuʰt yoʳ bích as úʰp",
       defs: [ { type: "v.phr", defn: "Shut your bitch ass up", quot: "sybau boy don't talk to me" } ]
     }
   ],
   T: [
     {
       head: "teleported into my hand",
-      pron: "téləpo(r)təd íntə may hánd",
+      pron: "téləpoʳtəd íntə may hánd",
       defs: [ { type: "v.phr", defn: "Was masturbated very quickly", quot: "ong it teleported into my hand", note: "used exclusively in the past; often used ironically to suggest sb. was so physically attractive that the speaker couldn't stop themselves from masturbating" } ]
     },
     {
@@ -1466,12 +1466,12 @@ const LingoData = {
     },
     {
       head: "thirst trap",
-      pron: "thə̄(r)st trap",
+      pron: "thəʳst trap",
       defs: [ { type: "n.phr", defn: "A picture or video intended for a thirsty audience (typically sexually-charged)", quot: "that guy posts nothing but thirst traps but he gets millions of views" } ]
     },
     {
       head: "thirsty",
-      pron: "thə̄́(r)stiy",
+      pron: "thə́rstiy",
       defs: [ { type: "adj", defn: "Aroused; sexually or romantically unfulfilled", quot: "oh he's hella thirsty" } ]
     },
     {
@@ -1496,7 +1496,7 @@ const LingoData = {
     },
     {
       head: "today years old",
-      pron: "tədéy yiə(r)z ə́wld",
+      pron: "tədéy yiʳz óuld",
       defs: [ { type: "adj.phr", defn: "At too far advanced an age to only just be learning sth.", quot: "i was today years old when i realised they're called leggings 'cause you put your legs in 'em" } ]
     },
     {
@@ -1523,7 +1523,7 @@ const LingoData = {
   U: [
     {
       head: "unalive",
-      pron: "ənəláyv",
+      pron: "uʰnəláyv",
       defs: [ { type: "v", defn: "To kill", quot: "i thought i was gonna unalive myself", note: "Used either euphemistically or to circumvent automated censorship" } ]
     },
     {
@@ -1552,7 +1552,7 @@ const LingoData = {
   W: [
     {
       head: "W",
-      pron: "dəb",
+      pron: "duʰb",
       defs: [ { type: "n", defn: "A win; a success", quot: "nothing but w here" } ]
     },
     {
@@ -1562,7 +1562,7 @@ const LingoData = {
     },
     {
       head: "wenomechainsama",
-      pron: "wenəméchə̄nsə́mə",
+      pron: "wenəméchə̄nsúʰmə",
       defs: [ { type: "inj", defn: "When I met you in the summer", quot: "wenomechainsama, tumajarbisaun", note: "Used as a parody of mishearing lyrics; in the song 'Summer' by Calvin Harris he sings the line 'When I met you in the summer' however it sounds slightly slurred; the phrase is now used in bait-and-switch internet content where no matter the expected outcome of a video, it will cut to a humorously-unrelated image with a speech bubble featuring the above phrase and the song playing in the background" } ]
     },
     {
@@ -1572,12 +1572,12 @@ const LingoData = {
     },
     {
       head: "wojak",
-      pron: "wáwjak",
+      pron: "wóujak",
       defs: [ { type: "n", defn: "A crudely-drawn digital image of a depressed man, famous for its infinite iterations and alternate expressions", quot: "bro quit drawing wojaks you're not funny" } ]
     },
     {
       head: "WLW",
-      pron: "də́bəlyuweldə́bəlyuw / wə́ləwə",
+      pron: "dúʰbəlyuwelduʰbəlyuw / wə́ləwə",
       defs: [ { type: "n", defn: "Women-loving women; gay women (lesbians)", quot: "look at her key chain she's def wlw" } ]
     }
   ],
@@ -1609,7 +1609,7 @@ const LingoData = {
     },
     {
       head: "you thought",
-      pron: "yuw thóʳt",
+      pron: "yuw thót",
       defs: [ { type: "v.phr", defn: "Sike", quot: "hah you thought, gimme a break", note: "used to indicate having fooled sb." } ]
     },
     {
@@ -1626,7 +1626,7 @@ const LingoData = {
     },
     {
       head: "zoomer",
-      pron: "zúwmə(r)",
+      pron: "zúwməʳ",
       defs: [ { type: "n", defn: "A member of Generation Z", quot: "it's a war between the zoomers and the boomers" } ]
     }
   ]
