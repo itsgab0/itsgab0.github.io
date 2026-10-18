@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morpheme Maps - Gabe Foad</title>
+  
+  <!-- Utility OpenType by Kenneth Ormandy (CSS Typography), JQuery, Handlebars -->
+  <link href="https://cdn.rawgit.com/kennethormandy/utility-opentype/master/css/utility-opentype.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  
+  <script src="/filelist.js"></script>
+  <script src="/script.js"></script>
+  <link rel="stylesheet" href="../style.css">
+</head>
+  
+<body>
+
+  <div id="TitleButton">≡</div><div id="Title"><a href="/">Gabe Foad</a></div>
+  
+  <ul id="SideBar"></ul>
+  
+  <div id="Main">
+    <h4>Language</h4>
+    <h1>Morpheme Maps</h1>
+    <h2>What is a morpheme?</h2>
+    <p>Not all languages make words and sentences in the same way. First, to simplify a rather complicated idea: a morpheme is a single unit of language that conveys some meaning. For example, the verb <i>eat</i> conveys the idea of consuming; then consider the verb form <i>eaten</i>, which has <b>two</b> morphemes:</p>
+    
+    <ul>
+      <li><b>eat-</b> ⟶ <i>consuming</i></li>
+      <li><b>-en</b> ⟶ <i>(past tense)</i></li>
+    </ul>
+    
+    <p>English is considered a mostly <b>analytical language</b>; meaning it relies <i>less</i> on <i>inflection</i> — i.e., altering a root form of a word with affixes or other changes — and <i>more</i> on particles and helper words.</p>
+    
+    <p>In Latin, there exists a noun form called the ‘genitive case’, which conveys attribution. For example, the noun <b>Rōma</b> meaning ‘Rome’; then consider the phrase ‘the road to Rome’ where, in Latin, the ‘to’ part is encoded when the noun is turned into the genitive, such that <b>via Rōmae</b> means ‘(the) road to Rome’.</p>
+    
+    <h2>What is a morpheme map?</h2>
+    
+    <p>When comparing words and phrases between two languages, the morphemic structure of both is important; as just one word (e.g., <b>Rōmae</b>) can map to many words in another (e.g., ‘to Rome’). A few years ago, a little linguistic exercise was suggested to compare many languages, using the following phrase (with minor changes here and there):</p>
+    
+    <ul>
+      <li><b>I would like to try on a suit I saw in a shop across the street from our hotel.</b></li>
+    </ul>
+    
+    <p>The author has attempted to collate as many as possible, converting images to text where possible — hence while every effort was made to transcribe and encode texts accurately, any and all errors should be attributed to the author instead of the original creators.</p>
+    
+    <p>The author has also attempted to add transliterations for non-Latin scripts — some being more familiar than others. In some cases, the morphemic structure has been elucidated further where possible, due to varying degrees of depth by some of the original authors.</p>
+    
+    <p>Despite all of this, the word-order can be of varying importance, and while there may be multiple ways to render a single sentence conceptually, it has been presumed that the most ‘natural-sounding’ word-order has been used.</p>
+    
+    <h2>The Morpheme Maps</h2>
+    
+    <div id="MorphemeMapsTableBlock"></div>
+
+    <br/><hr><br/>
+
+      <div class="bib">
+        
+        <fn id=fn1>E<span class="smcp">zMode420</span> <i>'Afrikaans morpheme map.'</i> in <i>'r/languagelearning'</i>, (2020), Reddit, (Acc. 2024: www.reddit.com/r/languagelearning/comments/ggtxva/afrikaans_morpheme_map.</fn><br/>
+        <fn id=fn2>K<span class="smcp">lnvc</span> <i>'Serbo-Croatian'</i>, (2020), Reddit, (Acc. 2024: www.reddit.com/user/klnvc/comments/gikvug/serbocroatian).</fn><br/>
+        <fn id=fn3>P<span class="smcp">M_ME_YOUR_BEST_IMG</span> <i>'Made a morpheme map of a Hindi sentence compared to English'</i> in <i>'r/Hindi'</i>, (2020), Reddit, (Acc. 2024: www.reddit.com/r/Hindi/comments/gfzd2l/made_a_morpheme_map_of_a_hindi_sentence_compared).</fn><br/>
+        <fn id=fn4>D<span class="smcp">rjolaskenkja</span> in <i>'r/languagelearning'</i>, (2020), Reddit, (Acc. 2024: www.reddit.com/r/languagelearning/comments/gfx1ts/englishicelandic_morpheme_map_rather_dull_but)</fn><br/>
+        <fn id=fn5>P<span class="smcp">itiful_Mistake_1671</span> <i>'In Georgian you can translate almost directly both orders'</i> in <i>'r/linguisticshumor'</i>, (2025), Reddit, (Acc. 2026: www.reddit.com/r/linguisticshumor/comments/1jgx5hy/comment/mj5p0l5).</fn><br/>
+        <fn id=fn6>L<span class="smcp">anguageCrawler</span> <i>'More morpheme maps: Spanish, Arabic, Norwegian, Icelandic'</i>, (2020), X (formerly <i>Twitter</i>), (Acc. 2024: x.com/LanguageCrawler/status/1258854470718500865).</fn><br/>
+        <fn id=fn7>M<span class="smcp">arcHarder1</span> <i>'In Plautdietsch'</i> in <i>'r/linguisticshumor'</i>,, (2025), Reddit, (Acc. 2026: www.reddit.com/r/linguisticshumor/comments/1jgx5hy/comment/mj47l0w/).</fn><br/>
+        <fn id=fn8>U<span class="smcp">nknown Reddit user</span> <i>'Nheengatu-Portuguese-English'</i> in <i>'r/languagelearning'</i>, (2020), Reddit, (Acc. 2024: www.reddit.com/r/languagelearning/comments/gghei3/comment/fq40q2a/).</fn><br/>
+
+        <!--
+        <fn id=fn1>T<span class="smcp">ertullian</span> (Quintus Septimius Florens Tertullianus) <i>'Apologeticus'</i>, tr. Thelwall, S., in Schaff, P. (ed.) <i>'Ante-Nicene Fathers'</i>, (1885), 3, (Acc. 2024: ccel.org/ccel/tertullian/apology/anf03.iv.iii.xxxiii.html).</fn><br/>
+        <fn id=fn2>B<span class="smcp">lackwood, W.</span> <i>'The Revolutions in Europe</i>, in <i>'Blackwood's Edinburgh Magazine'</i>, (1848), <b>63</b>, Edinburgh: William Blackwood &amp; Sons.</fn><br/>--->
+
+      </div>
+  </div>
+  
+  <script>
+    $(document).ready(function() {
+      RenderMorphemeMaps();
+    });
+  </script>
+</body>
+</html>

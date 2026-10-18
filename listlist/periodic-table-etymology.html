@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Periodic Table Etymology - Gabe Foad</title>
+  
+  <!-- Utility OpenType by Kenneth Ormandy (CSS Typography), JQuery, Handlebars -->
+  <link href="https://cdn.rawgit.com/kennethormandy/utility-opentype/master/css/utility-opentype.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  
+  <script src="/filelist.js"></script>
+  <script src="/script.js"></script>
+  <link rel="stylesheet" href="../style.css">
+</head>
+  
+<body>
+
+  <div id="TitleButton">≡</div><div id="Title"><a href="/">Gabe Foad</a></div>
+  
+  <ul id="SideBar"></ul>
+  
+  <div id="Main">
+    <h4>Language</h4>
+    <h1>Periodic Table Etymology</h1>
+    <h2>What is the Periodic Table?</h2>
+    <p>The <b>Periodic Table</b> is an ongoing project to categorise the chemical elements; currently, they’re ordered based on their <i>atomic number</i>, in vertical 'groups' of identical <i>valence electron</i> numbers, and in horizontal 'periods' of identical <i>valence shell</i> inhabitation.</p>
+    
+    <p>The first version was developed by the Russian scientist <b>Dmitri Mendeleev</b> (Дмитрий Менделеев), whose novel arrangement of the known elements even left room for as-then undiscovered elements, such as the element below silicon that they named <i>'ekasilicon'</i> — since identified and named 'Germanium'.</p>
+    
+    <p>Naming rights generally go to the creator/discoverer of the element, though some have opted to name an element after a famous chemist or physicist. Below is a simplfied form of the Periodic Table, featured only the chemical symbols and atomic numbers; most are colour-coded based on language of origin and assigned a type of name.</p>
+    
+    <p style="text-align: center"><b>Hover over an element to see its etymology</b></p>
+
+    <ul id="PeriodicTable"></ul>
+    
+    <p>A staggering <b>37</b> element names originate from <span class="ptGreek">Greek</span>, a further <b>20</b> originate from <span class="ptLatin">Latin</span>.</p>
+    
+    <p><b>19</b> originate from <span class="ptEnglish">English</span>, a further <b>9</b> originate from <span class="ptGerman">German</span>.</p>
+    
+    <p><b>7</b> originate from <span class="ptProtoLanguages">Proto Languages</span>, <b>6</b> originate from each of <span class="ptRussian">Russian</span> and <span class="ptSwedish">Swedish</span>.</p>
+    
+    <p><b>4</b> originate from <span class="ptFrench">French</span>, a further <b>2</b> originate from <span class="ptOldNorse">Old Norse</span>.</p>
+    
+    <p>The remaining <b>8</b> originate from one each of <i>Arabic, Danish, Dutch, Finnish, Italian, Japanese, Polish,</i> and <i>Spanish.</i></p>
+    
+    <p><b>31</b> terms are <b>T</b>oponymic — referencing a place or nation, <b>28</b> terms are named for certain <b>P</b>roperties of their elements, <b>16</b> terms are <b>E</b>ponymic — referencing a person, <b>16</b> terms are <b>L</b>inguistic — referencing another element or word through association, <b>16</b> terms are named for the <b>S</b>ource of their elements, <b>8</b> terms are of <b>A</b>ncient origin, and <b>3</b> terms are named for certain chemical <b>R</b>eactions their elements can undergo.</p>
+
+    <!-- <br/><hr><br/> -->
+
+    <div class="bib">
+
+    </div>
+  </div>
+  
+  <script>
+    $(document).ready(function() {
+      RenderPeriodicTable();
+    });
+  </script>
+</body>
+</html>

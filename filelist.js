@@ -1,22 +1,3 @@
-const QuoteList = {
-  FolderName: "QuoteList",
-  DisplayName: "Quotes",
-  contents: [
-    {
-      "FileName": "aphorisms-of-death",
-      "Title": "Aphorisms of Death",
-      "Year": "2024",
-      "Description": "Quotes about the nature of death"
-    },
-    {
-      "FileName": "quotes",
-      "Title": "Quotes",
-      "Year": "2024",
-      "Description": "Generally interesting quotes"
-    }
-  ]
-};
-
 const ListList = {
   FolderName: "ListList",
   DisplayName: "Lists",
@@ -24,156 +5,135 @@ const ListList = {
     {
       "FileName": "anglo-saxon-peerage",
       "Title": "Anglo-Saxon Peerage",
-      "Year": "2023",
-      "Description": "The feudal hierarchy of Anglo-Saxon Britain"
-    },
-    {
-      "FileName": "british-pre-decimal-coinage",
-      "Title": "British Pre-Decimal Coinage",
-      "Year": "2023",
-      "Description": "The coins of the UK before 1971"
+      "Year": "2025"
     },
     {
       "FileName": "british-geopolitical-terms",
       "Title": "British Geopolitical Terms",
-      "Year": "2024",
-      "Description": "The political entities of the British Isles"
+      "Year": "2024"
     },
     {
       "FileName": "gen-z-lingo",
       "Title": "Gen Z Lingo",
-      "Year": "2024",
-      "Description": "Dictionary of slang used by the 'youth' of today"
-    },
-    {
-      "FileName": "british-monarchs",
-      "Title": "List of British Monarchs",
-      "Year": "2023",
-      "Description": "The Kings and Queens of Britain since the 6th cent."
+      "Year": "2026"
     },
     {
       "FileName": "morpheme-maps",
       "Title": "Morpheme Maps",
-      "Year": "2023",
-      "Description": "The same sentence in multiple languages to compare word order"
+      "Year": "2024"
     },
     {
       "FileName": "periodic-table-etymology",
       "Title": "Periodic Table Etymology",
-      "Year": "2022",
-      "Description": "The word origins of every chemical element"
+      "Year": "2024"
     }
   ]
-};
+}
 
-const DocList = {
-  FolderName: "DocList",
-  DisplayName: "Docs",
+const QuoteList = {
+  FolderName: "QuoteList",
+  DisplayName: "Quotes",
   contents: [
     {
-      "FileName": "de-facto-and-de-jure",
-      "Title": "De Facto and De Jure",
-      "Year": "2024",
-      "Description": "A suggestion for terms like 'de jure' & 'de facto'"
+      "FileName": "aphorisms-of-death",
+      "Title": "Aphorisms of Death",
+      "Year": "2025",
     },
     {
-      "FileName": "english-in-se-england",
-      "Title": "English in SE England",
-      "Year": "2024",
-      "Description": "A brief history and overview of English in South East England"
+      "FileName": "favourite-quotes",
+      "Title": "Favourite Quotes",
+      "Year": "2026",
     },
     {
-      "FileName": "modern-spelling-reform",
-      "Title": "A Modern Spelling Reform",
-      "Year": "2024",
-      "Description": "A novel suggestion for more phonemic English spelling"
-    },
-    {
-      "FileName": "my-english-approximation",
-      "Title": "My English Approximation",
-      "Year": "2024",
-      "Description": "A respelling of most sounds for English speakers"
-    },
-    {
-      "FileName": "the-six-british-nationalities",
-      "Title": "The Six British Nationalities",
-      "Year": "2024",
-      "Description": "A brief history and overview of British citizenship law"
+      "FileName": "quote-glosses",
+      "Title": "Quote Glosses",
+      "Year": "2025",
     }
   ]
-};
+}
 
 const PoemList = {
   FolderName: "PoemList",
-  DisplayName: "Poems",
+  DisplayName: "Poetry & Stories",
   contents: [
     {
       "FileName": "a-flood-of-lies",
       "Title": "A Flood of Lies",
       "Year": "2023",
-      "Description": "III.2023"
     },
     {
       "FileName": "afraid-of-shame",
       "Title": "Afraid of Shame",
       "Year": "2023",
-      "Description": "I.2023"
     },
     {
       "FileName": "fate-or",
       "Title": "Fate or",
       "Year": "2024",
-      "Description": "I.2024"
-    },
-    {
-      "FileName": "mani",
-      "Title": "Máni",
-      "Year": "2025",
-      "Description": "X.2025"
     },
     {
       "FileName": "late-for-twenty",
       "Title": "Late for Twenty",
       "Year": "2021",
-      "Description": "IX.2021"
+    },
+    {
+      "FileName": "mani",
+      "Title": "Máni",
+      "Year": "2025",
     },
     {
       "FileName": "righteous-vengeance",
       "Title": "Righteous Vengeance",
       "Year": "2023",
-      "Description": "III.2023"
     },
     {
       "FileName": "sleepy-city",
-      "Title": "Sleepy City I & II",
+      "Title": "Sleepy City",
       "Year": "2007/2024",
-      "Description": "VII.2007/2024"
     },
     {
       "FileName": "stagnation",
       "Title": "Stagnation",
       "Year": "2024",
-      "Description": "V.2024"
     },
     {
       "FileName": "stellar-admiration",
       "Title": "Stellar Admiration",
       "Year": "2023",
-      "Description": "I.2023"
     },
     {
       "FileName": "the-crow",
       "Title": "The Crow",
       "Year": "2021",
-      "Description": "X.2021"
     },
     {
       "FileName": "the-park-bench",
       "Title": "The Park Bench",
       "Year": "2022",
-      "Description": "V.2022"
+    },
+    {
+      "FileName": "witnesse-confess",
+      "Title": "Witneſse/Confeſs",
+      "Year": "2025",
     }
   ]
-};
+}
 
-const Folders = [QuoteList, ListList, DocList, PoemList];
+const MiniEssayList = {
+  FolderName: "MiniEssayList",
+  DisplayName: "Mini Essays",
+  contents: [
+    {
+      "FileName": "de-facto-and-de-jure",
+      "Title": "De Facto and De Jure",
+      "Year": "2024"
+    },
+    {
+      "FileName": "english-in-south-east-england",
+      "Title": "English in South East England",
+      "Year": "2024"
+    }
+  ]
+}
+
+const Folders = [QuoteList, ListList, MiniEssayList, PoemList];

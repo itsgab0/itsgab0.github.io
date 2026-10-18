@@ -94,193 +94,132 @@
   font-style: italic;
 }
 
+/* COLOURS */
 
+:root {
+  --white: #f9f9fb;
+  --grey: slategrey;
+  --darkgrey: darkslategrey;
+  --green: #d4e9e2;
+  --bluegreen: #bcdce1;
+  --darkgreen: #5a7c77;
+}
 
-/* GLOBAL STYLES*/
+/* GLOBAL STYLES */
 
 html {
   font-family: Andika;
   /*font-size: 16px;*/
   cursor: default;
   scroll-padding-top: 10vw;
-  background-color: #f9f9fb;
+  background-color: var(--white);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-  font-family: Andika;
   font-size: 3rem;
-  margin-bottom: 0px !important;
-  
-  text-align: center;
+  font-family: BN;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+h3 {
+  color: var(--grey);
+}
+
+h4 {
+  margin-bottom: 0;
 }
 
 a {
   text-decoration: none;
-  color: slategrey;
+  color: inherit;
 }
-
-a:hover {
-  color: darkslategrey;
-  transition: 0.25s;
-}
-
-p {
-  text-align: justify;
-}
-
-.ul {
-  text-decoration: underline;
-}
-
-#Title {
-  width: 100%;
-  top: 0;
-  position: sticky;
-  z-index: 1;
-  margin-bottom: 1vw;
-  padding: 0.5vw 0;
-  background-color: #d4e9e2;
-  cursor: pointer;
-  text-align: center;
-  font-size: 3vw;
-  font-family: GP;
-  font-weight: 600;
-}
-
-#Title:hover {
-  background-color: #bcdce1;
-  transition-duration: 0.2s;
-}
-
-#GoToTop {
-  display: none;
-  position: fixed;
-  bottom: 1vw;
-  left: 1vw;
-  background-color: #5a7c77;
-  opacity: 0.8;
-  color: white;
-  border: solid 1px black;
-  border-radius: 1vw;
-  padding: 1vw;
-  cursor: pointer;
-  font-family: inherit;
-}
-
-#GoToTop:hover {
-  opacity: 1;
-  transition: 0.25s;
-}
-
-#Back {
-  display: none;
-  position: fixed;
-  top: 1vw;
-  left: 1vw;
-  background-color: #5a7c77;
-  opacity: 0.8;
-  color: white;
-  border: solid 1px black;
-  border-radius: 1vw;
-  padding: 1vw;
-  cursor: pointer;
-  font-family: inherit;
-}
-
-#Back:hover {
-  opacity: 1;
-  transition: 0.25s;
-}
-
-#sig {
-  padding: 0.5rem;
-  background-color: #d4e9e2;
-  text-align: right;
-}
-
-/* LISTS */
 
 ul > li {
   list-style-type: none;
-  padding-left: 1rem;
 }
 
-ul > li > ul > li {
-  list-style-type: "– ";
+ol li {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
-/* NAV BAR STUFF */
-
-#HomePageLanding {
-  padding: 0 2vw;
-  font-size: 1vw;
+.LiPop {
+  padding-top: 0.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  border-top: solid 1px black;
 }
 
-#HomeNavTable {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.poetry {
+  font-family: BN;
+  font-size: 1.2rem;
 }
 
-.NavHeader {
-  background-color: #d4f7e2;
-  padding: 1vw;
-  cursor: pointer;
+.smallquote {
+  font-family: GP;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.3rem;
   text-align: center;
 }
 
-.NavHeader:hover {
-  background-color: #81b1a2;
-  transition-duration: 0.2s;
+.LightText {
+  color: #666;
+  font-style: italic;
 }
 
-#NavPageTable button {
-  display: grid;
-  grid-template-columns: fit-content(90%) 1fr;
-  background-color: #f2f8f6;
-  width: 100%;
-  padding: 1vw;
-  text-align: left;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: inherit;
+.BigQuote {
+  background-color: var(--green);
+  border-radius: 1rem;
+  opacity: 0.75;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
-#NavPageTable button:hover {
-  background-color: #bcdce1;
-  transition-duration: 0.2s;
-}
-
-#NavPageTable button div:nth-child(1) {
-  text-align: left;
-  color: #5a7c77;
-  font-weight: bold;
-}
-
-#NavPageTable button div:nth-child(2) {
-  text-align: right;
-}
-
-/* TEXT CLASSES */
-
-.fancy {
-  font-family: BN;
-  line-height: 1.5rem;
-}
-
-.greek {
-  font-family: EBG;
-  font-style: normal;
-}
-
-.latin {
-  font-family: BN;
-}
-
-.majuscule {
+.BigQuote h2 {
   font-family: GP;
-  text-transform: uppercase;
-  font-style: normal !important;
+}
+
+.BigQuote .smcp {
+  padding: 0 !important;
+}
+
+.BigQuote p > span {
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: var(--bluegreen);
+  font-size: 0.85rem;
+}
+
+.GreenTable {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.GreenTable th {
+  padding: 0.5rem 0.75rem;
+  background-color: var(--green);
+  border: outset 1px var(--bluegreen);
+}
+
+.GreenTable td {
+  padding: 0.5rem 0.75rem;
+  background-color: var(--white);
 }
 
 sup {
@@ -288,155 +227,9 @@ sup {
   font-size: 0.75rem;
 }
 
-em {
-  font-style: normal;
-  font-weight: bold;
-  /*color: #81b1a2;*/
-  color: #5a7c77;
-}
-
-.emul {
-  font-style: normal;
-  font-weight: bold;
-  color: #5a7c77;
-  text-decoration: underline;
-}
-
-strong {
-  font-variant: small-caps;
-  color: #006644;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.gp {
-  font-family: GP;
-  font-style: normal !important;
-}
-
-.poem {
-  font-size: 1.25rem;
-}
-
-.quote {
-  text-align: center;
-  margin-top: 2rem;
-  padding: 1rem 0;
-  font-style: italic;
-  background-color: #f2f8f6;
-  font-size: 1.25rem;
-  line-height: 2rem;
-}
-
-.translation {
-  text-align: center;
-  padding-bottom: 1rem;
-  color: slategrey;
-  background-color: #f2f8f6;
-  font-family: BN;
-  font-style: italic;
-  font-size: 1rem;
-}
-
-.source {
-  text-align: right;
-  padding: 0 1rem;
-  background-color: #d4f7e2;
-  font-family: BN;
-  line-height: 2rem;
-}
-
-.twoCol ul {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(2,1fr);
-  grid-row-gap: 1vw;
-}
-
-.LingoTerm {
-  margin: 1rem 0;
-  display: grid;
-  grid-template-columns: fit-content(90%) 1fr;
-  border-top: dotted 1px black;
-}
-
-.LingoTermHead {
-  padding-right: 3rem;
-  font-size: 1.75rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  color: #006644;
-}
-
-.LingoTermPron {
-  padding: 1.1rem 0;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-.LingoTermDefs {
-  display: grid;
-  grid-template-columns: 15% 85%;
-  grid-column: 1 / 3;
-  margin-top: 0.5rem;
-}
-
-.LingoTermType {
-  grid-row: 1 / 4;
-  font-weight: bold;
-  font-variant: small-caps;
-}
-
-.LingoTermDefn {
-  font-weight: bold;
-  padding-bottom: 0.5rem;
-}
-
-.LingoTermQuot {
-  padding-left: 1rem;
-  font-style: italic;
-}
-
-.LingoTermNote {
-  padding: 0.5rem 1.5rem 0 1.5rem;
-  font-variant: small-caps;
-}
-
-/* TABLES */
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-
-th {
-  padding: 0.5rem 0.75rem;
-  background-color: #d4f7e2;
-  border: outset 1px #bcecd1;
-}
-
-td {
-  padding: 0.5rem 0.75rem;
-  background-color: #f2f8f6;
-}
-
-
-
-/* SPECIFIC CASES */
-
-.cd {
-  width: 100%;
-  margin-bottom: 2rem;
-  text-align: center;
-  color: darkgrey;
-}
-
 .bib {
-  opacity: 0.7;
+  font-family: BN;
+  opacity: 0.8;
   text-indent: 2.5rem hanging each-line;
   margin-left: 3rem;
   counter-reset: notes;
@@ -458,15 +251,109 @@ td {
   left: -3rem;
 }
 
-.bib em {
-  font-style: italic;
-  font-weight: normal;
-  color: #468672;
+.GP {
+  font-family: GP;
+  font-weight: bold;
+  color: var(--darkgreen);
 }
 
-/* md-block[rendered] {} */
+/* UNIQUE STYLES */
 
-/* IMPORTED - Periodic Table Etymology */
+#Title {
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  padding: 0.5rem 0;
+  background-color: var(--green);
+  cursor: pointer;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#Title:hover {
+  background-color: var(--bluegreen);
+  transition-duration: 0.2s;
+}
+
+#TitleButton {
+  top: 0;
+  position: sticky;
+  z-index: 2;
+  float: left;
+  width: 10%;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  background-color: var(--green);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#TitleButton:hover {
+  background-color: var(--bluegreen);
+  transition-duration: 0.2s;
+}
+
+#Main {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: inline-block;
+}
+
+#SideBar {
+  display: none;
+  top: 4rem;
+  z-index: 3;
+  position: fixed;
+  width: 19%;
+  padding-left: 0;
+  list-style-type: none;
+  background-color: var(--green);
+}
+
+#SideBar li {
+  padding: 0.5rem;
+  position: relative;
+  cursor: pointer;
+  list-style-type: none;
+  background-color: var(--green);
+}
+
+#SideBar li:hover {
+  background-color: var(--bluegreen);
+  transition-duration: 0.2s;
+}
+
+#SideBar ul {
+  position: absolute;
+  display: none;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  padding-left: 0;
+}
+
+#SideBar li:hover ul {
+  display: block;
+}
+
+.SideBarHeader a {
+  display: block;
+}
+
+#MorphemeMapsTableBlock table {
+  background-color: var(--green);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#MorphemeMapsTableBlock th {
+  border: outset 1px var(--bluegreen);
+}
+
+/* IMPORTED FROM MY OLD SITE - Periodic Table Etymology */
 
 #PeriodicTable {
   display: grid;
@@ -576,77 +463,95 @@ td {
   background-color: #E9EDC9;
 }
 
+/* IMPORTED FROM MY OLD SITE - GEN Z SLANG */
 
-/* VIEW SIZING */
+.LingoTerm {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: fit-content(90%) 1fr;
+  border-top: dotted 1px black;
+}
 
+.LingoTermHead {
+  padding-right: 3rem;
+  font-size: 1.75rem;
+  line-height: 3.5rem;
+  font-weight: bold;
+  color: #006644;
+}
+
+.LingoTermPron {
+  padding: 1.1rem 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.LingoTermDefs {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-column: 1 / 3;
+  margin-top: 0.5rem;
+}
+
+.LingoTermType {
+  grid-row: 1 / 4;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.LingoTermDefn {
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.LingoTermQuot {
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+.LingoTermNote {
+  padding: 0.5rem 1.5rem 0 1.5rem;
+  font-variant: small-caps;
+}
+
+#LingoLinkTable {
+  width: 100%;
+  text-align: center;
+  border: solid 1px black;
+}
+
+#LingoLinkTable td {
+  height: 2rem;
+  width: 1rem;
+  border: solid 1px black;
+  background-color: var(--green);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#LingoLinkTable td:hover {
+  background-color: var(--bluegreen);
+  transition-duration: 0.2s;
+}
+
+/* MEDIA SIZING */
 
 @media (max-width: 600px) {
-  body {
-    padding: 0%;
-  }
   html {
-    font-size: 4vw;
+    font-size: 0.8rem;
   }
-  .twoCol ul {
-    grid-template-columns: repeat(1,1fr);
-    grid-row-gap: 0;
-  }
-  .twoCol ul > li:nth-child(even) {
-    font-size: 3vw;
-  }
-  #NavBar {
-    grid-template-columns: repeat(1,1fr);
-    grid-row-gap: 0;
-  }
-  #Title {
-    font-size: 6vw;
-  }
-  #HomePageLanding {
-    font-size: 3vw;
-  }
-  #NavPageTable button > div:nth-child(1) {
-    font-size: 3vw;
-  }
-  #NavPageTable button > div:nth-child(2) {
-    font-size: 2vw;
-  }
-  #Back {
-    top: 13vw;
+  #SideBar {
+    width: 39%;
   }
 }
 
 @media (min-width: 600px) {
-  body {
-    padding: 0% 10%;
-  }
   html {
-    font-size: 1.4vw;
+    font-size: 0.9rem;
   }
 }
-
 @media (min-width: 1200px) {
-  body {
-    padding: 0% 20%;
-  }
   html {
-    font-size: 1.2vw;
-  }
-}
-
-@media (min-width: 1800px) {
-  body {
-    padding: 0% 25%;
-  }
-  html {
-    font-size: 0.8vw;
-  }
-}
-
-@media (min-width: 2400px) {
-  body {
-    padding: 0% 30%;
-  }
-  html {
-    font-size: 0.7vw;
+    font-size: 1rem;
   }
 }
