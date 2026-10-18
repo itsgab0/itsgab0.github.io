@@ -1,5 +1,5 @@
 const ListList = {
-  FolderName: "ListList",
+  FolderName: "listlist",
   DisplayName: "Lists",
   contents: [
     {
@@ -31,7 +31,7 @@ const ListList = {
 }
 
 const QuoteList = {
-  FolderName: "QuoteList",
+  FolderName: "quotelist",
   DisplayName: "Quotes",
   contents: [
     {
@@ -53,7 +53,7 @@ const QuoteList = {
 }
 
 const PoemList = {
-  FolderName: "PoemList",
+  FolderName: "poemlist",
   DisplayName: "Poetry & Stories",
   contents: [
     {
@@ -120,7 +120,7 @@ const PoemList = {
 }
 
 const MiniEssayList = {
-  FolderName: "MiniEssayList",
+  FolderName: "miniessaylist",
   DisplayName: "Mini Essays",
   contents: [
     {
