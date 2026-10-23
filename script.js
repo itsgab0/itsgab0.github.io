@@ -1203,6 +1203,11 @@ const LingoData = {
       defs: [ { type: "v", defn: "To forget", quot: "idk what that is, i forgor", note: "often used humorously, identical in all tenses; may be used to mock those who suffer from dementia" } ]
     },
     {
+      head: "fork found in kitchen",
+      pron: "fóʳk faund in kíchin",
+      defs: [ { type: "v.phr", defn: "Obviously", quot: "another closeted far-right politician - fork found in kitchen" } ]
+    },
+    {
       head: "fr",
       pron: "fə ríyl",
       defs: [ { type: "adv", defn: "For real; genuinely", quot: "you got this man fr" } ]
@@ -2095,6 +2100,11 @@ const LingoData = {
       head: "what the sigma",
       pron: "wot the sígmə",
       defs: [ { type: "inj", defn: "What the hell?", quot: "what the sigma are you talking about", note: "used as an intensified form of 'what?'; may be further intensified as 'what the actual sigma'" } ]
+    },
+    {
+      head: "#wifedat",
+      pron: "(háshtag) wáyfda'",
+      defs: [ { type: "inj", defn: "Wife that", quot: "yo she burned down an orphanage so she knows how to keep the house warm #wifedat", note: "used both legitimately and ironically for either genuine romantic attraction or humorous unattractive qualities" } ]
     },
     {
       head: "wojak",
